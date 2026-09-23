@@ -1,0 +1,111 @@
+/*
+ * StorySpecimenCombinedComposition CSS Module.
+ *
+ * The composition consumes only the centralized foundation and typescale
+ * variables (var(--app-spacing-*), var(--app-radius-*), var(--app-elevation-*),
+ * var(--app-focus-*), var(--md-sys-typescale-*)) and the existing --md-sys-*
+ * color roles; no ad hoc values and no redefinition of centralized tokens.
+ * Normal structure stays border-first: tonal surfaces and 1px fine borders
+ * carry regions, and exactly one reserved elevation level (--app-elevation-e1)
+ * appears on the floating emphasis card, which also demonstrates the 2px
+ * focus ring. The centralized token CSS files are made available to Storybook
+ * by the story import; the component itself must not import them.
+ */
+.composition {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-24);
+  padding: var(--app-spacing-32);
+  color: var(--md-sys-color-on-surface);
+  background: var(--md-sys-color-surface);
+}
+
+.headingRegion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-8);
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.display {
+  margin: 0;
+  font-family: var(--md-sys-typescale-display-large-font);
+  font-size: var(--md-sys-typescale-display-large-size);
+  line-height: var(--md-sys-typescale-display-large-line-height);
+  font-weight: var(--md-sys-typescale-display-large-weight);
+  letter-spacing: var(--md-sys-typescale-display-large-letter-spacing);
+}
+
+.headline {
+  margin: 0;
+  font-family: var(--md-sys-typescale-headline-medium-font);
+  font-size: var(--md-sys-typescale-headline-medium-size);
+  line-height: var(--md-sys-typescale-headline-medium-line-height);
+  font-weight: var(--md-sys-typescale-headline-medium-weight);
+  letter-spacing: var(--md-sys-typescale-headline-medium-letter-spacing);
+}
+
+.title {
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+  font-family: var(--md-sys-typescale-title-medium-font);
+  font-size: var(--md-sys-typescale-title-medium-size);
+  line-height: var(--md-sys-typescale-title-medium-line-height);
+  font-weight: var(--md-sys-typescale-title-medium-weight);
+  letter-spacing: var(--md-sys-typescale-title-medium-letter-spacing);
+}
+
+.surfaceRegion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-16);
+  padding: var(--app-spacing-16);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container-low);
+}
+
+.sectionTitle {
+  margin: 0;
+  color: var(--md-sys-color-on-surface);
+}
+
+.sectionBody {
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.elevatedCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-8);
+  padding: var(--app-spacing-16);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-12);
+  background: var(--md-sys-color-surface-container);
+  box-shadow: var(--app-elevation-e1);
+}
+
+.elevatedCard:focus {
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}
+
+.cardTitle {
+  margin: 0;
+}
+
+.cardBody {
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.feedbackRegion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-8);
+}

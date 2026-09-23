@@ -1,0 +1,224 @@
+.accordion {
+  inline-size: 100%;
+  overflow: hidden;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface);
+}
+
+.accordionItem + .accordionItem {
+  border-block-start: 1px solid var(--md-sys-color-outline-variant);
+}
+
+.accordionHeader {
+  margin: 0;
+}
+
+.accordionTrigger {
+  inline-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--app-spacing-16);
+  padding: var(--app-spacing-12) var(--app-spacing-16);
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-family: var(--md-sys-typescale-title-small-font);
+  font-size: var(--md-sys-typescale-title-small-size);
+  font-weight: var(--md-sys-typescale-title-small-weight);
+  line-height: var(--md-sys-typescale-title-small-line-height);
+  text-align: start;
+}
+
+.accordionTrigger:hover:not([data-disabled]) {
+  background: var(--md-sys-color-surface-container-high);
+}
+
+.accordionTrigger:focus-visible {
+  position: relative;
+  z-index: 1;
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: calc(-1 * var(--app-focus-ring-separation));
+}
+
+.accordionTrigger[data-disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.accordionIcon {
+  inline-size: var(--app-spacing-16);
+  block-size: var(--app-spacing-16);
+  flex: none;
+  transition: transform var(--app-motion-duration-short) ease;
+}
+
+.accordionTrigger[data-panel-open] .accordionIcon {
+  transform: rotate(180deg);
+}
+
+.accordionPanel {
+  block-size: var(--accordion-panel-height);
+  overflow: hidden;
+  transition: block-size var(--app-motion-duration-short) ease;
+}
+
+.accordionPanel[data-starting-style],
+.accordionPanel[data-ending-style] {
+  block-size: 0;
+}
+
+.accordionContent {
+  padding: 0 var(--app-spacing-16) var(--app-spacing-16);
+  color: var(--md-sys-color-on-surface-variant);
+  font-family: var(--md-sys-typescale-body-medium-font);
+  font-size: var(--md-sys-typescale-body-medium-size);
+  line-height: var(--md-sys-typescale-body-medium-line-height);
+}
+
+.avatar {
+  position: relative;
+  display: inline-grid;
+  overflow: hidden;
+  place-items: center;
+  flex: none;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: 50%;
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+  font-family: var(--md-sys-typescale-label-large-font);
+  font-weight: var(--md-sys-typescale-label-large-weight);
+  line-height: 1;
+}
+
+.avatar[data-size="sm"] {
+  inline-size: var(--app-spacing-32);
+  block-size: var(--app-spacing-32);
+  font-size: var(--md-sys-typescale-label-small-size);
+}
+
+.avatar[data-size="md"] {
+  inline-size: var(--app-spacing-48);
+  block-size: var(--app-spacing-48);
+  font-size: var(--md-sys-typescale-label-large-size);
+}
+
+.avatarImage,
+.avatarFallback {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.avatarImage {
+  object-fit: cover;
+}
+
+.avatarFallback {
+  display: grid;
+  place-items: center;
+}
+
+.scrollArea {
+  position: relative;
+  min-inline-size: 0;
+  overflow: hidden;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface);
+}
+
+.scrollViewport {
+  inline-size: 100%;
+  block-size: 100%;
+  max-block-size: inherit;
+  overscroll-behavior: contain;
+}
+
+.scrollContent {
+  min-inline-size: 100%;
+}
+
+.scrollbar {
+  display: flex;
+  padding: var(--app-spacing-4);
+  background: var(--md-sys-color-surface-container-high);
+  opacity: 0;
+  transition: opacity var(--app-motion-duration-short) ease;
+}
+
+.scrollArea:hover .scrollbar,
+.scrollbar[data-scrolling],
+.scrollbar[data-hovering] {
+  opacity: 1;
+}
+
+.scrollbar[data-orientation="vertical"] {
+  inline-size: var(--app-spacing-12);
+}
+
+.scrollbar[data-orientation="horizontal"] {
+  block-size: var(--app-spacing-12);
+  flex-direction: column;
+}
+
+.scrollThumb {
+  flex: 1;
+  border-radius: var(--app-radius-4);
+  background: var(--md-sys-color-outline);
+}
+
+.scrollThumb:hover {
+  background: var(--md-sys-color-on-surface-variant);
+}
+
+.scrollCorner {
+  background: var(--md-sys-color-surface-container-high);
+}
+
+.separator {
+  flex: none;
+  border: 0;
+  background: var(--md-sys-color-outline-variant);
+}
+
+.separator[data-orientation="horizontal"] {
+  inline-size: 100%;
+  block-size: 1px;
+}
+
+.separator[data-orientation="vertical"] {
+  inline-size: 1px;
+  block-size: 100%;
+  min-block-size: var(--app-spacing-24);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accordionIcon,
+  .accordionPanel,
+  .scrollbar {
+    transition-duration: 0.01ms;
+  }
+}
+
+@media (forced-colors: active) {
+  .accordion,
+  .avatar,
+  .scrollArea {
+    border-color: CanvasText;
+    background: Canvas;
+    color: CanvasText;
+  }
+
+  .accordionTrigger:focus-visible {
+    outline-color: Highlight;
+  }
+
+  .scrollThumb,
+  .separator {
+    background: CanvasText;
+  }
+}

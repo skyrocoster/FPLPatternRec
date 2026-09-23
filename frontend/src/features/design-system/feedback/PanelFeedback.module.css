@@ -1,0 +1,43 @@
+.panel {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 48rem;
+  padding: 16px;
+  border: 1px solid transparent;
+  border-inline-start-width: 4px;
+  border-radius: 8px;
+}
+
+.information {
+  color: var(--app-info-on-container);
+  background: var(--app-info-container);
+  border-inline-start-color: var(--app-info-accent);
+}
+
+.success {
+  color: var(--app-success-on-container);
+  background: var(--app-success-container);
+  border-inline-start-color: var(--app-success-accent);
+}
+
+.warning {
+  color: var(--app-warning-on-container);
+  background: var(--app-warning-container);
+  border-inline-start-color: var(--app-warning-accent);
+}
+
+.error {
+  color: var(--app-error-on-container);
+  background: var(--app-error-container);
+  border-inline-start-color: var(--app-error-accent);
+}
+
+.storyGrid {
+  display: grid;
+  gap: 16px;
+  align-content: start;
+  min-height: 100vh;
+  padding: 32px;
+  background: var(--md-sys-color-background, #121318);
+}

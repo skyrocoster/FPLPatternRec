@@ -1,0 +1,117 @@
+/*
+ * Catalogue CSS Module.
+ *
+ * Catalogue-only documentation styling. Consumes the centralized foundation
+ * variables (var(--app-spacing-*), var(--app-radius-*)) and --md-sys-* color
+ * roles, exactly like the existing specimen styles. No ad hoc layout values
+ * that duplicate tokens.
+ */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-32);
+  padding: var(--app-spacing-32);
+  color: var(--md-sys-color-on-surface);
+  background: var(--md-sys-color-surface);
+}
+
+.pageTitle {
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.intro {
+  margin: 0;
+  max-width: 70ch;
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.caution {
+  margin: 0;
+  max-width: 70ch;
+  padding: var(--app-spacing-12) var(--app-spacing-16);
+  border: 1px solid var(--app-warning-accent);
+  border-radius: var(--app-radius-default);
+  background: var(--app-warning-container);
+  color: var(--app-warning-on-container);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-12);
+}
+
+.sectionTitle {
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.sectionBody {
+  margin: 0;
+  max-width: 70ch;
+  color: var(--md-sys-color-on-surface);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.linkItem {
+  display: flex;
+  align-items: baseline;
+  gap: var(--app-spacing-8);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.linkLabel {
+  color: var(--md-sys-color-primary);
+  white-space: nowrap;
+}
+
+.linkNote {
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.demoStack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-24);
+}
+
+.demoRow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-4);
+}
+
+.demoCaption {
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 12px;
+}
+
+.demoControlWrap {
+  max-width: 340px;
+}
+
+.narrowWrap {
+  max-width: 260px;
+}

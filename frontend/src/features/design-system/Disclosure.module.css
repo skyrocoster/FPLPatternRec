@@ -1,0 +1,73 @@
+/*
+ * Shared Disclosure panel (Base UI Collapsible wrapper).
+ *
+ * Token-driven only: geometry, radii, focus treatment, and color roles come
+ * from --app-* and --md-sys-* tokens; no literal colors and no inline
+ * application CSS. The root establishes the panel surface; the summary is the
+ * collapsible trigger and the panel holds consumer content (which supplies its
+ * own inner padding). No `display` is set on the root so a consumer class can
+ * hide the disclosure (e.g. a mobile-only variant) without a specificity fight.
+ */
+.disclosure {
+  box-sizing: border-box;
+  min-inline-size: 0;
+  grid-column: 1 / -1;
+  border: 1px solid var(--md-sys-color-outline);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface);
+}
+
+.summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--app-spacing-8);
+  margin: 0;
+  padding: var(--app-spacing-8) var(--app-spacing-16);
+  border: none;
+  background: transparent;
+  color: var(--md-sys-color-primary);
+  font-family: var(--md-sys-typescale-title-medium-font);
+  font-size: var(--md-sys-typescale-title-medium-size);
+  font-weight: var(--md-sys-typescale-title-medium-weight);
+  letter-spacing: var(--md-sys-typescale-title-medium-letter-spacing);
+  line-height: var(--md-sys-typescale-title-medium-line-height);
+  text-align: start;
+}
+
+.summary::before {
+  content: "\25B6";
+  display: inline-block;
+  flex: none;
+  transition: transform var(--app-motion-duration-short) ease;
+}
+
+.summary[data-panel-open]::before {
+  transform: rotate(90deg);
+}
+
+.summary:focus-visible {
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: calc(-1 * var(--app-focus-ring-separation));
+}
+
+.panel {
+  min-inline-size: 0;
+}
+
+@media (forced-colors: active) {
+  .disclosure {
+    background: Canvas;
+    color: CanvasText;
+    border-color: CanvasText;
+  }
+
+  .summary {
+    color: LinkText;
+  }
+
+  .summary:focus-visible {
+    outline-color: Highlight;
+  }
+}

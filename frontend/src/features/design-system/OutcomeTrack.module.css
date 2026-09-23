@@ -1,0 +1,53 @@
+.track {
+  display: flex;
+  inline-size: 100%;
+  block-size: 12px;
+  overflow: hidden;
+  border: 1px solid var(--md-sys-color-outline);
+  border-radius: var(--app-radius-4);
+  background: var(--md-sys-color-surface-container-highest);
+}
+
+.compact {
+  block-size: 6px;
+  border-color: var(--md-sys-color-outline-variant);
+}
+
+.track > span {
+  display: block;
+  min-inline-size: 0;
+  block-size: 100%;
+}
+
+.win {
+  background: var(--app-success-accent);
+}
+
+.draw {
+  background: var(--app-warning-accent);
+}
+
+.loss {
+  background: var(--app-error-accent);
+}
+
+.unknown {
+  background: var(--md-sys-color-surface-container-highest);
+  border-inline-start: 1px dashed var(--md-sys-color-outline);
+}
+
+@media (forced-colors: active) {
+  .track {
+    border-color: CanvasText;
+    background: Canvas;
+  }
+
+  .track > span {
+    background: Highlight;
+  }
+
+  .unknown {
+    border-color: CanvasText;
+    background: Canvas;
+  }
+}

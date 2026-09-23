@@ -1,0 +1,11 @@
+.frame {
+  min-block-size: 100vh;
+  padding: var(--app-spacing-24);
+  background: var(--md-sys-color-background);
+  color: var(--md-sys-color-on-background);
+}
+
+.constrained {
+  inline-size: 24rem;
+  max-inline-size: 100%;
+}

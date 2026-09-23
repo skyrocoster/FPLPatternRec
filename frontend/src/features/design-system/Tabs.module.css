@@ -1,0 +1,241 @@
+/* Shared horizontal tabs styling. The root owns the outer frame; panel interiors remain consumer-owned. */
+.tabs {
+  box-sizing: border-box;
+  min-inline-size: 0;
+  overflow: hidden;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-12);
+  background: var(--md-sys-color-surface-container);
+  box-shadow: var(--app-elevation-e1);
+  color: var(--md-sys-color-on-surface);
+  font-family: var(--md-sys-typescale-body-medium-font);
+  font-size: var(--md-sys-typescale-body-medium-size);
+  line-height: var(--md-sys-typescale-body-medium-line-height);
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+  clip-path: inset(50%);
+}
+
+.tabsNavigation {
+  display: flex;
+  min-inline-size: 0;
+  overflow: hidden;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
+  background: var(--md-sys-color-surface-container);
+}
+
+.tabsViewport {
+  position: relative;
+  min-inline-size: 0;
+  flex: 1 1 auto;
+}
+
+.tabsViewport::before,
+.tabsViewport::after {
+  position: absolute;
+  z-index: 2;
+  inset-block: 0;
+  inline-size: var(--app-spacing-16);
+  pointer-events: none;
+  content: "";
+  opacity: 0;
+  transition: opacity var(--app-motion-duration-short) ease;
+}
+
+.tabsViewport::before {
+  inset-inline-start: 0;
+  background: linear-gradient(90deg, var(--md-sys-color-surface-container), transparent);
+}
+
+.tabsViewport::after {
+  inset-inline-end: 0;
+  background: linear-gradient(270deg, var(--md-sys-color-surface-container), transparent);
+}
+
+.tabsViewport[data-hidden-start="true"]::before,
+.tabsViewport[data-hidden-end="true"]::after {
+  opacity: 1;
+}
+
+.tabsScroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-color: var(--md-sys-color-outline) transparent;
+  scrollbar-width: thin;
+}
+
+.scrollButton {
+  box-sizing: border-box;
+  inline-size: var(--app-spacing-48);
+  block-size: var(--app-spacing-48);
+  flex: 0 0 var(--app-spacing-48);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--md-sys-color-on-surface-variant);
+  cursor: pointer;
+}
+
+.scrollButton:hover:not(:disabled) {
+  background: var(--md-sys-color-surface-container-high);
+  color: var(--md-sys-color-on-surface);
+}
+
+.scrollButton:focus-visible {
+  position: relative;
+  z-index: 3;
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}
+
+.scrollButton:disabled {
+  color: var(--md-sys-color-on-surface-variant);
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.scrollButton > svg {
+  inline-size: var(--app-spacing-24);
+  block-size: var(--app-spacing-24);
+}
+
+.tabList {
+  display: flex;
+  min-width: max-content;
+  gap: var(--app-spacing-4);
+  padding-inline: var(--app-spacing-16);
+}
+
+.tab {
+  position: relative;
+  display: inline-flex;
+  min-width: 6.5rem;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: var(--app-spacing-12) var(--app-spacing-16);
+  color: var(--md-sys-color-on-surface-variant);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  font-family: var(--md-sys-typescale-label-large-font);
+  font-size: var(--md-sys-typescale-label-large-size);
+  font-weight: var(--md-sys-typescale-label-large-weight);
+  letter-spacing: var(--md-sys-typescale-label-large-letter-spacing);
+  line-height: var(--md-sys-typescale-label-large-line-height);
+  white-space: nowrap;
+}
+
+.tab:hover:not(:disabled) {
+  color: var(--md-sys-color-on-surface);
+  background: var(--md-sys-color-surface-container-high);
+}
+
+.tab:focus-visible {
+  z-index: 1;
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}
+
+.tab:disabled {
+  color: var(--md-sys-color-on-surface-variant);
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.tab[aria-selected="true"] {
+  color: var(--md-sys-color-primary);
+}
+
+.tab[aria-selected="true"]::after {
+  position: absolute;
+  right: var(--app-spacing-16);
+  bottom: -1px;
+  left: var(--app-spacing-16);
+  height: 2px;
+  background: var(--md-sys-color-primary);
+  border-radius: var(--app-radius-4) var(--app-radius-4) 0 0;
+  content: "";
+}
+
+.panelViewport {
+  min-inline-size: 0;
+}
+
+.tabPanel[hidden] {
+  display: none;
+}
+
+.tabPanel {
+  min-inline-size: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tabsScroll {
+    scroll-behavior: auto !important;
+  }
+
+  .tabsViewport::before,
+  .tabsViewport::after {
+    transition-duration: 0.01ms;
+  }
+}
+
+@media (forced-colors: active) {
+  .tabs {
+    border-color: ButtonText;
+    background: Canvas;
+    box-shadow: none;
+    color: CanvasText;
+  }
+
+  .tabsNavigation,
+  .tab:hover {
+    color: CanvasText;
+    background: Canvas;
+  }
+
+  .tab[aria-selected="true"] {
+    color: HighlightText;
+  }
+
+  .tab[aria-selected="true"]::after {
+    background: Highlight;
+  }
+
+  .tabsNavigation {
+    border-color: ButtonText;
+  }
+
+  .scrollButton {
+    border-color: ButtonBorder;
+    background: ButtonFace;
+    color: ButtonText;
+  }
+
+  .scrollButton:disabled {
+    color: GrayText;
+    opacity: 1;
+  }
+
+  .tabsViewport::before,
+  .tabsViewport::after {
+    background: none;
+  }
+
+  .tab:focus-visible {
+    outline-color: Highlight;
+  }
+}

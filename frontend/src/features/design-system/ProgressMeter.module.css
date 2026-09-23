@@ -1,0 +1,66 @@
+.meter {
+  display: grid;
+  min-inline-size: 0;
+  gap: var(--app-spacing-4);
+}
+
+.track {
+  box-sizing: border-box;
+  display: block;
+  inline-size: 100%;
+  block-size: 10px;
+  min-inline-size: 0;
+  overflow: hidden;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-4);
+  background: var(--md-sys-color-surface-container-highest);
+}
+
+.indicator {
+  display: block;
+  block-size: 100%;
+  min-inline-size: 0;
+  background: var(--md-sys-color-primary);
+  transition: inline-size var(--app-motion-duration-short) ease;
+}
+
+.unavailableLabel {
+  color: var(--md-sys-color-on-surface-variant);
+  font: var(--md-sys-typescale-label-medium);
+}
+
+.visuallyHidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .indicator {
+    transition: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .track {
+    border-color: CanvasText;
+    background: Canvas;
+  }
+
+  .indicator {
+    background: Highlight;
+  }
+
+  .unavailable .track {
+    border-style: dashed;
+  }
+
+  .unavailableLabel {
+    color: CanvasText;
+  }
+}

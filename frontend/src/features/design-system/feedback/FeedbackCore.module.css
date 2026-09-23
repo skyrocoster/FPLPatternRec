@@ -1,0 +1,45 @@
+/*
+ * FeedbackCore module: the shared semantic core presentation.
+ *
+ * Colors come only from the dedicated --app-* feedback tokens, routed
+ * per-instance through the four --app-feedback-* alias custom properties
+ * that FeedbackCore sets from FEEDBACK_VARIANTS (accent for the border,
+ * icon, and heading cue; on-container for the message). Layout uses the
+ * repository-owned --app-spacing-* / --app-radius-* foundation tokens.
+ * No --md-sys role and no ad hoc value appears here.
+ */
+.core {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--app-spacing-12);
+  padding: var(--app-spacing-12) var(--app-spacing-16);
+  border-radius: var(--app-radius-default);
+  border: 1px solid var(--app-feedback-accent);
+  background: transparent;
+  color: var(--app-feedback-on-container);
+}
+
+.icon {
+  flex: 0 0 auto;
+  width: var(--app-spacing-24);
+  height: var(--app-spacing-24);
+  color: var(--app-feedback-accent);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-4);
+}
+
+.heading {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--app-feedback-accent);
+}
+
+.message {
+  margin: 0;
+  line-height: 1.5;
+}

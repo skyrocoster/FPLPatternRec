@@ -1,0 +1,414 @@
+.form {
+  min-inline-size: 0;
+}
+
+.form[data-layout="stacked"] {
+  display: grid;
+  gap: var(--app-spacing-16);
+}
+
+.form[data-layout="inline"] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: var(--app-spacing-12);
+}
+
+.fieldset {
+  min-inline-size: 0;
+  display: grid;
+  gap: var(--app-spacing-12);
+  margin: 0;
+  padding: var(--app-spacing-16);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface);
+}
+
+.fieldset[data-disabled] {
+  opacity: 0.5;
+}
+
+.legend,
+.controlLabel,
+.sliderLabel {
+  color: var(--md-sys-color-on-surface);
+  font-family: var(--md-sys-typescale-label-large-font);
+  font-size: var(--md-sys-typescale-label-large-size);
+  font-weight: 700;
+  line-height: var(--md-sys-typescale-label-large-line-height);
+}
+
+.legend {
+  padding-inline: var(--app-spacing-4);
+}
+
+.description,
+.optionDescription {
+  color: var(--md-sys-color-on-surface-variant);
+  font-family: var(--md-sys-typescale-body-small-font);
+  font-size: var(--md-sys-typescale-body-small-size);
+  line-height: var(--md-sys-typescale-body-small-line-height);
+}
+
+.description {
+  margin: 0;
+}
+
+.checkboxField {
+  display: grid;
+  gap: var(--app-spacing-8);
+}
+
+.checkboxGroup {
+  display: grid;
+  gap: var(--app-spacing-8);
+}
+
+.checkboxGroup[data-disabled] {
+  opacity: 0.5;
+}
+
+.checkboxOption,
+.switchField {
+  min-inline-size: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--app-spacing-12);
+  cursor: pointer;
+}
+
+.checkboxOption[data-disabled],
+.switchField:has([data-disabled]) {
+  cursor: not-allowed;
+}
+
+.checkboxRoot {
+  inline-size: var(--app-spacing-24);
+  block-size: var(--app-spacing-24);
+  display: grid;
+  place-items: center;
+  flex: none;
+  padding: 0;
+  border: 2px solid var(--md-sys-color-outline);
+  border-radius: var(--app-radius-4);
+  background: var(--md-sys-color-surface-container-highest);
+  color: var(--md-sys-color-on-primary);
+}
+
+.checkboxRoot[data-checked] {
+  border-color: var(--md-sys-color-primary);
+  background: var(--md-sys-color-primary);
+}
+
+.checkboxRoot:focus-visible,
+.switchRoot:focus-visible,
+.toggle:focus-visible,
+.numberButton:focus-visible,
+.numberInput:focus-visible,
+.otpInput:focus-visible,
+.sliderThumb:focus-visible {
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}
+
+.checkboxRoot[data-disabled] {
+  cursor: not-allowed;
+}
+
+.checkboxIndicator {
+  inline-size: var(--app-spacing-16);
+  block-size: var(--app-spacing-16);
+}
+
+.optionCopy,
+.switchCopy {
+  min-inline-size: 0;
+  display: grid;
+  gap: var(--app-spacing-4);
+}
+
+.numberField,
+.otpField,
+.sliderField {
+  min-inline-size: 0;
+  display: grid;
+  gap: var(--app-spacing-8);
+  color: var(--md-sys-color-on-surface);
+}
+
+.numberGroup {
+  min-inline-size: 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+}
+
+.numberInput,
+.otpInput {
+  box-sizing: border-box;
+  min-block-size: var(--app-spacing-48);
+  border: 1px solid var(--md-sys-color-outline);
+  background: var(--md-sys-color-surface-container-highest);
+  color: var(--md-sys-color-on-surface);
+  font: inherit;
+}
+
+.numberInput {
+  min-inline-size: 0;
+  inline-size: 100%;
+  padding-inline: var(--app-spacing-12);
+  border-radius: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.numberButton {
+  inline-size: var(--app-spacing-48);
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 1px solid var(--md-sys-color-outline);
+  background: var(--md-sys-color-surface-container-high);
+  color: var(--md-sys-color-on-surface);
+  cursor: pointer;
+}
+
+.numberButton:first-child {
+  border-inline-end: 0;
+  border-radius: var(--app-radius-default) 0 0 var(--app-radius-default);
+}
+
+.numberButton:last-child {
+  border-inline-start: 0;
+  border-radius: 0 var(--app-radius-default) var(--app-radius-default) 0;
+}
+
+.numberButton:hover:not([data-disabled]) {
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.numberButton[data-disabled],
+.numberField[data-disabled],
+.numberField[data-readonly] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.otpRoot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--app-spacing-8);
+}
+
+.otpInput {
+  inline-size: var(--app-spacing-48);
+  padding: 0;
+  border-radius: var(--app-radius-default);
+  font-family: var(--md-sys-typescale-title-medium-font);
+  font-size: var(--md-sys-typescale-title-medium-size);
+  text-align: center;
+}
+
+.otpRoot[data-disabled],
+.otpRoot[data-readonly] {
+  opacity: 0.5;
+}
+
+.sliderHeading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--app-spacing-16);
+}
+
+.sliderValue {
+  color: var(--md-sys-color-on-surface-variant);
+  font-family: var(--md-sys-typescale-label-medium-font);
+  font-size: var(--md-sys-typescale-label-medium-size);
+  font-variant-numeric: tabular-nums;
+}
+
+.sliderControl {
+  inline-size: 100%;
+  display: flex;
+  align-items: center;
+  padding-block: var(--app-spacing-12);
+  touch-action: none;
+}
+
+.sliderField[data-orientation="vertical"] .sliderControl {
+  inline-size: var(--app-spacing-48);
+  block-size: 12rem;
+  justify-content: center;
+  padding: 0 var(--app-spacing-12);
+}
+
+.sliderTrack {
+  position: relative;
+  inline-size: 100%;
+  block-size: var(--app-spacing-8);
+  border-radius: var(--app-radius-4);
+  background: var(--md-sys-color-surface-container-highest);
+}
+
+.sliderField[data-orientation="vertical"] .sliderTrack {
+  inline-size: var(--app-spacing-8);
+  block-size: 100%;
+}
+
+.sliderIndicator {
+  border-radius: inherit;
+  background: var(--md-sys-color-primary);
+}
+
+.sliderThumb {
+  inline-size: var(--app-spacing-24);
+  block-size: var(--app-spacing-24);
+  border: 2px solid var(--md-sys-color-primary);
+  border-radius: 50%;
+  background: var(--md-sys-color-surface-container-lowest);
+  cursor: grab;
+}
+
+.sliderThumb[data-dragging] {
+  cursor: grabbing;
+}
+
+.sliderField[data-disabled] {
+  opacity: 0.5;
+}
+
+.switchRoot {
+  position: relative;
+  inline-size: var(--app-spacing-48);
+  block-size: var(--app-spacing-24);
+  flex: none;
+  border: 2px solid var(--md-sys-color-outline);
+  border-radius: var(--app-radius-12);
+  background: var(--md-sys-color-surface-container-highest);
+  cursor: pointer;
+  transition:
+    border-color var(--app-motion-duration-short) ease,
+    background-color var(--app-motion-duration-short) ease;
+}
+
+.switchRoot[data-checked] {
+  border-color: var(--md-sys-color-primary);
+  background: var(--md-sys-color-primary);
+}
+
+.switchThumb {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: var(--app-spacing-4);
+  inline-size: var(--app-spacing-16);
+  block-size: var(--app-spacing-16);
+  border-radius: 50%;
+  background: var(--md-sys-color-on-surface-variant);
+  transform: translateY(-50%);
+  transition:
+    inset-inline-start var(--app-motion-duration-short) ease,
+    background-color var(--app-motion-duration-short) ease;
+}
+
+.switchRoot[data-checked] .switchThumb {
+  inset-inline-start: calc(100% - var(--app-spacing-16) - var(--app-spacing-4));
+  background: var(--md-sys-color-on-primary);
+}
+
+.switchRoot[data-disabled] {
+  cursor: not-allowed;
+}
+
+.toggle,
+.toggleGroup {
+  display: inline-flex;
+  align-items: center;
+}
+
+.toggle {
+  justify-content: center;
+  gap: var(--app-spacing-8);
+  min-block-size: var(--app-spacing-48);
+  padding: var(--app-spacing-8) var(--app-spacing-16);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface);
+  cursor: pointer;
+  font-family: var(--md-sys-typescale-label-large-font);
+  font-size: var(--md-sys-typescale-label-large-size);
+}
+
+.toggle:hover:not([data-disabled]),
+.toggle[data-pressed] {
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.toggle[data-pressed] {
+  border-color: var(--md-sys-color-primary);
+}
+
+.toggle[data-disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.toggleGroup {
+  flex-wrap: wrap;
+  gap: var(--app-spacing-4);
+  padding: var(--app-spacing-4);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-12);
+  background: var(--md-sys-color-surface-container);
+}
+
+.toggleGroup[data-orientation="vertical"] {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.toggleGroup .toggle {
+  border-color: transparent;
+}
+
+.toggleGroup[data-disabled] {
+  opacity: 0.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .switchRoot,
+  .switchThumb {
+    transition-duration: 0.01ms;
+  }
+}
+
+@media (forced-colors: active) {
+  .fieldset,
+  .checkboxRoot,
+  .numberInput,
+  .numberButton,
+  .otpInput,
+  .sliderThumb,
+  .switchRoot,
+  .toggle,
+  .toggleGroup {
+    border-color: ButtonBorder;
+    background: Canvas;
+    color: CanvasText;
+  }
+
+  .checkboxRoot[data-checked],
+  .switchRoot[data-checked],
+  .toggle[data-pressed] {
+    background: Highlight;
+    color: HighlightText;
+  }
+
+  .sliderIndicator,
+  .switchThumb {
+    background: Highlight;
+  }
+}

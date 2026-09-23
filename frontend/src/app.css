@@ -1,0 +1,36 @@
+@import "./styles/material/material-theme-builder-css-export/css/dark.css";
+@import "./styles/app-tokens.css";
+@import "./styles/app-typescale.css";
+
+:root {
+  font-family: system-ui, sans-serif;
+
+  /* Application-owned motion setting; color/type/geometry tokens stay in
+     app-tokens.css and the generated Material theme. */
+  --app-motion-duration-short: 120ms;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  block-size: 100%;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  overflow: hidden;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}

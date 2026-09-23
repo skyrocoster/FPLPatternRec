@@ -1,0 +1,69 @@
+/*
+ * Application tokens (repository-owned).
+ *
+ * Namespaced with --app-* per the Material Design Foundation decisions while
+ * the Material system roles keep their --md-sys-* naming. These feedback
+ * token values are dedicated to severity mapping: they are fixed hex values
+ * and are intentionally NOT aliases of --md-sys-color-primary/secondary/
+ * tertiary/error, so severity mapping never follows a Material role change.
+ *
+ * The foundation groups below carry the settled geometry (spacing scale
+ * 4/8/12/16/24/32/48 with no intermediate values; radii 4/8/12 with 8px
+ * default), depth (e0 none; e1-e3 reserved for major/floating emphasis
+ * only), and focus treatment. Tonal surfaces and borders consume existing
+ * --md-sys color roles from the generated dark theme; no generated colors
+ * are duplicated here.
+ *
+ * Static CSS only: no runtime theme generation, theme switch, or theme state.
+ */
+:root {
+  /* Information feedback */
+  --app-info-accent: #9ccbff;
+  --app-info-on-accent: #00335c;
+  --app-info-container: #00497a;
+  --app-info-on-container: #d0e4ff;
+
+  /* Success feedback */
+  --app-success-accent: #8fd49b;
+  --app-success-on-accent: #00391b;
+  --app-success-container: #005229;
+  --app-success-on-container: #9bf0b4;
+
+  /* Warning feedback */
+  --app-warning-accent: #ffd588;
+  --app-warning-on-accent: #452a00;
+  --app-warning-container: #603f00;
+  --app-warning-on-container: #ffdea4;
+
+  /* Error feedback */
+  --app-error-accent: #f2b8b5;
+  --app-error-on-accent: #6e120e;
+  --app-error-container: #8f1f18;
+  --app-error-on-container: #ffccc7;
+
+  /* Foundation spacing scale (exact 4/8/12/16/24/32/48; no intermediate values) */
+  --app-spacing-4: 4px;
+  --app-spacing-8: 8px;
+  --app-spacing-12: 12px;
+  --app-spacing-16: 16px;
+  --app-spacing-24: 24px;
+  --app-spacing-32: 32px;
+  --app-spacing-48: 48px;
+
+  /* Foundation radius scale (4/8/12 with 8px default) */
+  --app-radius-4: 4px;
+  --app-radius-8: 8px;
+  --app-radius-12: 12px;
+  --app-radius-default: var(--app-radius-8);
+
+  /* Foundation elevation (e0 none; e1-e3 reserved for major/floating emphasis) */
+  --app-elevation-e0: none;
+  --app-elevation-e1: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --app-elevation-e2: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 6px 2px rgba(0, 0, 0, 0.15);
+  --app-elevation-e3: 0 1px 3px rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+
+  /* Foundation focus ring (2px primary ring with 2px surface separation) */
+  --app-focus-ring-color: var(--md-sys-color-primary);
+  --app-focus-ring-width: 2px;
+  --app-focus-ring-separation: 2px;
+}

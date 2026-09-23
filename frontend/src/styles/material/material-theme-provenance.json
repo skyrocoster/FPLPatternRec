@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": {
+    "name": "@material/material-color-utilities",
+    "version": "0.4.0",
+    "sourceUrl": "https://www.npmjs.com/package/@material/material-color-utilities",
+    "repositoryUrl": "https://github.com/material-foundation/material-color-utilities",
+    "exportFormat": "web-css",
+    "exportAction": "library-generation"
+  },
+  "theme": {
+    "seed": "#3F51B5",
+    "variant": "tonal-spot",
+    "contrast": "standard",
+    "scheme": "dark"
+  },
+  "application": { "typeface": "system-ui" },
+  "artifact": {
+    "runtimeAsset": "material-theme-builder-css-export/css/dark.css",
+    "runtimeMember": "css/dark.css",
+    "runtimeMemberSha256": "e52f0cbbeb21b2d56cb22db7dddbd99ba7611b6bf55fae04003c12350382e0fb",
+    "retainedMembers": ["css/dark.css"]
+  },
+  "ownership": {
+    "runtimeAsset": "generated-byte-preserving",
+    "provenanceMetadata": "repository-owned",
+    "applicationTokens": "repository-owned",
+    "runtimeThemeGeneration": false
+  }
+}

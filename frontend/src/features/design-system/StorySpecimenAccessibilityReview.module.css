@@ -1,0 +1,72 @@
+/*
+ * StorySpecimenAccessibilityReview CSS Module.
+ *
+ * The review fixture consumes only the centralized foundation tokens
+ * (var(--app-spacing-*), var(--app-radius-*), var(--app-focus-*)) and the
+ * existing --md-sys-* color roles: no ad hoc spacing, radius, depth, or
+ * focus values and no redefinition of centralized tokens. The constrained
+ * review container uses a rem max-width layout bound (mirroring the shipped
+ * feedback wrappers' max-width layout precedent) so long content wraps at
+ * every review size. Fine borders use the settled 1px structure constant,
+ * and the focus specimens reuse the 2px primary focus ring with 2px surface
+ * separation. The centralized token CSS (frontend/src/styles/app-tokens.css)
+ * is made available to Storybook by the story import; the component itself
+ * must not import it.
+ */
+.review {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-24);
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: var(--app-spacing-32);
+  color: var(--md-sys-color-on-surface);
+  background: var(--md-sys-color-surface-container-low);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-12);
+}
+
+.title {
+  margin: 0;
+}
+
+.intro {
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.presentationSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-16);
+  padding: var(--app-spacing-16);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface);
+}
+
+.focusIntro {
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.focusRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--app-spacing-16);
+}
+
+.focusSpecimen {
+  padding: var(--app-spacing-12) var(--app-spacing-16);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container-high);
+  color: var(--md-sys-color-on-surface);
+  font: inherit;
+}
+
+.focusSpecimen:focus {
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}

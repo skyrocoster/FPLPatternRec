@@ -1,0 +1,172 @@
+.trigger,
+.menubarTrigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--app-spacing-8);
+  min-block-size: var(--app-spacing-48);
+  padding: var(--app-spacing-8) var(--app-spacing-16);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface);
+  cursor: pointer;
+  font-family: var(--md-sys-typescale-label-large-font);
+  font-size: var(--md-sys-typescale-label-large-size);
+  line-height: var(--md-sys-typescale-label-large-line-height);
+}
+
+.trigger:hover:not([data-disabled]),
+.trigger[data-popup-open],
+.menubarTrigger:hover:not([data-disabled]),
+.menubarTrigger[data-popup-open] {
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.trigger:focus-visible,
+.menubarTrigger:focus-visible {
+  position: relative;
+  z-index: 1;
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}
+
+.trigger[data-disabled],
+.menubarTrigger[data-disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.menubar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: var(--app-spacing-4);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container);
+}
+
+.menubar[data-orientation="vertical"] {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.menubarTrigger {
+  min-block-size: auto;
+  border-color: transparent;
+  border-radius: var(--app-radius-4);
+}
+
+.positioner {
+  z-index: 40;
+  outline: 0;
+}
+
+.popup {
+  min-inline-size: 12rem;
+  max-inline-size: min(22rem, calc(100vw - var(--app-spacing-24)));
+  padding: var(--app-spacing-4);
+  border: 1px solid var(--md-sys-color-outline);
+  border-radius: var(--app-radius-default);
+  outline: 0;
+  background: var(--md-sys-color-surface-container-low);
+  color: var(--md-sys-color-on-surface);
+  box-shadow: var(--app-elevation-e2);
+  transform-origin: var(--transform-origin);
+  transition:
+    opacity var(--app-motion-duration-short) ease,
+    transform var(--app-motion-duration-short) ease;
+}
+
+.popup[data-starting-style],
+.popup[data-ending-style] {
+  opacity: 0;
+  transform: scale(0.98);
+}
+
+.popup[data-instant] {
+  transition: none;
+}
+
+.item {
+  position: relative;
+  min-inline-size: 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--app-spacing-12);
+  padding: var(--app-spacing-8) var(--app-spacing-12);
+  border-radius: var(--app-radius-4);
+  outline: 0;
+  color: inherit;
+  cursor: default;
+  font-family: var(--md-sys-typescale-body-medium-font);
+  font-size: var(--md-sys-typescale-body-medium-size);
+  line-height: var(--md-sys-typescale-body-medium-line-height);
+  text-decoration: none;
+  user-select: none;
+}
+
+.item[data-highlighted] {
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.item[data-disabled] {
+  opacity: 0.5;
+}
+
+.itemIcon {
+  display: inline-flex;
+  align-items: center;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.itemLabel {
+  min-inline-size: 0;
+}
+
+.shortcut {
+  color: var(--md-sys-color-on-surface-variant);
+  font-family: var(--md-sys-typescale-label-small-font);
+  font-size: var(--md-sys-typescale-label-small-size);
+  white-space: nowrap;
+}
+
+.separator {
+  block-size: 1px;
+  margin: var(--app-spacing-4);
+  background: var(--md-sys-color-outline-variant);
+}
+
+.contextTrigger {
+  min-inline-size: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .popup {
+    transition-duration: 0.01ms;
+  }
+}
+
+@media (forced-colors: active) {
+  .trigger,
+  .menubar,
+  .menubarTrigger,
+  .popup {
+    border-color: ButtonBorder;
+    background: Canvas;
+    color: CanvasText;
+  }
+
+  .item[data-highlighted] {
+    background: Highlight;
+    color: HighlightText;
+  }
+
+  .separator {
+    background: CanvasText;
+  }
+}

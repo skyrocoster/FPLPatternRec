@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fpl-pattern-rec"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi==0.141.1",
+    "uvicorn[standard]==0.53.0",
+]
+
+[dependency-groups]
+dev = [
+    "graphifyy[sql,svg]==0.9.64",
+    "httpx==0.28.1",
+    "pip-audit==2.10.1",
+    "pytest==9.1.1",
+    "ruff==0.16.8",
+]
+
+[tool.uv.workspace]
+members = ["experiments"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["backend/tests", "tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+exclude = ["Scratch/"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.setuptools.packages.find]
+where = [".", "src"]
+include = ["backend*", "data_retrieval*"]

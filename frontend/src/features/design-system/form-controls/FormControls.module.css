@@ -1,0 +1,384 @@
+.field {
+  min-inline-size: 0;
+  display: grid;
+  gap: var(--app-spacing-8);
+  color: var(--md-sys-color-on-surface);
+}
+
+.fieldLabel {
+  font-family: var(--md-sys-typescale-label-large-font);
+  font-size: var(--md-sys-typescale-label-large-size);
+  font-weight: 700;
+}
+
+.requiredMark,
+.fieldError {
+  color: var(--app-error-accent);
+}
+
+.fieldDescription,
+.radioDescription {
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: var(--md-sys-typescale-body-small-size);
+  line-height: var(--md-sys-typescale-body-small-line-height);
+}
+
+.fieldError {
+  font-size: var(--md-sys-typescale-body-small-size);
+}
+
+.inputFrame,
+.selectTrigger {
+  box-sizing: border-box;
+  min-inline-size: 0;
+  inline-size: 100%;
+  min-block-size: 52px;
+  display: flex;
+  align-items: center;
+  gap: var(--app-spacing-8);
+  padding-inline: var(--app-spacing-12);
+  border: 1px solid var(--md-sys-color-outline);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container-highest);
+  color: var(--md-sys-color-on-surface);
+}
+
+.inputFrame:hover:not(:has(:disabled)),
+.selectTrigger:hover:not(:disabled) {
+  border-color: var(--md-sys-color-on-surface-variant);
+}
+
+.inputFrame:focus-within,
+.selectTrigger:focus-visible {
+  border-color: var(--md-sys-color-primary);
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}
+
+.inputFrame[data-invalid],
+.inputFrame:has([aria-invalid="true"]),
+.selectTrigger[data-invalid] {
+  border-color: var(--app-error-accent);
+}
+
+.inputFrame:has(:disabled),
+.selectTrigger:disabled,
+.radioSegmented[data-disabled],
+.radioStacked[data-disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.inputFrame:has([readonly]),
+.selectTrigger[data-readonly] {
+  background: var(--md-sys-color-surface-container);
+}
+
+.textInput {
+  min-inline-size: 0;
+  inline-size: 100%;
+  min-block-size: 48px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+.textInput::placeholder {
+  color: var(--md-sys-color-outline);
+}
+
+.inputSlot,
+.triggerIcon {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.selectTrigger {
+  justify-content: space-between;
+  text-align: start;
+  cursor: pointer;
+}
+
+.iconButton {
+  flex: none;
+  inline-size: 32px;
+  block-size: 32px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--md-sys-color-on-surface-variant);
+  cursor: pointer;
+}
+
+.iconButton:hover {
+  background: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface);
+}
+
+.iconButton:focus-visible {
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: 0;
+}
+
+.dropdownPositioner {
+  z-index: 30;
+  inline-size: min(
+    max(var(--anchor-width), var(--preferred-popup-width, 0px)),
+    calc(var(--available-width) - var(--app-spacing-12))
+  );
+  max-inline-size: calc(100vw - var(--app-spacing-24));
+}
+
+.dropdownPopup {
+  inline-size: 100%;
+  max-block-size: min(348px, calc(var(--available-height) - var(--app-spacing-12)));
+  overflow: hidden;
+  padding: var(--app-spacing-4);
+  border: 1px solid var(--md-sys-color-outline);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container-low);
+  color: var(--md-sys-color-on-surface);
+  box-shadow: var(--app-elevation-e2);
+  transform-origin: var(--transform-origin);
+}
+
+.dropdownList {
+  max-block-size: inherit;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.dropdownItem {
+  min-inline-size: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--app-spacing-8);
+  padding: var(--app-spacing-8) var(--app-spacing-12);
+  border-radius: var(--app-radius-default);
+  cursor: pointer;
+  scroll-margin: var(--app-spacing-4);
+}
+
+.dropdownItem[data-highlighted] {
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.dropdownItem[data-selected] {
+  box-shadow: inset 0 0 0 1px var(--md-sys-color-primary);
+}
+
+.dropdownItem[data-disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.optionBody,
+.optionAnatomy,
+.optionCopy {
+  min-inline-size: 0;
+}
+
+.optionBody {
+  flex: 1;
+}
+
+.optionAnatomy {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: var(--app-spacing-12);
+  align-items: center;
+}
+
+.optionLeading {
+  display: grid;
+  place-items: center;
+}
+
+.optionCopy {
+  display: grid;
+  gap: var(--app-spacing-4);
+}
+
+.optionPrimary,
+.optionSecondary {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.optionPrimary {
+  font-weight: 650;
+}
+
+.optionSecondary,
+.optionTrailing {
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: var(--md-sys-typescale-body-small-size);
+}
+
+.optionTrailing {
+  text-align: end;
+  white-space: nowrap;
+}
+
+.optionIndicator {
+  inline-size: var(--app-spacing-16);
+  flex: none;
+  color: var(--md-sys-color-primary);
+  visibility: hidden;
+}
+
+.dropdownItem[data-selected] .optionIndicator {
+  visibility: visible;
+}
+
+.dropdownMessage {
+  display: block;
+  padding: var(--app-spacing-24) var(--app-spacing-12);
+  color: var(--md-sys-color-on-surface-variant);
+  text-align: center;
+}
+
+.radioSegmented,
+.radioStacked {
+  min-inline-size: 0;
+  display: flex;
+}
+
+.radioSegmented {
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  gap: var(--app-spacing-4);
+  padding: var(--app-spacing-4);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-12);
+  background: var(--md-sys-color-surface-container);
+}
+
+.radioStacked {
+  flex-direction: column;
+  gap: var(--app-spacing-8);
+}
+
+.radioLabel {
+  position: relative;
+  min-inline-size: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--app-spacing-12);
+  cursor: pointer;
+}
+
+.radioSegmented .radioLabel {
+  padding: var(--app-spacing-8) var(--app-spacing-16);
+  border-radius: var(--app-radius-default);
+}
+
+.radioSegmented .radioLabel:has(.radioRoot[data-checked]) {
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+}
+
+.radioStacked .radioLabel {
+  padding: var(--app-spacing-12);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container);
+}
+
+.radioStacked .radioLabel:has(.radioRoot[data-checked]) {
+  border-color: var(--md-sys-color-primary);
+  background: var(--md-sys-color-primary-container);
+}
+
+.radioRoot {
+  inline-size: 20px;
+  block-size: 20px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 2px solid var(--md-sys-color-outline);
+  border-radius: 50%;
+  background: transparent;
+}
+
+.radioSegmented .radioRoot {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  opacity: 0;
+}
+
+.radioRoot:focus-visible {
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}
+
+.radioSegmented .radioLabel:has(.radioRoot:focus-visible) {
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}
+
+.radioIndicator {
+  inline-size: 10px;
+  block-size: 10px;
+  border-radius: 50%;
+  background: var(--md-sys-color-primary);
+}
+
+.radioCopy {
+  min-inline-size: 0;
+  display: grid;
+  gap: var(--app-spacing-4);
+}
+
+.visuallyHidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.customOption {
+  min-inline-size: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--app-spacing-12);
+}
+
+@media (max-width: 560px) {
+  .optionAnatomy {
+    gap: var(--app-spacing-8);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dropdownPopup {
+    transition: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .inputFrame,
+  .selectTrigger,
+  .dropdownPopup,
+  .radioSegmented,
+  .radioStacked .radioLabel {
+    border-color: CanvasText;
+    background: Canvas;
+    color: CanvasText;
+  }
+}

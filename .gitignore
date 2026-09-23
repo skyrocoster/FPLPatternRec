@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+test-results/
+.playwright-mcp/
+.venv/
+venv/
+env/
+
+# Node and package managers
+node_modules/
+dist/
+build/
+storybook-static/
+
+# IDE and operating system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local runtime state
+.env
+*.log
+*.log.err
+*.pid
+.coverage
+.stage-check/
+/artifacts/
+/graphify-out/
+
+# Local databases and backups
+data/
+*.db
+*.db-shm
+*.db-wal
+*.db.backup.*
+*.db.analysis.lock
+
+# Tool-local configuration and dependencies
+.claude/
+.cursor/skills/
+.agents/skills/*
+.opencode/*
+!.opencode/README.md
+!.opencode/package.json
+!.opencode/package-lock.json
+!.opencode/commands/
+!.opencode/commands/commit.md
+!.opencode/plugin/
+!.opencode/skills/
+!.opencode/tools/
+!.opencode/agents/
+!.opencode/agents/**
+opencode.json
+
+# Generated Graphify bundles (machine-local, refreshed by src/tools/graphify_catalogue.py)
+docs/graphify/*
+!docs/graphify/README.md
+
+# Scratch workspace
+scratch/

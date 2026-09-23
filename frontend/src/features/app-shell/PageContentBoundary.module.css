@@ -1,0 +1,9 @@
+.fallback {
+  display: grid;
+  max-width: 48rem;
+  gap: var(--app-spacing-16);
+}
+
+.retry {
+  justify-self: start;
+}

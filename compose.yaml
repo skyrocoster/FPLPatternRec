@@ -1,0 +1,98 @@
+name: fplpatternrec
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    command: ["python", "-m", "uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "5677", "--reload", "--reload-dir", "/workspace/backend"]
+    init: true
+    working_dir: /workspace
+    environment:
+      PYTHONUNBUFFERED: "1"
+      WATCHFILES_FORCE_POLLING: "true"
+    volumes:
+      - type: bind
+        source: .
+        target: /workspace
+    ports:
+      - "127.0.0.1:5677:5677"
+    restart: "no"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5677/api/health', timeout=2).read()"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 10s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    command: ["npm", "--workspace", "frontend", "run", "dev", "--", "--host", "0.0.0.0"]
+    init: true
+    working_dir: /workspace
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      CHOKIDAR_INTERVAL: "1000"
+    volumes:
+      - type: bind
+        source: ./frontend
+        target: /workspace/frontend
+      - fplpatternrec-frontend-node-modules:/workspace/frontend/node_modules
+    ports:
+      - "127.0.0.1:8455:8455"
+    restart: "no"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8455').then((response) => process.exit(response.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 20s
+
+  storybook:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    command: ["npm", "--workspace", "frontend", "run", "storybook", "--", "--host", "0.0.0.0"]
+    environment:
+      STORYBOOK_PORT: "6017"
+      CHOKIDAR_USEPOLLING: "true"
+      CHOKIDAR_INTERVAL: "1000"
+    init: true
+    working_dir: /workspace
+    volumes:
+      - type: bind
+        source: ./frontend
+        target: /workspace/frontend
+      - fplpatternrec-storybook-node-modules:/workspace/frontend/node_modules
+    ports:
+      - "127.0.0.1:6017:6017"
+    restart: "no"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:6017').then((response) => process.exit(response.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+      start_period: 30s
+
+  datasette:
+    image: datasetteproject/datasette
+    command: ["datasette", "serve", "/data/fplpatternrec.db", "--host", "0.0.0.0", "--port", "8677"]
+    init: true
+    volumes:
+      - fplpatternrec-sqlite:/data
+    ports:
+      - "127.0.0.1:8677:8677"
+    restart: "no"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8677/-/databases.json', timeout=2).read()"]
+      interval: 10s
+      timeout: 3s
+      retries: 20
+      start_period: 20s
+
+volumes:
+  fplpatternrec-sqlite:
+  fplpatternrec-frontend-node-modules:
+  fplpatternrec-storybook-node-modules:

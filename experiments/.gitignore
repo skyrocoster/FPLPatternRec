@@ -1,0 +1,10 @@
+.venv/
+node_modules/
+.ruff_cache/
+__pycache__/
+**/.artifacts/
+**/.cache/
+*.zip
+*.exe
+*.log
+*.jsonl

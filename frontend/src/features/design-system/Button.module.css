@@ -1,0 +1,89 @@
+/*
+ * Button CSS Module.
+ *
+ * Token-driven only: spacing, radii, focus treatment, and color roles come
+ * from the centralized --app-* foundation tokens and --md-sys-* color roles.
+ * No ad hoc spacing, radius, depth, or focus values. Hover states swap to the
+ * existing container/surface color roles rather than introducing new values.
+ * The centralized token CSS (frontend/src/styles/app-tokens.css) is made
+ * available to Storybook by the story import; the component itself must not
+ * import it.
+ */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--app-spacing-8);
+  border: 1px solid transparent;
+  border-radius: var(--app-radius-default);
+  font-family: var(--md-sys-typescale-label-large-font);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:focus-visible {
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Sizes: padding from the spacing scale; type from the label roles. */
+.sizeMd {
+  padding: var(--app-spacing-12) var(--app-spacing-24);
+  font-size: var(--md-sys-typescale-label-large-size);
+  line-height: var(--md-sys-typescale-label-large-line-height);
+}
+
+.sizeSm {
+  padding: var(--app-spacing-8) var(--app-spacing-16);
+  font-size: var(--md-sys-typescale-label-medium-size);
+  line-height: var(--md-sys-typescale-label-medium-line-height);
+}
+
+/* Variants: filled primary, tonal secondary, text-only ghost. */
+.primary {
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+}
+
+.secondary {
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.secondary:hover:not(:disabled) {
+  background: var(--md-sys-color-surface-container-high);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--md-sys-color-on-surface);
+}
+
+.ghost:hover:not(:disabled) {
+  background: var(--md-sys-color-surface-container);
+}
+
+/*
+ * Forced-colors: the token-driven background/color are ignored by the UA and
+ * the author values would otherwise override the system palette, producing a
+ * low-contrast button. Pin the surface to system button colors so every
+ * variant stays keyboard- and contrast-accessible. This mirrors the
+ * Canvas/CanvasText treatment used by Disclosure in forced-colors mode.
+ */
+@media (forced-colors: active) {
+  .button {
+    background: ButtonFace;
+    color: ButtonText;
+    border-color: ButtonBorder;
+  }
+}

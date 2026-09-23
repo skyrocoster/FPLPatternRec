@@ -1,0 +1,186 @@
+/*
+ * StorySpecimenFoundation CSS Module.
+ *
+ * The specimen consumes only the centralized foundation variables
+ * (var(--app-spacing-*), var(--app-radius-*), var(--app-elevation-*),
+ * var(--app-focus-*)) and the existing --md-sys-* color roles; no ad hoc
+ * spacing, radius, depth, or focus values. Fine borders use the settled 1px
+ * structure constant. Normal structure specimens carry no elevation;
+ * elevation appears only on the reserved e1-e3 major/floating specimens.
+ * The centralized token CSS (frontend/src/styles/app-tokens.css) is made
+ * available to Storybook by the story import; the component itself must
+ * not import it.
+ */
+.specimen {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-32);
+  padding: var(--app-spacing-32);
+  color: var(--md-sys-color-on-surface);
+  background: var(--md-sys-color-surface);
+}
+
+.pageTitle {
+  margin: 0;
+}
+
+.intro {
+  margin: 0 0 var(--app-spacing-16);
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-16);
+  padding: var(--app-spacing-16);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container-low);
+}
+
+.sectionTitle {
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.specimenList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--app-spacing-8);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.specimenRow {
+  display: flex;
+  align-items: center;
+  gap: var(--app-spacing-12);
+}
+
+.specimenLabel {
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+/* Spacing scale bars: size comes only from the centralized spacing tokens. */
+.spacingBar {
+  background: var(--md-sys-color-primary);
+}
+
+.spacing4 {
+  width: var(--app-spacing-4);
+  height: var(--app-spacing-4);
+}
+
+.spacing8 {
+  width: var(--app-spacing-8);
+  height: var(--app-spacing-8);
+}
+
+.spacing12 {
+  width: var(--app-spacing-12);
+  height: var(--app-spacing-12);
+}
+
+.spacing16 {
+  width: var(--app-spacing-16);
+  height: var(--app-spacing-16);
+}
+
+.spacing24 {
+  width: var(--app-spacing-24);
+  height: var(--app-spacing-24);
+}
+
+.spacing32 {
+  width: var(--app-spacing-32);
+  height: var(--app-spacing-32);
+}
+
+.spacing48 {
+  width: var(--app-spacing-48);
+  height: var(--app-spacing-48);
+}
+
+/* Radius samples: shape comes only from the centralized radius tokens. */
+.radiusSample {
+  width: var(--app-spacing-32);
+  height: var(--app-spacing-32);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  background: var(--md-sys-color-primary-container);
+}
+
+.radius4 {
+  border-radius: var(--app-radius-4);
+}
+
+.radius8 {
+  border-radius: var(--app-radius-8);
+}
+
+.radius12 {
+  border-radius: var(--app-radius-12);
+}
+
+.radiusDefault {
+  border-radius: var(--app-radius-default);
+}
+
+/* Tonal surfaces and fine borders carry normal structure: no elevation. */
+.surfaceSample {
+  width: var(--app-spacing-48);
+  height: var(--app-spacing-32);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container-low);
+}
+
+.surfaceContainer {
+  background: var(--md-sys-color-surface-container);
+}
+
+.surfaceContainerHigh {
+  background: var(--md-sys-color-surface-container-high);
+}
+
+/* Reserved elevation specimens: elevation appears only here. */
+.elevationSample {
+  width: var(--app-spacing-48);
+  height: var(--app-spacing-32);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container);
+}
+
+.elevationE0 {
+  box-shadow: var(--app-elevation-e0);
+}
+
+.elevationE1 {
+  box-shadow: var(--app-elevation-e1);
+}
+
+.elevationE2 {
+  box-shadow: var(--app-elevation-e2);
+}
+
+.elevationE3 {
+  box-shadow: var(--app-elevation-e3);
+}
+
+/* Focus ring: 2px primary ring with 2px surface separation. */
+.focusSpecimen {
+  align-self: flex-start;
+  padding: var(--app-spacing-12) var(--app-spacing-16);
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container-high);
+  color: var(--md-sys-color-on-surface);
+  font: inherit;
+}
+
+.focusSpecimen:focus {
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}

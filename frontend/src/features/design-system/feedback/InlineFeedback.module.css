@@ -1,0 +1,11 @@
+/* Inline feedback: compact, transparent treatment. The accent-driven
+ * transparent/border-first presentation is owned by the shared FeedbackCore
+ * (.core), which sets the --app-feedback-* aliases on itself; those aliases
+ * inherit downward only, so they are out of scope on this wrapper. This
+ * module contributes only compactness and transparency. */
+.inline {
+  display: block;
+  max-width: 480px;
+  padding: 12px;
+  background-color: transparent;
+}

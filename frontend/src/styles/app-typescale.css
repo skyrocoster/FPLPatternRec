@@ -1,0 +1,115 @@
+/*
+ * Centralized application typescale tokens (repository-owned).
+ *
+ * Complete 15-role Material 3 typescale using the settled single-typeface
+ * decision: every role's -font variable is system-ui (no Roboto or brand
+ * family values, no --md-ref-typeface indirection, no external font, no
+ * monospace role).
+ *
+ * Values are pinned from the official Material Web tokens v0.192 table
+ * (generated from the Google Material 3 design system). The property name
+ * follows the approved naming here (-letter-spacing) with the official
+ * tracking values.
+ *
+ * Static CSS only: no runtime theme generation, theme switch, or theme
+ * state. Scoped to :root so the variables cascade inside the existing
+ * .dark Storybook preview wrapper. Production entrypoints must never
+ * import this file; the story imports it directly as the single
+ * Storybook-visible availability point.
+ */
+:root {
+  /* Display */
+  --md-sys-typescale-display-large-font: system-ui;
+  --md-sys-typescale-display-large-size: 3.5625rem;
+  --md-sys-typescale-display-large-line-height: 4rem;
+  --md-sys-typescale-display-large-weight: 400;
+  --md-sys-typescale-display-large-letter-spacing: -0.015625rem;
+
+  --md-sys-typescale-display-medium-font: system-ui;
+  --md-sys-typescale-display-medium-size: 2.8125rem;
+  --md-sys-typescale-display-medium-line-height: 3.25rem;
+  --md-sys-typescale-display-medium-weight: 400;
+  --md-sys-typescale-display-medium-letter-spacing: 0rem;
+
+  --md-sys-typescale-display-small-font: system-ui;
+  --md-sys-typescale-display-small-size: 2.25rem;
+  --md-sys-typescale-display-small-line-height: 2.75rem;
+  --md-sys-typescale-display-small-weight: 400;
+  --md-sys-typescale-display-small-letter-spacing: 0rem;
+
+  /* Headline */
+  --md-sys-typescale-headline-large-font: system-ui;
+  --md-sys-typescale-headline-large-size: 2rem;
+  --md-sys-typescale-headline-large-line-height: 2.5rem;
+  --md-sys-typescale-headline-large-weight: 400;
+  --md-sys-typescale-headline-large-letter-spacing: 0rem;
+
+  --md-sys-typescale-headline-medium-font: system-ui;
+  --md-sys-typescale-headline-medium-size: 1.75rem;
+  --md-sys-typescale-headline-medium-line-height: 2.25rem;
+  --md-sys-typescale-headline-medium-weight: 400;
+  --md-sys-typescale-headline-medium-letter-spacing: 0rem;
+
+  --md-sys-typescale-headline-small-font: system-ui;
+  --md-sys-typescale-headline-small-size: 1.5rem;
+  --md-sys-typescale-headline-small-line-height: 2rem;
+  --md-sys-typescale-headline-small-weight: 400;
+  --md-sys-typescale-headline-small-letter-spacing: 0rem;
+
+  /* Title */
+  --md-sys-typescale-title-large-font: system-ui;
+  --md-sys-typescale-title-large-size: 1.375rem;
+  --md-sys-typescale-title-large-line-height: 1.75rem;
+  --md-sys-typescale-title-large-weight: 400;
+  --md-sys-typescale-title-large-letter-spacing: 0rem;
+
+  --md-sys-typescale-title-medium-font: system-ui;
+  --md-sys-typescale-title-medium-size: 1rem;
+  --md-sys-typescale-title-medium-line-height: 1.5rem;
+  --md-sys-typescale-title-medium-weight: 500;
+  --md-sys-typescale-title-medium-letter-spacing: 0.009375rem;
+
+  --md-sys-typescale-title-small-font: system-ui;
+  --md-sys-typescale-title-small-size: 0.875rem;
+  --md-sys-typescale-title-small-line-height: 1.25rem;
+  --md-sys-typescale-title-small-weight: 500;
+  --md-sys-typescale-title-small-letter-spacing: 0.00625rem;
+
+  /* Body */
+  --md-sys-typescale-body-large-font: system-ui;
+  --md-sys-typescale-body-large-size: 1rem;
+  --md-sys-typescale-body-large-line-height: 1.5rem;
+  --md-sys-typescale-body-large-weight: 400;
+  --md-sys-typescale-body-large-letter-spacing: 0.03125rem;
+
+  --md-sys-typescale-body-medium-font: system-ui;
+  --md-sys-typescale-body-medium-size: 0.875rem;
+  --md-sys-typescale-body-medium-line-height: 1.25rem;
+  --md-sys-typescale-body-medium-weight: 400;
+  --md-sys-typescale-body-medium-letter-spacing: 0.015625rem;
+
+  --md-sys-typescale-body-small-font: system-ui;
+  --md-sys-typescale-body-small-size: 0.75rem;
+  --md-sys-typescale-body-small-line-height: 1rem;
+  --md-sys-typescale-body-small-weight: 400;
+  --md-sys-typescale-body-small-letter-spacing: 0.025rem;
+
+  /* Label */
+  --md-sys-typescale-label-large-font: system-ui;
+  --md-sys-typescale-label-large-size: 0.875rem;
+  --md-sys-typescale-label-large-line-height: 1.25rem;
+  --md-sys-typescale-label-large-weight: 500;
+  --md-sys-typescale-label-large-letter-spacing: 0.00625rem;
+
+  --md-sys-typescale-label-medium-font: system-ui;
+  --md-sys-typescale-label-medium-size: 0.75rem;
+  --md-sys-typescale-label-medium-line-height: 1rem;
+  --md-sys-typescale-label-medium-weight: 500;
+  --md-sys-typescale-label-medium-letter-spacing: 0.03125rem;
+
+  --md-sys-typescale-label-small-font: system-ui;
+  --md-sys-typescale-label-small-size: 0.6875rem;
+  --md-sys-typescale-label-small-line-height: 1rem;
+  --md-sys-typescale-label-small-weight: 500;
+  --md-sys-typescale-label-small-letter-spacing: 0.03125rem;
+}

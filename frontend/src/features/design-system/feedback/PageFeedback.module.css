@@ -1,0 +1,49 @@
+/* Page feedback: a full-width page-level presentation band. The wrapper sits
+ * in normal document flow (it is not a floating or dismissing notification),
+ * spans the readable page width on the accepted Material tonal surface, and
+ * uses the severity accent only as a top-bar visual cue. The shared
+ * FeedbackCore still owns the icon/heading/message structure and forwards
+ * consumer live-region attributes without defaults; nothing here assigns
+ * alert/status or any announcement role. */
+.page {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 64rem;
+  padding: var(--app-spacing-24);
+  border: 1px solid transparent;
+  border-block-start-width: 4px;
+  border-radius: var(--app-radius-12);
+  background: var(--md-sys-color-surface-container, #1f1f25);
+}
+
+.information {
+  border-block-start-color: var(--app-info-accent);
+}
+
+.success {
+  border-block-start-color: var(--app-success-accent);
+}
+
+.warning {
+  border-block-start-color: var(--app-warning-accent);
+}
+
+.error {
+  border-block-start-color: var(--app-error-accent);
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: var(--app-spacing-16);
+  }
+}
+
+.storyGrid {
+  display: grid;
+  gap: var(--app-spacing-32);
+  align-content: start;
+  min-height: 100vh;
+  padding: var(--app-spacing-32);
+  background: var(--md-sys-color-background, #121318);
+}

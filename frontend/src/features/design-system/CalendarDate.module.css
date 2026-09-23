@@ -1,0 +1,285 @@
+/*
+ * CalendarDate owns the DayPicker presentation locally instead of importing
+ * react-day-picker's global stylesheet. Geometry, focus, depth, and colors use
+ * the repository's design tokens and Material roles.
+ */
+.trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-inline-size: 9rem;
+  padding: var(--app-spacing-12) var(--app-spacing-16);
+  border: 1px solid var(--md-sys-color-outline);
+  border-radius: var(--app-radius-default);
+  background: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface);
+  font: inherit;
+  cursor: pointer;
+}
+
+.trigger:hover {
+  background: var(--md-sys-color-surface-container-high);
+}
+
+.trigger[aria-invalid="true"] {
+  border-color: var(--app-error-accent);
+  border-width: 2px;
+}
+
+.trigger:focus-visible,
+.navButton:focus-visible,
+.dayButton:focus-visible,
+.clearButton:focus-visible,
+.closeButton:focus-visible {
+  outline: var(--app-focus-ring-width) solid var(--app-focus-ring-color);
+  outline-offset: var(--app-focus-ring-separation);
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 40;
+  inset: 0;
+  background: transparent;
+}
+
+.positioner {
+  z-index: 41;
+  max-inline-size: calc(100vw - var(--app-spacing-32));
+}
+
+.popup {
+  box-sizing: border-box;
+  display: grid;
+  gap: var(--app-spacing-12);
+  max-inline-size: min(calc(100vw - var(--app-spacing-32)), 24rem);
+  padding: var(--app-spacing-16);
+  overflow: auto;
+  border: 1px solid var(--md-sys-color-outline);
+  border-radius: var(--app-radius-12);
+  background: var(--md-sys-color-surface-container-high);
+  box-shadow: var(--app-elevation-e2);
+  color: var(--md-sys-color-on-surface);
+}
+
+.title,
+.description {
+  margin: 0;
+}
+
+.title {
+  color: var(--md-sys-color-on-surface);
+  font-family: var(--md-sys-typescale-title-medium-font);
+  font-size: var(--md-sys-typescale-title-medium-size);
+  font-weight: var(--md-sys-typescale-title-medium-weight);
+  letter-spacing: var(--md-sys-typescale-title-medium-letter-spacing);
+  line-height: var(--md-sys-typescale-title-medium-line-height);
+}
+
+.description {
+  color: var(--md-sys-color-on-surface-variant);
+  font-family: var(--md-sys-typescale-body-medium-font);
+  font-size: var(--md-sys-typescale-body-medium-size);
+  font-weight: var(--md-sys-typescale-body-medium-weight);
+  letter-spacing: var(--md-sys-typescale-body-medium-letter-spacing);
+  line-height: var(--md-sys-typescale-body-medium-line-height);
+}
+
+.calendarRoot {
+  box-sizing: border-box;
+  max-inline-size: 100%;
+  color: var(--md-sys-color-on-surface);
+  font-family: var(--md-sys-typescale-body-medium-font);
+  font-size: var(--md-sys-typescale-body-medium-size);
+  line-height: var(--md-sys-typescale-body-medium-line-height);
+}
+
+.months {
+  display: flex;
+  max-inline-size: 100%;
+}
+
+.month {
+  position: relative;
+  min-inline-size: 0;
+}
+
+.monthCaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: var(--app-spacing-48);
+  padding-inline: var(--app-spacing-48);
+}
+
+.captionLabel {
+  font-family: var(--md-sys-typescale-title-small-font);
+  font-size: var(--md-sys-typescale-title-small-size);
+  font-weight: var(--md-sys-typescale-title-small-weight);
+  letter-spacing: var(--md-sys-typescale-title-small-letter-spacing);
+  line-height: var(--md-sys-typescale-title-small-line-height);
+}
+
+.nav {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-block-size: var(--app-spacing-48);
+}
+
+.navButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: var(--app-spacing-32);
+  block-size: var(--app-spacing-32);
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: var(--app-radius-default);
+  background: transparent;
+  color: var(--md-sys-color-on-surface);
+  cursor: pointer;
+}
+
+.navButton:hover:not(:disabled) {
+  background: var(--md-sys-color-surface-container);
+}
+
+.navButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.chevron {
+  fill: currentColor;
+}
+
+.monthGrid {
+  inline-size: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.weekday,
+.day {
+  inline-size: var(--app-spacing-32);
+  block-size: var(--app-spacing-32);
+  padding: 0;
+  text-align: center;
+}
+
+.weekday {
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: var(--md-sys-typescale-label-small-size);
+  font-weight: var(--md-sys-typescale-label-small-weight);
+  letter-spacing: var(--md-sys-typescale-label-small-letter-spacing);
+  line-height: var(--md-sys-typescale-label-small-line-height);
+}
+
+.dayButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: var(--app-spacing-32);
+  block-size: var(--app-spacing-32);
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.dayButton:hover:not(:disabled) {
+  background: var(--md-sys-color-surface-container);
+}
+
+.selected .dayButton {
+  border-color: var(--md-sys-color-primary);
+  background: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+}
+
+.today:not(.selected) .dayButton {
+  border-color: var(--md-sys-color-primary);
+}
+
+.disabled .dayButton {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.outside .dayButton {
+  opacity: 0.5;
+}
+
+.focused .dayButton {
+  background: var(--md-sys-color-surface-container);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--app-spacing-8);
+  flex-wrap: wrap;
+}
+
+.clearButton,
+.closeButton {
+  padding: var(--app-spacing-8) var(--app-spacing-12);
+  border: 1px solid var(--md-sys-color-outline);
+  border-radius: var(--app-radius-default);
+  background: transparent;
+  color: var(--md-sys-color-on-surface);
+  font: inherit;
+  cursor: pointer;
+}
+
+.clearButton:hover:not(:disabled),
+.closeButton:hover {
+  background: var(--md-sys-color-surface-container);
+}
+
+.clearButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.dropdowns,
+.dropdown,
+.dropdownRoot,
+.weeks {
+  box-sizing: border-box;
+}
+
+@media (max-width: 28rem) {
+  .popup {
+    padding: var(--app-spacing-12);
+  }
+
+  .monthGrid {
+    max-inline-size: 100%;
+  }
+}
+
+@media (forced-colors: active) {
+  .trigger,
+  .popup,
+  .navButton,
+  .dayButton,
+  .clearButton,
+  .closeButton {
+    border-color: ButtonBorder;
+    background: ButtonFace;
+    color: ButtonText;
+  }
+
+  .selected .dayButton {
+    border-color: Highlight;
+    background: Highlight;
+    color: HighlightText;
+  }
+}

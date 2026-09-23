@@ -1,0 +1,9 @@
+{
+  "name": "fpl-pattern-rec-experiments",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24.15 <25"
+  }
+}
