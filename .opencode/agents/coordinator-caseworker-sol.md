@@ -2,8 +2,8 @@
 description: Emergency Sol case-worker for particularly hard bounded assessment, Plan work, master plans, and approved execution.
 mode: subagent
 color: "#F97316"
-model: openai/gpt-5.6-sol
-variant: medium
+model: openai/gpt-6-sol
+variant: xhigh
 permission:
   edit: allow
   bash: allow

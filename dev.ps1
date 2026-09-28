@@ -74,11 +74,9 @@ if os.path.exists(p):
     try:
         if c.execute('PRAGMA quick_check').fetchone()!=('ok',):
             raise SystemExit('Existing database failed SQLite quick_check; setup refused to modify it.')
-        if c.execute('SELECT name FROM sqlite_master WHERE type=?', ('table',)).fetchall()!=[]:
-            raise SystemExit('Existing database contains tables; setup refused to modify it.')
     finally:
         c.close()
-    print('Existing valid zero-table SQLite database verified; leaving it unchanged.')
+    print('Existing valid SQLite database verified; leaving it unchanged.')
 else:
     fd=os.open(p, os.O_CREAT|os.O_EXCL|os.O_WRONLY, 0o644)
     os.close(fd)
@@ -91,7 +89,7 @@ else:
 '@
         $encoded = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($script))
         Invoke-Compose @("run", "--rm", "--no-deps", "--entrypoint", "python", "datasette", "-c", "import base64; exec(base64.b64decode('$encoded'))")
-        Write-Output "Setup completed: empty SQLite database created in the fplpatternrec-sqlite volume."
+        Write-Output "Setup completed: SQLite database is ready in the fplpatternrec-sqlite volume."
     }
     "start" {
         $healthy = $true

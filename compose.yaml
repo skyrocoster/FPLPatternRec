@@ -92,6 +92,24 @@ services:
       retries: 20
       start_period: 20s
 
+  data-tools:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    entrypoint: ["python", "-m", "tools.data_pipeline"]
+    init: true
+    working_dir: /workspace
+    environment:
+      PYTHONUNBUFFERED: "1"
+    volumes:
+      - type: bind
+        source: .
+        target: /workspace
+      - fplpatternrec-sqlite:/data
+    restart: "no"
+    profiles:
+      - one-shot
+
 volumes:
   fplpatternrec-sqlite:
   fplpatternrec-frontend-node-modules:

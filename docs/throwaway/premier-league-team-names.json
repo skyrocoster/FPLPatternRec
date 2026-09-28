@@ -1,0 +1,316 @@
+{
+  "dataset": "premier_league_team_names",
+  "schema_version": 1,
+  "researched_on": "2026-09-23",
+  "scope": {
+    "competition": "English Premier League",
+    "from_season": "1992-93",
+    "through_season": "2026-27",
+    "through_season_status": "in progress",
+    "club_count": 51,
+    "identity_rule": "Include each distinct club that has played at least one Premier League season since the inaugural 1992-93 season. Use the historical Premier League identity where a club later relocated, dissolved, or has a successor."
+  },
+  "canonical_name_policy": "canonical_name is the single concise display name to use for this project. It is an entity label, not necessarily the club's complete registered name. For example, Hull City is represented as Hull, while Manchester City and Manchester United retain their distinguishing city names.",
+  "alias_methodology": "The club universe comes from the all-time Premier League club list. Aliases are curated from official/full club-name forms, common short forms, and shortened team labels observed in football-data.co.uk season CSVs. This is a practical exact-match dictionary, not a generator for arbitrary typos; add new forms after review.",
+  "matching_guidance": {
+    "match_canonical_names_as_aliases": true,
+    "case_insensitive": true,
+    "recommended_normalization": [
+      "Apply Unicode NFKC normalization and case-fold text.",
+      "Trim leading and trailing whitespace and collapse repeated internal whitespace.",
+      "Treat straight and curly apostrophes consistently; ignore periods used in abbreviations such as F.C. and Utd.",
+      "Treat '&' and 'and' as equivalent when comparing names.",
+      "Compare the whole normalized name, not a substring."
+    ],
+    "do_not_auto_fuzzy_match": "Do not guess an unmapped or misspelled name with edit distance alone. Send unknown values and ambiguous short tokens for review.",
+    "deliberately_not_aliases": [
+      "Generic words such as City, United, FC, and Blues are not safe standalone aliases.",
+      "Ambiguous nicknames and generic words are omitted from automatic matching; listed short forms are intended in Premier League context.",
+      "AFC Wimbledon and Milton Keynes Dons are not aliases for Wimbledon, the historic Premier League participant."
+    ]
+  },
+  "sources": [
+    {
+      "id": "premier_league_official_history",
+      "url": "https://www.premierleague.com/en/history",
+      "supports": "The Premier League's official history identifies the inaugural 1992-93 campaign and lists its 22 founding clubs, including Wimbledon and Queens Park Rangers."
+    },
+    {
+      "id": "all_time_club_list",
+      "url": "https://en.wikipedia.org/w/index.php?title=List_of_Premier_League_clubs&oldid=1375896062",
+      "supports": "The all-time club table states that 51 teams have played in the Premier League and lists the historical participants through the 2026-27 season. This is the basis for the complete club universe in this file."
+    },
+    {
+      "id": "football_data_season_index",
+      "url": "https://www.football-data.co.uk/englandm.php",
+      "supports": "Provides links to Premier League results CSVs by season, including historical and current seasons; the CSV HomeTeam and AwayTeam fields demonstrate real-world shortened name forms."
+    },
+    {
+      "id": "football_data_2024_25",
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E0.csv",
+      "supports": "Sampled match rows use values such as Man United, Man City, Nott'm Forest, Wolves, and Brighton."
+    },
+    {
+      "id": "football_data_2025_26",
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E0.csv",
+      "supports": "A second recent season confirms shortened HomeTeam and AwayTeam values such as Man United, Man City, Nott'm Forest, and Wolves."
+    }
+  ],
+  "clubs": [
+    {
+      "id": "arsenal",
+      "canonical_name": "Arsenal",
+      "aliases": ["Arsenal FC", "Arsenal F.C.", "Arsenal Football Club"]
+    },
+    {
+      "id": "aston-villa",
+      "canonical_name": "Aston Villa",
+      "aliases": ["Villa", "Aston Villa FC", "Aston Villa F.C.", "AVFC"]
+    },
+    {
+      "id": "barnsley",
+      "canonical_name": "Barnsley",
+      "aliases": ["Barnsley FC", "Barnsley F.C.", "Barnsley Football Club"]
+    },
+    {
+      "id": "birmingham-city",
+      "canonical_name": "Birmingham City",
+      "aliases": ["Birmingham", "Birmingham City FC", "Birmingham City F.C."]
+    },
+    {
+      "id": "blackburn-rovers",
+      "canonical_name": "Blackburn Rovers",
+      "aliases": ["Blackburn", "Blackburn Rovers FC", "Blackburn Rovers F.C."]
+    },
+    {
+      "id": "blackpool",
+      "canonical_name": "Blackpool",
+      "aliases": ["Blackpool FC", "Blackpool F.C."]
+    },
+    {
+      "id": "bolton-wanderers",
+      "canonical_name": "Bolton Wanderers",
+      "aliases": ["Bolton", "Bolton Wanderers FC", "Bolton Wanderers F.C.", "BWFC"]
+    },
+    {
+      "id": "bournemouth",
+      "canonical_name": "Bournemouth",
+      "aliases": ["AFC Bournemouth", "A.F.C. Bournemouth", "Bournemouth AFC"]
+    },
+    {
+      "id": "bradford-city",
+      "canonical_name": "Bradford City",
+      "aliases": ["Bradford", "Bradford City AFC", "Bradford City A.F.C."]
+    },
+    {
+      "id": "brentford",
+      "canonical_name": "Brentford",
+      "aliases": ["Brentford FC", "Brentford F.C."]
+    },
+    {
+      "id": "brighton",
+      "canonical_name": "Brighton",
+      "aliases": ["Brighton & Hove Albion", "Brighton and Hove Albion", "Brighton & Hove Albion FC", "Brighton and Hove Albion FC", "BHAFC"]
+    },
+    {
+      "id": "burnley",
+      "canonical_name": "Burnley",
+      "aliases": ["Burnley FC", "Burnley F.C."]
+    },
+    {
+      "id": "cardiff-city",
+      "canonical_name": "Cardiff City",
+      "aliases": ["Cardiff", "Cardiff City FC", "Cardiff City F.C."]
+    },
+    {
+      "id": "charlton-athletic",
+      "canonical_name": "Charlton Athletic",
+      "aliases": ["Charlton", "Charlton Athletic FC", "Charlton Athletic F.C.", "CAFC"]
+    },
+    {
+      "id": "chelsea",
+      "canonical_name": "Chelsea",
+      "aliases": ["Chelsea FC", "Chelsea F.C."]
+    },
+    {
+      "id": "coventry-city",
+      "canonical_name": "Coventry City",
+      "aliases": ["Coventry", "Coventry City FC", "Coventry City F.C."]
+    },
+    {
+      "id": "crystal-palace",
+      "canonical_name": "Crystal Palace",
+      "aliases": ["Palace", "Crystal Palace FC", "Crystal Palace F.C.", "CPFC"]
+    },
+    {
+      "id": "derby-county",
+      "canonical_name": "Derby County",
+      "aliases": ["Derby", "Derby County FC", "Derby County F.C."]
+    },
+    {
+      "id": "everton",
+      "canonical_name": "Everton",
+      "aliases": ["Everton FC", "Everton F.C."]
+    },
+    {
+      "id": "fulham",
+      "canonical_name": "Fulham",
+      "aliases": ["Fulham FC", "Fulham F.C."]
+    },
+    {
+      "id": "huddersfield-town",
+      "canonical_name": "Huddersfield Town",
+      "aliases": ["Huddersfield", "Huddersfield Town FC", "Huddersfield Town F.C."]
+    },
+    {
+      "id": "hull",
+      "canonical_name": "Hull",
+      "aliases": ["Hull City", "Hull City AFC", "Hull City A.F.C.", "HCAFC"]
+    },
+    {
+      "id": "ipswich-town",
+      "canonical_name": "Ipswich Town",
+      "aliases": ["Ipswich", "Ipswich Town FC", "Ipswich Town F.C."]
+    },
+    {
+      "id": "leeds-united",
+      "canonical_name": "Leeds United",
+      "aliases": ["Leeds", "Leeds Utd", "Leeds United FC", "Leeds United F.C.", "LUFC"]
+    },
+    {
+      "id": "leicester-city",
+      "canonical_name": "Leicester City",
+      "aliases": ["Leicester", "Leicester City FC", "Leicester City F.C."]
+    },
+    {
+      "id": "liverpool",
+      "canonical_name": "Liverpool",
+      "aliases": ["Liverpool FC", "Liverpool F.C.", "LFC"]
+    },
+    {
+      "id": "luton-town",
+      "canonical_name": "Luton Town",
+      "aliases": ["Luton", "Luton Town FC", "Luton Town F.C."]
+    },
+    {
+      "id": "manchester-city",
+      "canonical_name": "Manchester City",
+      "aliases": ["Man City", "Man. City", "ManCity", "Manchester City FC", "Manchester City F.C.", "MCFC"]
+    },
+    {
+      "id": "manchester-united",
+      "canonical_name": "Manchester United",
+      "aliases": ["Man U", "ManU", "Man Utd", "Man. Utd", "ManUtd", "Man United", "Manchester Utd", "Manchester United FC", "Manchester United F.C.", "MUFC"]
+    },
+    {
+      "id": "middlesbrough",
+      "canonical_name": "Middlesbrough",
+      "aliases": ["Boro", "Middlesbrough FC", "Middlesbrough F.C."]
+    },
+    {
+      "id": "newcastle-united",
+      "canonical_name": "Newcastle United",
+      "aliases": ["Newcastle", "Newcastle Utd", "Newcastle United FC", "Newcastle United F.C.", "NUFC"]
+    },
+    {
+      "id": "norwich-city",
+      "canonical_name": "Norwich City",
+      "aliases": ["Norwich", "Norwich City FC", "Norwich City F.C."]
+    },
+    {
+      "id": "nottingham-forest",
+      "canonical_name": "Nottingham Forest",
+      "aliases": ["Nott'm Forest", "Nottm Forest", "Nottingham Forest FC", "Nottingham Forest F.C."]
+    },
+    {
+      "id": "oldham-athletic",
+      "canonical_name": "Oldham Athletic",
+      "aliases": ["Oldham", "Oldham Athletic FC", "Oldham Athletic A.F.C."]
+    },
+    {
+      "id": "portsmouth",
+      "canonical_name": "Portsmouth",
+      "aliases": ["Pompey", "Portsmouth FC", "Portsmouth F.C."]
+    },
+    {
+      "id": "queens-park-rangers",
+      "canonical_name": "Queens Park Rangers",
+      "aliases": ["QPR", "Q.P.R.", "Queen's Park Rangers", "Queens Park Rangers FC", "Queens Park Rangers F.C."]
+    },
+    {
+      "id": "reading",
+      "canonical_name": "Reading",
+      "aliases": ["Reading FC", "Reading F.C."]
+    },
+    {
+      "id": "sheffield-united",
+      "canonical_name": "Sheffield United",
+      "aliases": ["Sheff Utd", "Sheffield Utd", "Sheffield United FC", "Sheffield United F.C.", "SUFC"]
+    },
+    {
+      "id": "sheffield-wednesday",
+      "canonical_name": "Sheffield Wednesday",
+      "aliases": ["Sheff Wed", "Sheff Weds", "Sheffield Wed", "Sheffield Weds", "Sheffield Wednesday FC", "Sheffield Wednesday F.C.", "SWFC"]
+    },
+    {
+      "id": "southampton",
+      "canonical_name": "Southampton",
+      "aliases": ["Southampton FC", "Southampton F.C."]
+    },
+    {
+      "id": "stoke-city",
+      "canonical_name": "Stoke City",
+      "aliases": ["Stoke", "Stoke City FC", "Stoke City F.C."]
+    },
+    {
+      "id": "sunderland",
+      "canonical_name": "Sunderland",
+      "aliases": ["Sunderland AFC", "Sunderland A.F.C.", "Sunderland FC", "Sunderland F.C."]
+    },
+    {
+      "id": "swansea-city",
+      "canonical_name": "Swansea City",
+      "aliases": ["Swansea", "Swansea City AFC", "Swansea City A.F.C."]
+    },
+    {
+      "id": "swindon-town",
+      "canonical_name": "Swindon Town",
+      "aliases": ["Swindon", "Swindon Town FC", "Swindon Town F.C."]
+    },
+    {
+      "id": "tottenham-hotspur",
+      "canonical_name": "Tottenham Hotspur",
+      "aliases": ["Tottenham", "Spurs", "Tottenham Hotspur FC", "Tottenham Hotspur F.C.", "Tottenham Hotspurs", "THFC"]
+    },
+    {
+      "id": "watford",
+      "canonical_name": "Watford",
+      "aliases": ["Watford FC", "Watford F.C."]
+    },
+    {
+      "id": "west-brom",
+      "canonical_name": "West Brom",
+      "aliases": ["West Bromwich Albion", "West Bromwich", "West Bromwich Albion FC", "West Bromwich Albion F.C.", "WBA"]
+    },
+    {
+      "id": "west-ham",
+      "canonical_name": "West Ham",
+      "aliases": ["West Ham United", "West Ham Utd", "West Ham United FC", "West Ham United F.C.", "WHUFC"]
+    },
+    {
+      "id": "wigan-athletic",
+      "canonical_name": "Wigan Athletic",
+      "aliases": ["Wigan", "Wigan Athletic FC", "Wigan Athletic A.F.C."]
+    },
+    {
+      "id": "wimbledon",
+      "canonical_name": "Wimbledon",
+      "aliases": ["Wimbledon FC", "Wimbledon F.C."]
+    },
+    {
+      "id": "wolves",
+      "canonical_name": "Wolves",
+      "aliases": ["Wolverhampton Wanderers", "Wolverhampton", "Wolverhampton Wanderers FC", "Wolverhampton Wanderers F.C.", "Wolves FC"]
+    }
+  ]
+}

@@ -3,7 +3,7 @@ description: Isolated Exploration Agent for noncanonical mock-ups, design catalo
 mode: subagent
 color: "#EC4899"
 model: openai/gpt-6-luna
-variant: xhigh
+variant: max
 permission:
   edit:
     "*": deny

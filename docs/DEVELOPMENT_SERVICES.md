@@ -7,6 +7,8 @@ lifecycle actions through `dev.ps1`; do not launch competing host servers or use
 
 Run these from the repository root in PowerShell. Before any lifecycle action, first run `status`; the initial
 missing-service report is expected. Reuse healthy services rather than restarting them.
+The `setup` command can create the SQLite file in the shared volume; run it only when needed and with the required
+authorization. If a database already exists and passes `quick_check`, setup leaves it unchanged.
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File ./dev.ps1 status
@@ -16,9 +18,11 @@ powershell -ExecutionPolicy Bypass -File ./dev.ps1 start
 powershell -ExecutionPolicy Bypass -File ./dev.ps1 status
 ```
 
-`setup` creates `/data/fplpatternrec.db` only when the file is absent and refuses to overwrite it. It is an empty,
-valid SQLite database with no tables. `start` does not seed, import, update, or otherwise populate the database.
-The SQLite file exists only in the `fplpatternrec-sqlite` Docker volume; do not create or mount a host `data/` folder.
+`setup` creates `/data/fplpatternrec.db` only when the file is absent. For an existing database it requires
+`PRAGMA quick_check` to return `ok`, then leaves the file unchanged regardless of its table count. Setup does not
+reset, migrate, or delete database contents. A newly created database is empty; `start` does not seed, import,
+update, or otherwise populate it. The SQLite file exists only in the `fplpatternrec-sqlite` Docker volume; do not
+create or mount a host `data/` or `data/database/` folder for SQLite.
 
 Supported actions are `setup`, `start`, `stop`, `restart`, `rebuild`, `status`, and `logs`. Each action may target
 `all`, `backend`, `frontend`, `storybook`, or `datasette`, for example:
@@ -46,7 +50,7 @@ startup; if selecting a different port set is necessary, update Compose,
 application configuration, and this document together. Keep these services
 isolated from other local projects.
 
-Compose creates three distinct target volumes: `fplpatternrec-sqlite` for the empty database,
+Compose creates three distinct target volumes: `fplpatternrec-sqlite` for the SQLite database,
 `fplpatternrec-frontend-node-modules` for the frontend install, and
 `fplpatternrec-storybook-node-modules` for Storybook. Datasette alone mounts the SQLite volume, at `/data`.
 
@@ -64,5 +68,14 @@ Compose creates three distinct target volumes: `fplpatternrec-sqlite` for the em
 
 - Before every lifecycle action or browser/E2E check, run `dev.ps1 status` and reuse healthy services.
 - Use only `dev.ps1` for service lifecycle actions. Never start Uvicorn, Vite, or Storybook directly on the host.
-- Never write data into the SQLite volume; this starter intentionally keeps the database empty.
+- `data-tools` is a separate one-shot Compose service, not a persistent lifecycle target. Use `data.ps1` for its
+  supported data-pipeline commands; it runs with `--no-deps` and does not start the four development services.
+- `data.ps1 retrieve ...` refreshes raw files in the checkout and does not import them into SQLite.
+  `data.ps1 ingest official-fpl-teams` creates/uses only `stg_official_fpl_teams` and writes the selected season to
+  `/data/fplpatternrec.db` in the named volume.
+  Shared-volume proof is still pending; local fixture tests do not prove the current volume's state. See
+  [`DATA_PIPELINE.md`](DATA_PIPELINE.md) for command, inventory, and proof status.
+- Use only the named SQLite volume for database storage; do not create a host database directory. Run volume-writing
+  setup or ingestion only with the required authorization, and never reset or delete a populated volume to make a
+  proof pass.
 - Use only the ports listed above for these services.

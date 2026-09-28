@@ -1,8 +1,6 @@
-"""Historical/context source collectors that have no supported structured API."""
+"""Understat league and match-payload retrieval."""
 
 from __future__ import annotations
-
-from datetime import UTC, datetime
 
 from .common import RawCollector, current_season_start
 
@@ -52,30 +50,3 @@ def collect_understat(collector: RawCollector) -> None:
             )
             if index % 100 == 0:
                 print(f"  Understat {year}: {index}/{len(match_ids)} match payloads", flush=True)
-
-
-def collect_football_data(collector: RawCollector) -> None:
-    print("Collecting Football-Data.co.uk Premier League CSV seasons", flush=True)
-    for year in range(1993, current_season_start() + 1):
-        season_code = f"{year % 100:02d}{(year + 1) % 100:02d}"
-        collector.get(
-            "football_data",
-            f"E0_{season_code}.csv",
-            f"https://www.football-data.co.uk/mmz4281/{season_code}/E0.csv",
-        )
-
-
-def collect_clubelo(collector: RawCollector) -> None:
-    print("Trying the ClubElo public CSV API", flush=True)
-    date = datetime.now(UTC).date().isoformat()
-    collector.get("clubelo", f"daily/{date}.csv", f"https://api.clubelo.com/{date}")
-
-
-def collect_sofascore(collector: RawCollector) -> None:
-    print("Trying the Sofascore public competition API", flush=True)
-    collector.get_json(
-        "sofascore",
-        "premier_league_seasons.json",
-        "https://www.sofascore.com/api/v1/unique-tournament/17/seasons",
-        {"Referer": "https://www.sofascore.com/", "Accept": "application/json"},
-    )

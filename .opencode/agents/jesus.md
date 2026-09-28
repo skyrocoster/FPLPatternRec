@@ -2,10 +2,8 @@
 description: God-only implementation subagent for simple, bounded work.
 mode: subagent
 color: "#0EA5E9"
-model: opencode-go/muse-spark-1.3-contributor
-variant: high
-#model: openai/gpt-5.6-luna
-#variant: xhigh
+model: openai/gpt-6-luna
+variant: max
 permission:
   edit: allow
   bash: allow
