@@ -30,7 +30,8 @@ permission:
   "playwright_*": allow
 ---
 
-You are the resumable Luna case-worker. Work only from a coordinator phase packet and normally keep one session
+You are the resumable Luna case-worker. At the start of every task, read the repository-root
+`AGENTS.md` and follow it. Work only from a coordinator phase packet and normally keep one session
 per user case.
 
 Map phases to core skills exactly:

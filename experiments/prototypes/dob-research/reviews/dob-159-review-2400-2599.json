@@ -1,0 +1,226 @@
+{
+  "verified": [
+    {
+      "player_id": 2400,
+      "display_name": "Eduardo dos Reis Carvalho",
+      "fpl_season": "2017-18",
+      "fpl_code": "41251",
+      "date_of_birth": "1982-09-19",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Eduardo_Carvalho",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 41251 as Eduardo dos Reis Carvalho; the live FPL scope/code mapping and Chelsea history agree. Eduardo Carvalho's profile confirms 1982-09-19."
+    },
+    {
+      "player_id": 2435,
+      "display_name": "Leiva Lucas",
+      "fpl_season": "2017-18",
+      "fpl_code": "43191",
+      "date_of_birth": "1987-01-09",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Lucas_Leiva",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 43191 with Lucas Leiva; the live FPL scope/code mapping and Liverpool history agree despite the reversed display-name order. His profile gives the full name Lucas Pezzini Leiva and DOB 1987-01-09."
+    },
+    {
+      "player_id": 2437,
+      "display_name": "Oluwaseyi Ojo",
+      "fpl_season": "2017-18",
+      "fpl_code": "141921",
+      "date_of_birth": "1997-06-19",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Sheyi_Ojo",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 141921 with Ojo; the live FPL scope/code mapping and Liverpool history agree. Sheyi Ojo's profile identifies him as Oluwaseyi Babajide Ojo and gives DOB 1997-06-19."
+    },
+    {
+      "player_id": 2442,
+      "display_name": "Gnegneri Yaya Touré",
+      "fpl_season": "2017-18",
+      "fpl_code": "14664",
+      "date_of_birth": "1983-05-13",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Yaya_Tour%C3%A9",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 14664 with Gnegneri Yaya Touré; the live FPL scope/code mapping and Manchester City history agree. His profile confirms DOB 1983-05-13."
+    },
+    {
+      "player_id": 2443,
+      "display_name": "Fernando Francisco Reges",
+      "fpl_season": "2017-18",
+      "fpl_code": "52538",
+      "date_of_birth": "1987-07-25",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Fernando_(footballer,_born_1987)",
+        "https://maisfutebol.iol.pt/fernando/fc-porto/1574-63-18095",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "This is Fernando Francisco Reges, not Manchester City teammate Fernandinho (Fernando Luiz Roza). The correct Fernando profile and Mais Futebol player page give DOB 1987-07-25 and document his Manchester City spell. The public 2017-18 FPL archive distinguishes Reges at code 52538 from Fernandinho at code 27789; live scope/code and Manchester City history match player 2443. The preliminary 1985-05-04 citation was for the separate Fernandinho."
+    },
+    {
+      "player_id": 2444,
+      "display_name": "Manuel Agudo Durán",
+      "fpl_season": "2017-18",
+      "fpl_code": "86173",
+      "date_of_birth": "1986-10-15",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Nolito",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 86173 with Nolito; the live FPL scope/code mapping and Manchester City history agree. Nolito's profile gives the full name Manuel Agudo Durán and DOB 1986-10-15."
+    },
+    {
+      "player_id": 2445,
+      "display_name": "Joel Dinis Castro Pereira",
+      "fpl_season": "2017-18",
+      "fpl_code": "168196",
+      "date_of_birth": "1996-06-28",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Joel_Castro_Pereira",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 168196 with Joel Castro Pereira; the live FPL scope/code mapping and Manchester United history agree. His profile gives the full name Joel Dinis Castro Pereira and DOB 1996-06-28."
+    },
+    {
+      "player_id": 2468,
+      "display_name": "Bojan Krkic Perez",
+      "fpl_season": "2017-18",
+      "fpl_code": "40276",
+      "date_of_birth": "1990-08-28",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Bojan_Krki%C4%87",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 40276 with Bojan; the live FPL scope/code mapping and Stoke City history agree. Bojan Krkić's profile gives his full name and DOB 1990-08-28."
+    },
+    {
+      "player_id": 2470,
+      "display_name": "Mame Biram Diouf",
+      "fpl_season": "2017-18",
+      "fpl_code": "61858",
+      "date_of_birth": "1987-12-16",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Mame_Biram_Diouf",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 61858 with Mame Biram Diouf; the live FPL scope/code mapping and Stoke City history agree. His profile confirms DOB 1987-12-16."
+    },
+    {
+      "player_id": 2474,
+      "display_name": "Jesé Rodríguez Ruiz",
+      "fpl_season": "2017-18",
+      "fpl_code": "93127",
+      "date_of_birth": "1993-02-26",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jes%C3%A9",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 93127 with Jesé; the live FPL scope/code mapping and Stoke City history agree. His profile gives the full name Jesé Rodríguez Ruiz, DOB 1993-02-26, and his Stoke loan for 2017-18."
+    },
+    {
+      "player_id": 2476,
+      "display_name": "Thomas Edwards",
+      "fpl_season": "2017-18",
+      "fpl_code": "209212",
+      "date_of_birth": "1999-01-22",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Tom_Edwards_(footballer,_born_1999)",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 209212 with Tom Edwards; the live FPL scope/code mapping and Stoke City history agree. His profile identifies him as Thomas Adam Edwards and confirms DOB 1999-01-22."
+    },
+    {
+      "player_id": 2482,
+      "display_name": "Papa Alioune Ndiaye",
+      "fpl_season": "2017-18",
+      "fpl_code": "163463",
+      "date_of_birth": "1990-10-27",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Badou_Ndiaye",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 163463 with Papa Alioune Ndiaye; the live FPL scope/code mapping and Stoke City history agree. Badou Ndiaye's profile identifies Papa Alioune N'Diaye, confirms DOB 1990-10-27, and documents his Stoke move in January 2018."
+    },
+    {
+      "player_id": 2484,
+      "display_name": "Lasse Sorenson",
+      "fpl_season": "2017-18",
+      "fpl_code": "226029",
+      "date_of_birth": "1999-10-21",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Lasse_S%C3%B8rensen_(footballer,_born_1999)",
+        "https://www.dbu.dk/landshold/landsholdsdatabasen/PlayerInfo/7484/",
+        "https://www.wikidata.org/wiki/Q21622938",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The Danish Football Association DBU profile explicitly gives Lasse Sørensen's birthday as 21-10-1999, and the player profile agrees and documents Stoke City. Wikidata Q21622938 also displays a conflicting 22 October claim; the official DBU date resolves it to 1999-10-21. The public FPL archive row identifies code 226029 with Lasse Sørensen; live scope/code and Stoke history match player 2484."
+    },
+    {
+      "player_id": 2493,
+      "display_name": "Jay Fulton",
+      "fpl_season": "2017-18",
+      "fpl_code": "96305",
+      "date_of_birth": "1994-04-01",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jay_Fulton",
+        "https://www.swanseacity.com/player/82",
+        "https://www.wikidata.org/wiki/Q6166625",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "Swansea City's official player profile gives Jay Fulton's date of birth as 01/04/1994, and the biography agrees. Wikidata Q6166625 also carries a conflicting 4 April claim attributed to Soccerway; the official club profile resolves the date to 1994-04-01. The public FPL archive row identifies code 96305 with Jay Fulton; live scope/code and Swansea City history match player 2493."
+    },
+    {
+      "player_id": 2523,
+      "display_name": "Allan-Roméo Nyom",
+      "fpl_season": "2017-18",
+      "fpl_code": "67527",
+      "date_of_birth": "1988-05-10",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Allan_Nyom",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 67527 with Allan Nyom; the live FPL scope/code mapping and Watford/West Brom history agree. His profile gives the full name Allan-Roméo Nyom and DOB 1988-05-10."
+    },
+    {
+      "player_id": 2542,
+      "display_name": "Antonio Martinez Lopez",
+      "fpl_season": "2017-18",
+      "fpl_code": "178867",
+      "date_of_birth": "1997-06-30",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Toni_Mart%C3%ADnez",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 178867 with Antonio Martínez López; the live FPL scope/code mapping and West Ham history agree. Toni Martínez's profile gives the matching full name and DOB 1997-06-30."
+    },
+    {
+      "player_id": 2544,
+      "display_name": "João Mário Naval Costa Eduardo",
+      "fpl_season": "2017-18",
+      "fpl_code": "109788",
+      "date_of_birth": "1993-01-19",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jo%C3%A3o_M%C3%A1rio_(footballer,_born_January_1993)",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The public 2017-18 FPL archive row identifies code 109788 with João Mário; the live FPL scope/code mapping and West Ham history agree. The profile gives the full name João Mário Naval da Costa Eduardo, DOB 1993-01-19, and records his West Ham loan in 2018."
+    },
+    {
+      "player_id": 2565,
+      "display_name": "Oscar dos Santos Emboaba Junior",
+      "fpl_season": "2016-17",
+      "fpl_code": "61262",
+      "date_of_birth": "1991-09-09",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Oscar_(footballer,_born_1991)",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The public 2016-17 FPL archive row identifies code 61262 with Oscar dos Santos Emboaba Júnior; the live FPL scope/code mapping and Chelsea history agree. His profile confirms DOB 1991-09-09."
+    }
+  ],
+  "unresolved": []
+}

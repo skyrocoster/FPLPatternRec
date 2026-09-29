@@ -6,7 +6,6 @@ import re
 
 from ..common import USER_AGENT
 
-FOTMOB_API = "https://www.fotmob.com/api/data"
 GITHUB_API = "https://api.github.com/repos"
 WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
 WIKIPEDIA_HEADERS = {

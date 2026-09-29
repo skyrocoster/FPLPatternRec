@@ -1,0 +1,64 @@
+{
+  "verified": [
+    {
+      "player_id": 1263,
+      "display_name": "Wesley Moraes Ferreira da Silva",
+      "fpl_season": "2023-24",
+      "fpl_code": "213345",
+      "date_of_birth": "1996-11-24",
+      "source_urls": [
+        "https://footballapi.pulselive.com/football/players/15580?comp=1",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2023-24/players_raw.csv",
+        "https://www.premierleague.com/en/players/213345/wesley/overview",
+        "https://www.11v11.com/players/wesley-253697/",
+        "https://www.transfermarkt.com/wesley-moraes/profil/spieler/381362"
+      ],
+      "review_note": "The official Premier League API record identifies Wesley Moraes Ferreira da Silva, gives the exact DOB 24 November 1996, and records Aston Villa as his previous team (he is now at Stoke City). This full-name and club history match the 2023-24 FPL row, code 213345, at Aston Villa. 11v11 gives the conflicting date 26 November; Transfermarkt agrees with the official API on 24 November. Confidence: high, based on the first-party exact-date record plus matching full name and club history."
+    },
+    {
+      "player_id": 1544,
+      "display_name": "Ty Barnett",
+      "fpl_season": "2023-24",
+      "fpl_code": "490095",
+      "date_of_birth": "2005-08-03",
+      "source_urls": [
+        "https://footballapi.pulselive.com/football/players/66548?comp=1",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2023-24/players_raw.csv",
+        "https://www.premierleague.com/en/players/490095/ty-barnett/overview",
+        "https://academy.wolves.co.uk/player/ty-barnett/",
+        "https://www.transfermarkt.com/ty-barnett/profil/spieler/751666",
+        "https://www.wikidata.org/wiki/Q123991680"
+      ],
+      "review_note": "The saved 2023-24 Premier League API roster entry is Ty Barnett (API id 66548), with Wolverhampton Wanderers as previous team, DOB label 3 August 2005, and altIds.opta p490095. That identifier matches the 2023-24 Wolves FPL row, code 490095; the Premier League profile and Wolves Academy page confirm the club/player identity. The competing 19 July 2005 claim appears on Wikidata; Transfermarkt also gives 3 August. Confidence: high because the official Premier League API supplies an exact date and the API roster's identity/code and Wolves registration match the historical FPL row."
+    },
+    {
+      "player_id": 2151,
+      "display_name": "Danilo Luiz da Silva",
+      "fpl_season": "2017-18",
+      "fpl_code": "100180",
+      "date_of_birth": "1991-07-15",
+      "source_urls": [
+        "https://footballapi.pulselive.com/football/players/5328?comp=1",
+        "https://web.archive.org/web/20170708221114id_/http://www.realmadrid.com/futbol/plantilla/danilo-luiz-da-silva?pid=1378720068423",
+        "https://web.archive.org/web/20180730202943id_/https://www.fifadata.com/documents/FWC/2018/pdf/FWC_2018_Squadlists.pdf#page=4",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2017-18/players_raw.csv"
+      ],
+      "review_note": "The official Premier League API record identifies Danilo (Danilo Luiz da Silva) and gives 15 July 1991. The archived Real Madrid official profile independently shows 15/07/1991. I opened the cited FIFA 2018 squad-list PDF and checked the Brazil roster page: its Danilo Luiz row lists Manchester City and DOB 15.07.1991, so the PDF supports 15 July rather than the competing 16 July. The 2017-18 FPL row/code 100180 is the Manchester City entry. Confidence: very high; the PL API, Real Madrid profile, and FIFA squad list agree on the exact day."
+    }
+  ],
+  "unresolved": [
+    {
+      "player_id": 1118,
+      "display_name": "Tom Taylor",
+      "reason": "The 2024-25 FPL archive maps code 592712 to Ipswich Town's Tom Taylor, and the Premier League profile confirms the Ipswich Town U21 player, but the saved 2024-25 Premier League API rosters contain no Tom Taylor DOB entry and the profile page does not state an exact date. Soccerbase states 21 February 2005, while Transfermarkt states 21 February 2006; Wikipedia also conflicts internally between 2005 in its title/lead and 2006 in its infobox. TWTD identifies the Ipswich U21 player and reported him as 20 on 1 September 2025, which is age evidence rather than an exact DOB. No first-party exact-date source was found to resolve the year, so the DOB remains null. Confidence: unresolved; neither disputed year is assigned.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2024-25/players_raw.csv",
+        "https://www.premierleague.com/en/players/592712/tom-taylor/overview",
+        "https://www.soccerbase.com/players/player.sd?player_id=203745",
+        "https://www.transfermarkt.com/tom-taylor/profil/spieler/1099929",
+        "https://www.twtd.co.uk/ipswich-town-news/50246/u21s-skipper-taylor-set-for-cheltenham-loan",
+        "https://en.wikipedia.org/wiki/Tom_Taylor_(footballer,_born_2005)"
+      ]
+    }
+  ]
+}

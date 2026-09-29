@@ -4,14 +4,17 @@ from __future__ import annotations
 
 import re
 
-from .common import GITHUB_API, RawCollector, season_start
+from .common import RawCollector, season_start
+from .provider_config import FPL_ARCHIVE_CONTENTS_API
 
 
 def collect_fpl_archive(collector: RawCollector) -> None:
     source = "fpl_archive_vaastav"
     print("Collecting historical FPL gameweek archives", flush=True)
     api_headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
-    listing = collector.get_json(source, "catalogues/data.json", f"{GITHUB_API}/data", api_headers)
+    listing = collector.get_json(
+        source, "catalogues/data.json", f"{FPL_ARCHIVE_CONTENTS_API}/data", api_headers
+    )
     if not isinstance(listing, list):
         return
     seasons = sorted(
@@ -26,7 +29,7 @@ def collect_fpl_archive(collector: RawCollector) -> None:
         root = collector.get_json(
             source,
             f"catalogues/{season}.json",
-            f"{GITHUB_API}/data/{season}",
+            f"{FPL_ARCHIVE_CONTENTS_API}/data/{season}",
             api_headers,
         )
         if not isinstance(root, list):
@@ -42,7 +45,7 @@ def collect_fpl_archive(collector: RawCollector) -> None:
         gameweeks = collector.get_json(
             source,
             f"catalogues/{season}_gws.json",
-            f"{GITHUB_API}/data/{season}/gws",
+            f"{FPL_ARCHIVE_CONTENTS_API}/data/{season}/gws",
             api_headers,
         )
         if isinstance(gameweeks, list):

@@ -1,0 +1,427 @@
+{
+  "verified": [
+    {
+      "player_id": 1501,
+      "display_name": "Anis Slimane",
+      "fpl_season": "2023-24",
+      "fpl_code": "504198",
+      "date_of_birth": "2001-03-16",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Anis_Ben_Slimane",
+        "https://www.wikidata.org/wiki/Q85410990"
+      ],
+      "review_note": "The public profiles identify Anis Ben Slimane and give the exact date 2001-03-16; the article records his Sheffield United 2023-24 career. Live SQLite maps canonical player 1501 to fpl.element.code 504198 for 2023-24 and Sheffield United."
+    },
+    {
+      "player_id": 1504,
+      "display_name": "Vini de Souza Costa",
+      "fpl_season": "2023-24",
+      "fpl_code": "424001",
+      "date_of_birth": "1999-06-17",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Vin%C3%ADcius_Souza",
+        "https://www.wikidata.org/wiki/Q69968896"
+      ],
+      "review_note": "The profiles identify Vinícius de Souza Costa and give the exact date 1999-06-17; the career record includes Sheffield United in 2023-24. The live 2023-24 SQLite mapping is code 424001 for canonical player 1504 at Sheffield United, matching the full-name variant."
+    },
+    {
+      "player_id": 1527,
+      "display_name": "Yago de Santiago Alonso",
+      "fpl_season": "2023-24",
+      "fpl_code": "492779",
+      "date_of_birth": "2003-04-15",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Yago_Santiago"
+      ],
+      "review_note": "The public profile gives Yago de Santiago Alonso's exact date as 2003-04-15 and identifies his Tottenham Hotspur academy career in the period of the FPL record. Live SQLite maps canonical player 1527 to code 492779 in 2023-24 with Tottenham Hotspur."
+    },
+    {
+      "player_id": 1538,
+      "display_name": "Jonathan Castro Otto",
+      "fpl_season": "2018-19",
+      "fpl_code": "114128",
+      "date_of_birth": "1994-03-03",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jonny_Otto",
+        "https://www.wikidata.org/wiki/Q3180002"
+      ],
+      "review_note": "The public profiles identify Jonathan Castro Otto (Jonny) and give the exact date 1994-03-03; the article records his move to Wolves in 2018. Live SQLite maps canonical player 1538 to code 114128 in 2018-19 with Wolves."
+    },
+    {
+      "player_id": 1548,
+      "display_name": "Pablo Marí Villar",
+      "fpl_season": "2019-20",
+      "fpl_code": "92371",
+      "date_of_birth": "1993-08-31",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Pablo_Mar%C3%AD",
+        "https://www.wikidata.org/wiki/Q7121685"
+      ],
+      "review_note": "The public profiles identify Pablo Marí Villar and give the exact date 1993-08-31; his career record includes Arsenal from 2020. Live SQLite maps canonical player 1548 to code 92371 in 2019-20 with Arsenal."
+    },
+    {
+      "player_id": 1554,
+      "display_name": "Kaine Kesler Hayden",
+      "fpl_season": "2022-23",
+      "fpl_code": "537043",
+      "date_of_birth": "2002-10-23",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Kaine_Kesler-Hayden",
+        "https://www.wikidata.org/wiki/Q104733764"
+      ],
+      "review_note": "The public profiles give Kaine Kesler-Hayden's exact date as 2002-10-23 and identify him as an Aston Villa academy player. Live SQLite maps the hyphenless canonical name to code 537043 in 2022-23 with Aston Villa."
+    },
+    {
+      "player_id": 1578,
+      "display_name": "Robert Kenedy Nunes do Nascimento",
+      "fpl_season": "2016-17",
+      "fpl_code": "167767",
+      "date_of_birth": "1996-02-08",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Kenedy_(footballer)",
+        "https://www.wikidata.org/wiki/Q14755604"
+      ],
+      "review_note": "The public profiles identify Robert Kenedy Nunes do Nascimento (Kenedy) and give the exact date 1996-02-08; his career record includes Chelsea. Live SQLite maps canonical player 1578 to code 167767 in 2016-17 with Chelsea."
+    },
+    {
+      "player_id": 1594,
+      "display_name": "Allan Marques Loureiro",
+      "fpl_season": "2020-21",
+      "fpl_code": "119765",
+      "date_of_birth": "1991-01-08",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Allan_(footballer,_born_1991)",
+        "https://www.wikidata.org/wiki/Q2470512"
+      ],
+      "review_note": "The disambiguated public profile identifies Allan Marques Loureiro and gives the exact date 1991-01-08; it records Everton from 2020 to 2022. Live SQLite maps canonical player 1594 to code 119765 in 2020-21 with Everton."
+    },
+    {
+      "player_id": 1626,
+      "display_name": "Mateus Cardoso Lemos Martins",
+      "fpl_season": "2022-23",
+      "fpl_code": "225295",
+      "date_of_birth": "2000-02-15",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Tet%C3%AA",
+        "https://www.wikidata.org/wiki/Q60842153"
+      ],
+      "review_note": "The public profiles identify Mateus Cardoso Lemos Martins (Tetê) and give the exact date 2000-02-15; his career record includes the Leicester City loan in 2022-23. Live SQLite maps canonical player 1626 to code 225295 in 2022-23 with Leicester City."
+    },
+    {
+      "player_id": 1631,
+      "display_name": "Rodrigo Moreno",
+      "fpl_season": "2020-21",
+      "fpl_code": "80954",
+      "date_of_birth": "1991-03-06",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Rodrigo_(footballer,_born_1991)",
+        "https://www.wikidata.org/wiki/Q376394"
+      ],
+      "review_note": "The footballer-specific profile identifies Rodrigo Moreno Machado (Rodrigo), gives the exact date 1991-03-06, and records his move to Leeds United in 2020. Live SQLite maps canonical player 1631 to code 80954 in 2020-21 with Leeds United."
+    },
+    {
+      "player_id": 1636,
+      "display_name": "Raphael Dias Belloli",
+      "fpl_season": "2020-21",
+      "fpl_code": "219961",
+      "date_of_birth": "1996-12-14",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Raphinha",
+        "https://www.wikidata.org/wiki/Q28861547"
+      ],
+      "review_note": "The public profiles identify Raphael Dias Belloli (Raphinha), give the exact date 1996-12-14, and record his Leeds United career. Live SQLite maps canonical player 1636 to code 219961 in 2020-21 with Leeds United."
+    },
+    {
+      "player_id": 1652,
+      "display_name": "Ben Davies",
+      "fpl_season": "2020-21",
+      "fpl_code": "152898",
+      "date_of_birth": "1995-08-11",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Ben_Davies_(footballer,_born_1995)",
+        "https://www.wikidata.org/wiki/Q4885508"
+      ],
+      "review_note": "The 1995-born defender profile identifies Benjamin Keith Davies and gives the exact date 1995-08-11; it records his 2021 Liverpool registration. This disambiguates him from Tottenham's Ben Davies. Live SQLite maps canonical player 1652 to code 152898 in 2020-21 with Liverpool."
+    },
+    {
+      "player_id": 1653,
+      "display_name": "Arthur Henrique Ramos de Oliveira Melo",
+      "fpl_season": "2022-23",
+      "fpl_code": "204043",
+      "date_of_birth": "1996-08-12",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Arthur_Melo",
+        "https://www.wikidata.org/wiki/Q39667548"
+      ],
+      "review_note": "The public profiles identify Arthur Henrique Ramos de Oliveira Melo and give the exact date 1996-08-12; the article records his Liverpool loan in 2022-23. Live SQLite maps canonical player 1653 to code 204043 in 2022-23 with Liverpool."
+    },
+    {
+      "player_id": 1658,
+      "display_name": "Cristiano Ronaldo dos Santos Aveiro",
+      "fpl_season": "2021-22",
+      "fpl_code": "14937",
+      "date_of_birth": "1985-02-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+        "https://www.wikidata.org/wiki/Q11571"
+      ],
+      "review_note": "The public profiles identify Cristiano Ronaldo dos Santos Aveiro and give the exact date 1985-02-05; his career record confirms Manchester United in 2021-22. Live SQLite maps canonical player 1658 to code 14937 in 2021-22 with Manchester United."
+    },
+    {
+      "player_id": 1672,
+      "display_name": "Carlos Ribeiro Dias",
+      "fpl_season": "2022-23",
+      "fpl_code": "166325",
+      "date_of_birth": "1993-02-26",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Caf%C3%BA_(footballer,_born_1993)",
+        "https://www.wikidata.org/wiki/Q5042378"
+      ],
+      "review_note": "The public profile identifies Cafú as Carlos Miguel Ribeiro Dias, gives the exact date 1993-02-26, and records his Nottingham Forest career from 2020 to 2023. The canonical display name omits the middle name Miguel. Live SQLite maps player 1672 to code 166325 in 2022-23 with Nottingham Forest."
+    },
+    {
+      "player_id": 1674,
+      "display_name": "Xande Nascimento da Costa Silva",
+      "fpl_season": "2018-19",
+      "fpl_code": "209925",
+      "date_of_birth": "1997-03-16",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Xande_Silva",
+        "https://www.wikidata.org/wiki/Q18128074"
+      ],
+      "review_note": "The public profile identifies Alexandre Nascimento da Costa e Silva (Xande Silva), gives the exact date 1997-03-16, and records his West Ham career. Live SQLite maps canonical player 1674 to code 209925 in 2018-19 with West Ham."
+    },
+    {
+      "player_id": 1677,
+      "display_name": "Renan Augusto Lodi dos Santos",
+      "fpl_season": "2022-23",
+      "fpl_code": "233420",
+      "date_of_birth": "1998-04-08",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Renan_Lodi",
+        "https://www.wikidata.org/wiki/Q55055451"
+      ],
+      "review_note": "The public profiles identify Renan Augusto Lodi dos Santos and give the exact date 1998-04-08; the article's career record includes his Nottingham Forest loan in 2022-23. Live SQLite maps canonical player 1677 to code 233420 in 2022-23 with Nottingham Forest."
+    },
+    {
+      "player_id": 1679,
+      "display_name": "Dale Taylor",
+      "fpl_season": "2022-23",
+      "fpl_code": "524069",
+      "date_of_birth": "2003-12-12",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Dale_Taylor",
+        "https://www.wikidata.org/wiki/Q109556208"
+      ],
+      "review_note": "The public profile gives Dale Taylor's exact date as 2003-12-12 and records his Nottingham Forest academy career. Live SQLite maps canonical player 1679 to code 524069 in 2022-23 with Nottingham Forest."
+    },
+    {
+      "player_id": 1689,
+      "display_name": "Lyanco Silveira Neves Vojnovic",
+      "fpl_season": "2021-22",
+      "fpl_code": "212721",
+      "date_of_birth": "1997-02-01",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Lyanco",
+        "https://www.wikidata.org/wiki/Q21066551"
+      ],
+      "review_note": "The public profile identifies Lyanco Evangelista Silveira Neves Vojnovic, gives the exact date 1997-02-01, and records his Southampton career. The canonical display name omits Evangelista. Live SQLite maps player 1689 to code 212721 in 2021-22 with Southampton."
+    },
+    {
+      "player_id": 1691,
+      "display_name": "Ibrahima Diallo",
+      "fpl_season": "2020-21",
+      "fpl_code": "240143",
+      "date_of_birth": "1999-03-08",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Ibrahima_Diallo_(footballer,_born_1999)",
+        "https://www.wikidata.org/wiki/Q56732531"
+      ],
+      "review_note": "The birth-year-disambiguated profile identifies the French Ibrahima Diallo, gives the exact date 1999-03-08, and records Southampton from 2020 to 2023. Live SQLite maps canonical player 1691 to code 240143 in 2020-21 with Southampton."
+    },
+    {
+      "player_id": 1699,
+      "display_name": "Jimmy Morgan",
+      "fpl_season": "2022-23",
+      "fpl_code": "493736",
+      "date_of_birth": "2006-01-21",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jimmy-Jay_Morgan"
+      ],
+      "review_note": "Resolved the abbreviated canonical name to Jimmy-Jay Morgan: the public profile gives 2006-01-21 and records Southampton academy activity in 2022-23. Live SQLite attaches the Southampton 2022-23 code 493736 to canonical player 1699, distinguishing this player from older Jimmy Morgan namesakes."
+    },
+    {
+      "player_id": 1701,
+      "display_name": "Kamari Doyle",
+      "fpl_season": "2022-23",
+      "fpl_code": "494541",
+      "date_of_birth": "2005-08-01",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Kamari_Doyle",
+        "https://www.wikidata.org/wiki/Q118557695"
+      ],
+      "review_note": "The public profiles identify Kamari Olivier Newby Doyle and give the exact date 2005-08-01; his career record identifies Southampton academy activity during the FPL season. Live SQLite maps canonical player 1701 to code 494541 in 2022-23 with Southampton."
+    },
+    {
+      "player_id": 1702,
+      "display_name": "Dominic Ballard",
+      "fpl_season": "2022-23",
+      "fpl_code": "494543",
+      "date_of_birth": "2005-04-01",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Dom_Ballard",
+        "https://www.wikidata.org/wiki/Q113586548"
+      ],
+      "review_note": "The public profile identifies Dominic Ballard (Dom Ballard), gives the exact date 2005-04-01, and identifies him as a Southampton academy product. Live SQLite maps canonical player 1702 to code 494543 in 2022-23 with Southampton."
+    },
+    {
+      "player_id": 1703,
+      "display_name": "Lucas Rodrigues Moura da Silva",
+      "fpl_season": "2017-18",
+      "fpl_code": "95715",
+      "date_of_birth": "1992-08-13",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Lucas_Moura",
+        "https://www.wikidata.org/wiki/Q312886"
+      ],
+      "review_note": "The public profiles identify Lucas Rodrigues Moura da Silva and give the exact date 1992-08-13; the article records his Tottenham Hotspur career beginning in 2018. Live SQLite maps canonical player 1703 to code 95715 in 2017-18 with Tottenham Hotspur."
+    },
+    {
+      "player_id": 1712,
+      "display_name": "João Filipe Iria Santos Moutinho",
+      "fpl_season": "2018-19",
+      "fpl_code": "19624",
+      "date_of_birth": "1986-09-08",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jo%C3%A3o_Moutinho",
+        "https://www.wikidata.org/wiki/Q222151"
+      ],
+      "review_note": "The public profiles give João Filipe Iria Santos Moutinho's exact date as 1986-09-08 and record his Wolves career beginning in 2018. Live SQLite maps canonical player 1712 to code 19624 in 2018-19 with Wolves."
+    },
+    {
+      "player_id": 1735,
+      "display_name": "Mahmoud Ahmed Ibrahim Hassan",
+      "fpl_season": "2019-20",
+      "fpl_code": "148508",
+      "date_of_birth": "1994-10-01",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Tr%C3%A9z%C3%A9guet_(Egyptian_footballer)",
+        "https://www.wikidata.org/wiki/Q6734350"
+      ],
+      "review_note": "The footballer-specific profile identifies Mahmoud Ahmed Ibrahim Hassan (Trézéguet), gives the exact date 1994-10-01, and records his Aston Villa career from 2019. Live SQLite maps canonical player 1735 to code 148508 in 2019-20 with Aston Villa."
+    },
+    {
+      "player_id": 1736,
+      "display_name": "Mbwana Ally Samatta",
+      "fpl_season": "2019-20",
+      "fpl_code": "217487",
+      "date_of_birth": "1992-12-23",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+        "https://www.wikidata.org/wiki/Q3303586"
+      ],
+      "review_note": "The public profiles identify Mbwana Ally Samatta and give the exact date 1992-12-23; the article records his move to Aston Villa in January 2020. Live SQLite maps canonical player 1736 to code 217487 in 2019-20 with Aston Villa."
+    },
+    {
+      "player_id": 1738,
+      "display_name": "Benjamin Chrisene",
+      "fpl_season": "2021-22",
+      "fpl_code": "487835",
+      "date_of_birth": "2004-01-12",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Ben_Chrisene",
+        "https://www.wikidata.org/wiki/Q66547875"
+      ],
+      "review_note": "The public profile identifies Benjamin Joshua Chrisene, gives the exact date 2004-01-12, and records his Aston Villa academy registration. Live SQLite maps canonical player 1738 to code 487835 in 2021-22 with Aston Villa."
+    },
+    {
+      "player_id": 1743,
+      "display_name": "Maxwell Haygarth",
+      "fpl_season": "2021-22",
+      "fpl_code": "461558",
+      "date_of_birth": "2002-01-21",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Max_Haygarth",
+        "https://www.wikidata.org/wiki/Q104149580"
+      ],
+      "review_note": "The public profile identifies Maxwell James Haygarth and gives the exact date 2002-01-21; its career section records Brentford in 2021-22. Live SQLite maps canonical player 1743 to code 461558 in 2021-22 with Brentford."
+    },
+    {
+      "player_id": 1750,
+      "display_name": "Bernardo Fernandes Da Silva Junior",
+      "fpl_season": "2018-19",
+      "fpl_code": "209362",
+      "date_of_birth": "1995-05-14",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Bernardo_(footballer,_born_1995)",
+        "https://www.wikidata.org/wiki/Q22675674"
+      ],
+      "review_note": "The birth-year-disambiguated profile identifies Bernardo Fernandes da Silva Junior and gives the exact date 1995-05-14; his career record includes Brighton from 2018. Live SQLite maps canonical player 1750 to code 209362 in 2018-19 with Brighton."
+    },
+    {
+      "player_id": 1781,
+      "display_name": "Bernard Anício Caldeira Duarte",
+      "fpl_season": "2018-19",
+      "fpl_code": "100649",
+      "date_of_birth": "1992-09-08",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Bernard_(footballer)",
+        "https://www.wikidata.org/wiki/Q137242"
+      ],
+      "review_note": "The public profiles identify Bernard Anício Caldeira Duarte and give the exact date 1992-09-08; the article records his move to Everton in 2018. Live SQLite maps canonical player 1781 to code 100649 in 2018-19 with Everton."
+    },
+    {
+      "player_id": 1789,
+      "display_name": "Francisco Casilla Cortés",
+      "fpl_season": "2020-21",
+      "fpl_code": "39790",
+      "date_of_birth": "1986-10-02",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Kiko_Casilla",
+        "https://www.wikidata.org/wiki/Q721600"
+      ],
+      "review_note": "The public profiles identify Francisco Kiko Casilla Cortés and give the exact date 1986-10-02; the article records his 2019-20 Leeds United season. Live SQLite maps canonical player 1789 to code 39790 in 2020-21 with Leeds United."
+    },
+    {
+      "player_id": 1790,
+      "display_name": "Hélder Wander Sousa de Azevedo e Costa",
+      "fpl_season": "2020-21",
+      "fpl_code": "165808",
+      "date_of_birth": "1994-01-12",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/H%C3%A9lder_Costa",
+        "https://www.wikidata.org/wiki/Q5964146"
+      ],
+      "review_note": "The public profiles identify Hélder Wander Sousa de Azevedo e Costa and give the exact date 1994-01-12; his career record includes Leeds United in 2020-21. Live SQLite maps canonical player 1790 to code 165808 in 2020-21 with Leeds United."
+    }
+  ],
+  "unresolved": [
+    {
+      "player_id": 1503,
+      "display_name": "Bénie Traoré",
+      "reason": "The Sheffield United 2023-24 FPL mapping (code 523957) and profile identify the player as Bénie Adama Traoré, but the exact day conflicts: the English Wikipedia profile states 2002-11-30 while Wikidata Q106464198 has exact DOB claims for both 2002-11-22 and 2002-11-30. Leave unresolved rather than selecting one date by frequency.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/B%C3%A9nie_Traor%C3%A9",
+        "https://www.wikidata.org/wiki/Q106464198"
+      ]
+    },
+    {
+      "player_id": 1544,
+      "display_name": "Ty Barnett",
+      "reason": "The Wolves 2023-24 FPL mapping (code 490095) and footballer profile identify Ty Kimoni Barnett, but the exact day conflicts: the English Wikipedia profile states 2005-08-03 while Wikidata Q123991680 states 2005-07-19. Leave unresolved pending a source that settles the conflict.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Ty_Barnett_(footballer)",
+        "https://www.wikidata.org/wiki/Q123991680"
+      ]
+    },
+    {
+      "player_id": 1613,
+      "display_name": "Charlie Robinson",
+      "reason": "Live SQLite maps this name to Fulham in 2022-23 (FPL code 547673), but the public Charlie Robinson page redirects to a broad Charles/Charlie Robinson disambiguation and Wikidata Q415013 is not a uniquely identified Fulham footballer with an exact DOB. The season/club/code mapping does not distinguish a homonym, so no DOB is assigned.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Charlie_Robinson",
+        "https://www.wikidata.org/wiki/Q415013"
+      ]
+    }
+  ]
+}

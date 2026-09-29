@@ -5,14 +5,12 @@ from __future__ import annotations
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from .common import (
-    PL_PLAYER_STATS,
-    PL_TEAM_STATS,
-    PULSELIVE_API,
     RawCollector,
     current_season_start,
     season_start,
     slug,
 )
+from .provider_config import PL_PLAYER_STATS, PL_TEAM_STATS, PULSELIVE_API
 
 
 def _pl_headers() -> dict[str, str]:

@@ -2,7 +2,8 @@
 
 from __future__ import annotations
 
-from .common import FPL_API, RawCollector
+from .common import RawCollector
+from .provider_config import FPL_API
 
 
 def _fpl_headers() -> dict[str, str]:

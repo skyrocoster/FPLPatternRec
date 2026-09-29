@@ -1,0 +1,381 @@
+[
+  {
+    "player_id": 1841,
+    "display_name": "Daniel N'Lundulu",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "200088",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q100868899",
+      "https://en.wikipedia.org/wiki/Dan_Nlundulu"
+    ],
+    "review_note": "Wikidata P569 and the profile agree on 1999-02-05, but the queried P54 club is Petrolul rather than the SQL Southampton team (2019-20 through 2021-22). Left unresolved because the required FPL-club identity link was not established."
+  },
+  {
+    "player_id": 1862,
+    "display_name": "Francisco Femenía Far",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "54484",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q2269948",
+      "https://en.wikipedia.org/wiki/Kiko_Femen%C3%ADa"
+    ],
+    "review_note": "The Kiko Femenía profile and day-precise P569 agree on 1991-02-02, but queried P54 lists Getafe rather than the SQL Watford team (2017-18 through 2021-22). Kept unresolved under the club identity check."
+  },
+  {
+    "player_id": 1882,
+    "display_name": "Matthew Pollock",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "467311",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/w/index.php?search=Matthew%20Pollock&title=Special:Search"
+    ],
+    "review_note": "The exact-name Wikidata search surfaced a peerage person and a volleyball player; no unique day-precise footballer profile with a Watford P54 match and profile cross-check was established."
+  },
+  {
+    "player_id": 1883,
+    "display_name": "Oghenekaro Peter Etebo",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "227560",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q16733640",
+      "https://en.wikipedia.org/wiki/Peter_Etebo"
+    ],
+    "review_note": "The Peter Etebo profile confirms 1995-11-09, but queried P54 lists Stoke City rather than the SQL Watford team in 2021-22. Left unresolved because the requested season-club identity link did not match."
+  },
+  {
+    "player_id": 1885,
+    "display_name": "Adedapo Awokoya-Mebude",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "243569",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q64740098",
+      "https://en.wikipedia.org/wiki/Dapo_Mebude"
+    ],
+    "review_note": "The Dapo Mebude profile confirms 2001-07-29, but queried P54 lists Rangers rather than the SQL Watford team in 2021-22. Left unresolved because the requested season-club identity link did not match."
+  },
+  {
+    "player_id": 1886,
+    "display_name": "Juan Camilo Hernández Suárez",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "244716",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q27037962",
+      "https://en.wikipedia.org/wiki/Cucho_Hern%C3%A1ndez"
+    ],
+    "review_note": "Wikidata's day-precise P569 gives 1999-04-22, while the Wikipedia profile says 1999-04-20. Although P54 and SQL both point to Watford, the date conflict prevents choosing a value."
+  },
+  {
+    "player_id": 1907,
+    "display_name": "Daniel Chesters",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "440120",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q109035772",
+      "https://en.wikipedia.org/wiki/Daniel_Chesters"
+    ],
+    "review_note": "The profile confirms 2002-04-04, but a matching West Ham P54 relationship was not returned for this Wikidata profile; SQL records West Ham in 2021-22. Left unresolved without the requested club linkage."
+  },
+  {
+    "player_id": 1913,
+    "display_name": "Francisco Machado Mota de Castro Trincão",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "222564",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/w/index.php?search=Francisco%20Machado%20Mota%20de%20Castro%20Trinc%C3%A3o&title=Special:Search"
+    ],
+    "review_note": "The supplied full name and Trincão short-name searches did not establish a day-precise P569 profile with a Wolves P54 relationship plus a Wikipedia/PL date cross-check."
+  },
+  {
+    "player_id": 1921,
+    "display_name": "David Luiz Moreira Marinho",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "41270",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q193706",
+      "https://en.wikipedia.org/wiki/David_Luiz"
+    ],
+    "review_note": "The profile confirms 1987-04-22, but queried P54 lists Pafos FC and not the SQL Chelsea/Arsenal clubs (2016-17 through 2020-21). Left unresolved under the club identity check."
+  },
+  {
+    "player_id": 1923,
+    "display_name": "Daniel Ceballos Fernández",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "182539",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q16972254",
+      "https://en.wikipedia.org/wiki/Dani_Ceballos"
+    ],
+    "review_note": "The profile confirms 1996-08-07 and notes his Arsenal loan, but queried P54 lists Real Betis rather than the SQL Arsenal team (2019-20 and 2020-21). Left unresolved under the club identity check."
+  },
+  {
+    "player_id": 2015,
+    "display_name": "William Fish",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "461566",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q8009070",
+      "https://en.wikipedia.org/wiki/William_Fish"
+    ],
+    "review_note": "The English Wikipedia title is a disambiguation page and does not provide a unique footballer biography; no day-precise P569 plus Manchester United P54 profile was established."
+  },
+  {
+    "player_id": 2035,
+    "display_name": "Frankie Maguire",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "531076",
+    "date_of_birth": null,
+    "source_urls": [],
+    "review_note": "No unique public footballer profile with a day-precise P569, Sheffield United P54, and Wikipedia/PL cross-check was established."
+  },
+  {
+    "player_id": 2058,
+    "display_name": "Ahmed El-Sayed Hegazy",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "77777",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q2409638",
+      "https://en.wikipedia.org/wiki/Ahmed_Hegazi"
+    ],
+    "review_note": "The profile confirms 1991-01-25, but queried P54 lists Egyptian clubs and Fiorentina rather than the SQL West Brom team (2017-18 and 2020-21). Left unresolved under the club identity check."
+  },
+  {
+    "player_id": 2079,
+    "display_name": "Roberto Jimenez Gago",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "40694",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/w/index.php?search=Roberto%20Jimenez%20Gago&title=Special:Search"
+    ],
+    "review_note": "Name searches surfaced other Roberto Jiménez football profiles but did not establish a unique day-precise profile with West Ham P54 and a Wikipedia/PL cross-check for the SQL West Ham player."
+  },
+  {
+    "player_id": 2085,
+    "display_name": "Ademipo Odubeko",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "461533",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q104786223",
+      "https://en.wikipedia.org/wiki/Mipo_Odubeko"
+    ],
+    "review_note": "The Mipo Odubeko profile gives a day-precise birth date and confirms West Ham history, but the Wikidata query did not establish a West Ham P54 relationship for this item. Kept unresolved under the required club linkage."
+  },
+  {
+    "player_id": 2091,
+    "display_name": "Vitor Ferreira",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "437858",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q66818509",
+      "https://en.wikipedia.org/wiki/Vitinha"
+    ],
+    "review_note": "The Vitinha profile and P569 agree on 2000-02-13, but queried P54 lists Paris Saint-Germain rather than the SQL Wolves team in 2020-21. Left unresolved because the season-club identity link did not match."
+  },
+  {
+    "player_id": 2151,
+    "display_name": "Danilo Luiz da Silva",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "100180",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/w/index.php?search=Danilo%20Luiz%20da%20Silva&title=Special:Search"
+    ],
+    "review_note": "The FPL club is Manchester City, but the short-name Danilo search returns multiple footballers and did not resolve a single day-precise P569 profile with Manchester City P54 plus an article cross-check."
+  },
+  {
+    "player_id": 2154,
+    "display_name": "José Ángel Esmorís Tasende",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "145235",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q20688718",
+      "https://en.wikipedia.org/wiki/Angeli%C3%B1o"
+    ],
+    "review_note": "The Angeliño profile confirms 1997-01-04, but queried P54 lists Deportivo de A Coruña rather than the SQL Manchester City team (2016-17 and 2019-20). Left unresolved under the club identity check."
+  },
+  {
+    "player_id": 2160,
+    "display_name": "Thomas Allan",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "232957",
+    "date_of_birth": null,
+    "source_urls": [],
+    "review_note": "No unique public footballer profile with a day-precise P569, Newcastle United P54, and Wikipedia/PL cross-check was established."
+  },
+  {
+    "player_id": 2220,
+    "display_name": "Gonçalo Bento Soares Cardoso",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "459373",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Cardoso"
+    ],
+    "review_note": "The Wikipedia title is a disambiguation between Portuguese footballers born in 1990 and 2000. No unique profile with a day-precise P569 and West Ham P54 was established for the SQL West Ham player."
+  },
+  {
+    "player_id": 2260,
+    "display_name": "Danny Ward",
+    "scope": "premier-league:2018-19",
+    "fpl_code": "75826",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q19281946",
+      "https://en.wikipedia.org/wiki/Danny_Ward_(Welsh_footballer)"
+    ],
+    "review_note": "The Welsh goalkeeper profile confirms 1993-06-22 but its P54 history does not match the SQL Cardiff City team; searches also surfaced other footballers named Danny Ward. No unique Cardiff-linked profile was established."
+  },
+  {
+    "player_id": 2324,
+    "display_name": "Matthew Daly",
+    "scope": "premier-league:2018-19",
+    "fpl_code": "450314",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q6790380",
+      "https://en.wikipedia.org/wiki/Matthew_Daly"
+    ],
+    "review_note": "The exact-title Wikipedia/Wikidata profile is an English field hockey player, not the Huddersfield footballer in SQL. No unique day-precise footballer profile with Huddersfield P54 was established."
+  },
+  {
+    "player_id": 2369,
+    "display_name": "Roderick Jefferson Gonçalves Miranda",
+    "scope": "premier-league:2018-19",
+    "fpl_code": "67184",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q2631531",
+      "https://en.wikipedia.org/wiki/Roderick_Miranda"
+    ],
+    "review_note": "The profile confirms 1991-03-30, but queried P54 does not include Wolverhampton Wanderers, the 2018-19 SQL team. Left unresolved under the club identity check."
+  },
+  {
+    "player_id": 2375,
+    "display_name": "Gabriel Armando de Abreu",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "158074",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q14602686",
+      "https://en.wikipedia.org/wiki/Gabriel_Paulista"
+    ],
+    "review_note": "The profile confirms 1990-11-26 and Arsenal history, but queried P54 currently lists Corinthians rather than the SQL Arsenal team (2016-17 and 2017-18). Left unresolved under the club identity check."
+  },
+  {
+    "player_id": 2474,
+    "display_name": "Jesé Rodríguez Ruiz",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "93127",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q513911",
+      "https://en.wikipedia.org/wiki/Jes%C3%A9"
+    ],
+    "review_note": "The profile and day-precise P569 agree on 1993-02-26, but queried P54 lists Las Palmas rather than the SQL Stoke City team in 2017-18. Left unresolved under the club identity check."
+  },
+  {
+    "player_id": 2476,
+    "display_name": "Thomas Edwards",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "209212",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/w/index.php?search=Thomas%20Edwards%20footballer&title=Special:Search"
+    ],
+    "review_note": "The common name did not resolve to a unique day-precise footballer profile with Stoke City P54 and a Wikipedia/PL cross-check for the SQL Stoke player."
+  },
+  {
+    "player_id": 2482,
+    "display_name": "Papa Alioune Ndiaye",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "163463",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/w/index.php?search=Papa%20Alioune%20Ndiaye&title=Special:Search"
+    ],
+    "review_note": "Badou Ndiaye is an alternative name, but a unique day-precise P569 profile with Stoke City P54 and a Wikipedia/PL cross-check was not established in this pass."
+  },
+  {
+    "player_id": 2544,
+    "display_name": "João Mário Naval Costa Eduardo",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "109788",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/w/index.php?search=Jo%C3%A3o%20M%C3%A1rio%20Naval%20Costa%20Eduardo&title=Special:Search"
+    ],
+    "review_note": "João Mário is not unique among footballer profiles; the search did not establish a single day-precise P569 item with West Ham P54 and a cross-check for the 2017-18 SQL player."
+  },
+  {
+    "player_id": 2615,
+    "display_name": "Bernardo Espinosa Zúñiga",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "55317",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q2760431",
+      "https://en.wikipedia.org/wiki/Bernardo_Espinosa"
+    ],
+    "review_note": "The profile confirms 1989-07-11, but queried P54 lists Spanish clubs and not Middlesbrough, the 2016-17 SQL team. Left unresolved under the club identity check."
+  },
+  {
+    "player_id": 2699,
+    "display_name": "Pau López Sabata",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "182960",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q17466615",
+      "https://en.wikipedia.org/wiki/Pau_L%C3%B3pez"
+    ],
+    "review_note": "The profile confirms 1994-12-13 and says he represented Tottenham without appearances, but queried P54 does not include Tottenham, the 2016-17 SQL team. Left unresolved under the club identity check."
+  },
+  {
+    "player_id": 2731,
+    "display_name": "Evandro Goebel",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "52287",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q660159",
+      "https://en.wikipedia.org/wiki/Evandro_(footballer,_born_1986)"
+    ],
+    "review_note": "The profile confirms 1986-08-23, but queried P54 lists other clubs and not Hull City, the 2016-17 SQL team. Left unresolved under the club identity check."
+  },
+  {
+    "player_id": 2751,
+    "display_name": "Joshua Harrop",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "156690",
+    "date_of_birth": null,
+    "source_urls": [],
+    "review_note": "No unique public footballer profile with a day-precise P569, Manchester United P54, and Wikipedia/PL cross-check was established."
+  },
+  {
+    "player_id": 2752,
+    "display_name": "Daniel Kemp",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "221568",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q38585680",
+      "https://en.wikipedia.org/wiki/Daniel_Kemp"
+    ],
+    "review_note": "The Wikipedia exact-title result is a disambiguation and the Wikidata name match did not provide a verified West Ham P54 plus day-precise P569 profile for the 2016-17 SQL player."
+  }
+]

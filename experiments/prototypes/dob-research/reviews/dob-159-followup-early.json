@@ -1,0 +1,69 @@
+{
+  "verified": [
+    {
+      "player_id": 1316,
+      "display_name": "Victor da Silva",
+      "fpl_season": "2023-24",
+      "fpl_code": "441455",
+      "date_of_birth": "1999-07-23",
+      "source_urls": [
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2023-24/players_raw.csv",
+        "https://www.premierleague.com/en/players/441455/vitinho/overview",
+        "https://www.transfermarkt.com/vitinho/profil/spieler/468249"
+      ],
+      "review_note": "The 2023-24 FPL export maps element 182/code 441455 to first/last name Victor da Silva, web_name Vitinho, and Burnley; the Premier League profile at the same code identifies Vitinho, now at Botafogo. Transfermarkt identifies its Vitinho as Victor Alexander da Silva and gives 23 July 1999, with Botafogo as his current club after his Burnley spell. The code, alias, full name, and club history identify this player rather than another Victor da Silva; the exact date is stated, not inferred."
+    },
+    {
+      "player_id": 1374,
+      "display_name": "Callum Scanlon",
+      "fpl_season": "2023-24",
+      "fpl_code": "519328",
+      "date_of_birth": "2005-02-14",
+      "source_urls": [
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2023-24/players_raw.csv",
+        "https://www.premierleague.com/en/players/519328/calum-scanlon/overview",
+        "https://legacy.liverpoolfc.com/team/academy/player/calum-scanlon"
+      ],
+      "review_note": "The 2023-24 FPL export maps code 519328/web_name Scanlon to the Liverpool row. The Premier League profile at that code identifies Liverpool U21 defender Calum Scanlon, and Liverpool's official academy archive gives Calum's DOB as 14 February 2005, birthplace Birmingham, and his Liverpool signing history. The FPL export spells its first_name field Callum; the matching code, surname, and Liverpool registration link that row to the official Calum profile."
+    },
+    {
+      "player_id": 1414,
+      "display_name": "Joseph Johnson",
+      "fpl_season": "2023-24",
+      "fpl_code": "611011",
+      "date_of_birth": "2006-02-21",
+      "source_urls": [
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2023-24/players_raw.csv",
+        "https://footballapi.pulselive.com/football/players/134709?comp=1",
+        "https://www.premierleague.com/en/players/134709/joe-johnson/overview",
+        "https://www.transfermarkt.com/joe-johnson/profil/spieler/1088818"
+      ],
+      "review_note": "The 2023-24 FPL export maps code 611011/web_name Johnson and Joseph Johnson to Luton. The Premier League API record (league player ID 134709, distinct from the FPL code) identifies Joe Johnson, lists Luton Town, and states 21 February 2006; Transfermarkt independently gives the same date for Joseph Nathan Johnson at Luton. The shared name and Luton registration tie these exact-date profiles to the historical FPL row, rather than relying on the common name alone."
+    }
+  ],
+  "unresolved": [
+    {
+      "player_id": 1118,
+      "display_name": "Tom Taylor",
+      "reason": "The 2024-25 FPL export maps code 592712/web_name Tom Taylor to Ipswich, and the Premier League profile at that code identifies Tom Taylor of Ipswich Town U21. The exact birth year remains contradictory: Soccerbase states 21 February 2005, while Transfermarkt states 21 February 2006; the footballer-specific Wikipedia page also has 2005 in its title/lead and 2006 in its infobox. Club/league pages reviewed identify the player but do not state an exact DOB. No primary exact-date source was found to settle the conflict, so neither year is selected.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2024-25/players_raw.csv",
+        "https://www.premierleague.com/en/players/592712/tom-taylor/overview",
+        "https://www.transfermarkt.com/tom-taylor/profil/spieler/1099929",
+        "https://www.soccerbase.com/players/player.sd?player_id=203745",
+        "https://en.wikipedia.org/wiki/Tom_Taylor_(footballer,_born_2005)",
+        "https://www.twtd.co.uk/ipswich-town-news/50246/u21s-skipper-taylor-set-for-cheltenham-loan"
+      ]
+    },
+    {
+      "player_id": 1263,
+      "display_name": "Wesley Moraes Ferreira da Silva",
+      "reason": "The 2023-24 FPL export confirms code 213345/web_name Wesley, and the historical FPL row is Aston Villa. The direct 11v11 profile identifies Wesley Moraes Ferreira da Silva, records his Aston Villa career, and gives 26 November 1996; Transfermarkt identifies the same full-name player and gives 24 November 1996. These direct sports databases conflict on the exact day, and no primary club/league/FA profile stating the exact DOB was found to resolve it. Do not choose by source count.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2023-24/players_raw.csv",
+        "https://www.11v11.com/players/wesley-253697/",
+        "https://www.transfermarkt.com/wesley-moraes/profil/spieler/381362"
+      ]
+    }
+  ]
+}

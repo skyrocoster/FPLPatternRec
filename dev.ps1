@@ -5,14 +5,14 @@ param(
     [string]$Action = "status",
 
     [Parameter(Position = 1)]
-    [ValidateSet("all", "backend", "frontend", "storybook", "datasette")]
+    [ValidateSet("all", "backend", "frontend", "storybook", "datasette", "data-inspector")]
     [string]$Service = "all"
 )
 
 $ErrorActionPreference = "Stop"
 $ComposeFile = Join-Path $PSScriptRoot "compose.yaml"
 $ProjectDirectory = $PSScriptRoot
-$AllServices = @("backend", "frontend", "storybook", "datasette")
+$AllServices = @("backend", "frontend", "storybook", "datasette", "data-inspector")
 
 function Invoke-Compose {
     param([string[]]$Arguments)

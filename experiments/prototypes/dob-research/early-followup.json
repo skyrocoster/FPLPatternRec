@@ -1,0 +1,304 @@
+[
+  {
+    "player_id": 1055,
+    "display_name": "Mathias Jorgensen",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "48760",
+    "fpl_club": "Brentford",
+    "date_of_birth": "1990-04-23",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q248938",
+      "https://en.wikipedia.org/wiki/Mathias_J%C3%B8rgensen",
+      "https://www.brentfordfc.com/news/2021/september/mathias-jorgensen-zanka-joins-brentford/"
+    ],
+    "review_note": "Resolved to the senior Danish defender Mathias Jattah-Njie Jørgensen (Zanka), not the separate 2000-born Danish striker of the same name. The exact-day Wikipedia infobox and Wikidata P569 give 1990-04-23; the article records his 2021-24 Brentford career and Brentford's signing notice independently confirms that club link. This matches this historical FPL row's Brentford club and code 48760. Do not reject the match because the current P54 list is incomplete or stale. The scoped PL roster is data/raw/premier_league_api/players/2024-25."
+  },
+  {
+    "player_id": 1069,
+    "display_name": "Ângelo Gabriel Borges Damaceno",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "518620",
+    "fpl_club": "Chelsea",
+    "date_of_birth": "2004-12-21",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q100879633",
+      "https://en.wikipedia.org/wiki/%C3%82ngelo_Gabriel",
+      "https://www.chelseafc.com/en/news/article/angelo-gabriel-joins-chelsea"
+    ],
+    "review_note": "The exact-day Wikipedia infobox and Wikidata P569 identify Ângelo Gabriel Borges Damaceno, born 2004-12-21. The career table says Chelsea signed him in July 2023 and loaned him to Strasbourg for 2023-24; Chelsea's signing notice corroborates the registration. That explains why a current-team P54 check alone misses this historical Chelsea FPL row (code 518620); it does not indicate a different person. The scoped PL roster is data/raw/premier_league_api/players/2024-25."
+  },
+  {
+    "player_id": 1147,
+    "display_name": "Thomas Wilson-Brown",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "532535",
+    "fpl_club": "Leicester City",
+    "date_of_birth": "2004-10-05",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q135602716",
+      "https://en.wikipedia.org/wiki/Tom_Wilson-Brown",
+      "https://www.transfermarkt.com/tom-wilson-brown/profil/spieler/867710"
+    ],
+    "review_note": "Resolved to the Leicester City academy centre-back, not the actor Thomas Wilson Brown. The Wikipedia infobox gives the exact 2004-10-05 date and describes him as a Leicester academy product; Transfermarkt independently lists the same full name, exact date, Leicester background and later loans. This matches the historical Leicester FPL row (code 532535) and its 2024-25 PL roster scope. The Wikidata item links to this footballer's article but has no P54/DOB statements, so its sparse claims are not used as disproof."
+  },
+  {
+    "player_id": 1228,
+    "display_name": "Maeson King",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "592736",
+    "fpl_club": "Tottenham Hotspur",
+    "date_of_birth": "2005-09-09",
+    "source_urls": [
+      "https://www.tottenhamhotspur.com/player/592736/maeson-king",
+      "https://www.transfermarkt.co.uk/maeson-king/profil/spieler/1047342",
+      "https://www.worldfootball.net/person/pe902509/maeson-king/"
+    ],
+    "review_note": "Tottenham's official player profile identifies Maeson King as its academy defender and gives the exact date 9 September 2005. Transfermarkt and WorldFootball independently report the same day. The name, code 592736 and Tottenham club align with this historical FPL row; unlike a year-only age estimate, the date comes from a club profile and two football databases. The scoped PL roster is data/raw/premier_league_api/players/2024-25."
+  },
+  {
+    "player_id": 1365,
+    "display_name": "Matthew Dibley-Dias",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "515023",
+    "fpl_club": "Fulham",
+    "date_of_birth": "2003-10-29",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q123015778",
+      "https://en.wikipedia.org/wiki/Matt_Dibley-Dias",
+      "https://www.fulhamfc.com/players/matt-dibley-dias"
+    ],
+    "review_note": "Resolved to Fulham midfielder Matthew Max Dibley-Dias. The Wikipedia infobox gives 29 October 2003 and its career section lists his Fulham academy and senior registration; Fulham's official profile independently identifies him. The exact-day claim on Wikidata is consistent with the article, while its separate year-precision claim is not a competing day. This corroborates the 2023-24 Fulham FPL row (code 515023) even though the item has no P54 claim. The scoped PL roster is data/raw/premier_league_api/players/2023-24."
+  },
+  {
+    "player_id": 1381,
+    "display_name": "Mads Juel Andersen",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "208904",
+    "fpl_club": "Luton Town",
+    "date_of_birth": "1997-12-27",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q30855497",
+      "https://en.wikipedia.org/wiki/Mads_Juel_Andersen",
+      "https://www.bbc.com/sport/football/66085528"
+    ],
+    "review_note": "The Wikipedia infobox and exact-day Wikidata P569 give 1997-12-27. The article identifies this Danish defender and records his 2023 move from Barnsley to Luton and 2023-24 Premier League season; BBC independently reports Luton signing Andersen from Barnsley. The historical Luton FPL row is code 208904. The item currently lists only an earlier member-of-team claim (HB Køge), which does not negate the dated Luton career evidence. The scoped PL roster is data/raw/premier_league_api/players/2023-24."
+  },
+  {
+    "player_id": 1455,
+    "display_name": "Amadou Diallo",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "248859",
+    "fpl_club": "Newcastle United",
+    "date_of_birth": "2003-02-15",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q123408318",
+      "https://en.wikipedia.org/wiki/Amadou_Diallo_(footballer,_born_2003)",
+      "https://www.nufc.co.uk/teams/under-21s/amadou-diallo/"
+    ],
+    "review_note": "Resolved the homonym to the English winger born 15 February 2003, not another Amadou Diallo. The disambiguated Wikipedia article and Wikidata item identify the exact-day DOB and Newcastle career; Newcastle's academy profile independently ties the same person to the club. That career and the historical FPL code 248859/club Newcastle identify this 2023-24 row."
+  },
+  {
+    "player_id": 1475,
+    "display_name": "Gustavo Henrique Furtado Scarpa",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "185253",
+    "fpl_club": "Nottingham Forest",
+    "date_of_birth": "1994-01-05",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q19709176",
+      "https://en.wikipedia.org/wiki/Gustavo_Scarpa",
+      "https://www.nottinghamforest.co.uk/players/gustavoscarpa"
+    ],
+    "review_note": "Wikipedia's infobox and Wikidata P569 give the exact date 1994-01-05. The article's club-career table lists Nottingham Forest for 2023-24 and describes his Forest signing; Forest's official player profile independently identifies Scarpa. Those dated links establish identity for FPL code 185253/Nottingham Forest even though the Wikidata P54 list omits Forest. The scoped PL roster is data/raw/premier_league_api/players/2023-24."
+  },
+  {
+    "player_id": 1483,
+    "display_name": "Detlef Esapa Osong",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "536677",
+    "fpl_club": "Nottingham Forest",
+    "date_of_birth": "2004-09-21",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q116607965",
+      "https://en.wikipedia.org/wiki/Esapa_Osong",
+      "https://www.11v11.com/players/detlef-esapa-osong-271719/"
+    ],
+    "review_note": "The exact-day Wikipedia infobox gives 21 September 2004 and identifies Detlef Esapa Osong; the article's football career identifies his Nottingham Forest academy pathway. 11v11 independently lists the same footballer and Forest history. This links the exact person to the 2023-24 Forest FPL row (code 536677). Wikidata has no P54 claim, which is not evidence against that dated career link. The scoped PL roster is data/raw/premier_league_api/players/2023-24."
+  },
+  {
+    "player_id": 1501,
+    "display_name": "Anis Slimane",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "504198",
+    "fpl_club": "Sheffield United",
+    "date_of_birth": "2001-03-16",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q85410990",
+      "https://en.wikipedia.org/wiki/Anis_Ben_Slimane",
+      "https://www.playmakerstats.com/player/anis-slimane/616581"
+    ],
+    "review_note": "Wikidata's exact P569 (2001-03-16) agrees with the exact-date Wikipedia infobox. The article records his 2023 signing for Sheffield United, and PlaymakerStats independently gives the same DOB and Sheffield United team. That career evidence matches the 2023-24 FPL record (code 504198/Sheffield United); an incomplete Wikidata P54 list is not treated as a contradiction."
+  },
+  {
+    "player_id": 1527,
+    "display_name": "Yago de Santiago Alonso",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "492779",
+    "fpl_club": "Tottenham Hotspur",
+    "date_of_birth": "2003-04-15",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Yago_Santiago",
+      "https://www.worldfootball.net/person/pe641977/yago-santiago/",
+      "https://www.transfermarkt.co.uk/yago-santiago/profil/spieler/706947"
+    ],
+    "review_note": "Resolved the full FPL name to Spanish winger Yago de Santiago Alonso. Wikipedia gives the exact date 15 April 2003; the article's career history includes Tottenham Hotspur U21, while WorldFootball and Transfermarkt independently match his full name and exact day. That Tottenham career link matches the 2023-24 historical FPL row (code 492779); this is not an inferred year-only DOB."
+  },
+  {
+    "player_id": 1544,
+    "display_name": "Ty Barnett",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "490095",
+    "fpl_club": "Wolves",
+    "date_of_birth": "2005-08-03",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q123991680",
+      "https://en.wikipedia.org/wiki/Ty_Barnett_(footballer)",
+      "https://www.wolves.co.uk/news/academy/20220811-barnett-signs-first-professional-contract/"
+    ],
+    "review_note": "This is Ty Kimoni Barnett, the Wolves academy midfielder/winger, not the actor on the unqualified Ty Barnett page. The footballer-specific Wikipedia infobox gives 3 August 2005 and lists his Wolves youth/senior career; Wolves' official first-contract announcement confirms the club identity. That matches the 2023-24 Wolves FPL row (code 490095). The older actor result is a homonym and is excluded."
+  },
+  {
+    "player_id": 1626,
+    "display_name": "Mateus Cardoso Lemos Martins",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "225295",
+    "fpl_club": "Leicester City",
+    "date_of_birth": "2000-02-15",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q60842153",
+      "https://en.wikipedia.org/wiki/Tet%C3%AA"
+    ],
+    "review_note": "Resolved the FPL full name to Tetê (Mateus Cardoso Lemos Martins). The exact-day Wikipedia infobox and Wikidata P569 give 15 February 2000; the article records his Leicester City loan in the second half of 2022-23, matching the historical Leicester FPL row (code 225295). The item does not list Leicester in P54, but the dated career entry is direct club evidence."
+  },
+  {
+    "player_id": 1631,
+    "display_name": "Rodrigo Moreno",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "80954",
+    "fpl_club": "Leeds United",
+    "date_of_birth": "1991-03-06",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q376394",
+      "https://en.wikipedia.org/wiki/Rodrigo_(footballer,_born_1991)"
+    ],
+    "review_note": "Disambiguated the Leeds footballer from the unrelated filmmaker returned by an exact-name search. The footballer-specific article identifies full name Rodrigo Moreno Machado, gives exact DOB 6 March 1991, and lists Leeds United from 2020 to 2023; Wikidata Q376394 links to this article. This matches the 2022-23 Leeds FPL code 80954 and club."
+  },
+  {
+    "player_id": 1672,
+    "display_name": "Carlos Ribeiro Dias",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "166325",
+    "fpl_club": "Nottingham Forest",
+    "date_of_birth": "1993-02-26",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q5042378",
+      "https://en.wikipedia.org/wiki/Caf%C3%BA_(footballer,_born_1993)",
+      "https://www.nottinghamforest.co.uk/news/2020/october/nottingham-forest-complete-signing-of-midfielder-cafu-from-olympiacos/"
+    ],
+    "review_note": "Resolved this row's abbreviated full name to Cafú, whose full name is Carlos Miguel Ribeiro Dias. The Wikipedia infobox and Wikidata identify the exact DOB as 1993-02-26; the article records Nottingham Forest from 2020 to 2023, including his 2022-23 Premier League appearance. Forest's signing notice independently confirms the alias/club link. The FPL row's Forest club and code 166325 fit that career; its shortened SQL display name omits the middle name Miguel."
+  },
+  {
+    "player_id": 1674,
+    "display_name": "Xande Nascimento da Costa Silva",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "209925",
+    "fpl_club": "Nottingham Forest",
+    "date_of_birth": "1997-03-16",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q18128074",
+      "https://en.wikipedia.org/wiki/Xande_Silva",
+      "https://www.nottinghamforest.co.uk/news/2021/august/Xande-Silva-joins-The-Reds/"
+    ],
+    "review_note": "The exact-day Wikipedia infobox and Wikidata identify Alexandre Nascimento da Costa e Silva (Xande Silva), born 16 March 1997; the article and Forest's signing notice confirm his Nottingham Forest career. Important scope detail: he left Forest for Dijon on 2 August 2022, before the 2022-23 league season, although the supplied historical FPL row is code 209925/Forest. The row is treated as a historical FPL registration snapshot, not proof he played for Forest that season. The exact identity/date is supported independently; missing/current P54 is not used to reject it."
+  },
+  {
+    "player_id": 1679,
+    "display_name": "Dale Taylor",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "524069",
+    "fpl_club": "Nottingham Forest",
+    "date_of_birth": "2003-12-12",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q109556208",
+      "https://en.wikipedia.org/wiki/Dale_Taylor",
+      "https://www.nottinghamforest.co.uk/news/2022/july/04/dale-taylor-signs-new-deal/"
+    ],
+    "review_note": "The Wikipedia infobox gives the exact date 12 December 2003 and the article records Taylor's Nottingham Forest academy and senior career, including the 2022-23 Premier League season. Wikidata's exact-day claim is consistent; the official Forest deal notice independently confirms the club. This matches the historical Forest FPL row (code 524069) despite the item having no P54 club claim."
+  },
+  {
+    "player_id": 1689,
+    "display_name": "Lyanco Silveira Neves Vojnovic",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "212721",
+    "fpl_club": "Southampton",
+    "date_of_birth": "1997-02-01",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q21066551",
+      "https://en.wikipedia.org/wiki/Lyanco",
+      "https://www.southamptonfc.com/news/2021-08-25/announcement-lyanco-transfer-southampton-torino"
+    ],
+    "review_note": "The Wikipedia infobox gives 1 February 1997 and its full-name/career data identify Lyanco as a Southampton player from 2021 to 2024, including the 2022-23 Premier League season. Wikidata P569 is exact and agrees; Southampton's signing notice independently confirms his identity and club. This matches the historical Southampton FPL row (code 212721); absent Southampton P54 is not contrary evidence."
+  },
+  {
+    "player_id": 1691,
+    "display_name": "Ibrahima Diallo",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "240143",
+    "fpl_club": "Southampton",
+    "date_of_birth": "1999-03-08",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q56732531",
+      "https://en.wikipedia.org/wiki/Ibrahima_Diallo_(footballer,_born_1999)"
+    ],
+    "review_note": "Resolved to the French midfielder born 8 March 1999, not other footballers named Ibrahima Diallo. The disambiguated Wikipedia article and Wikidata exact P569 agree and list Southampton from 2020 to 2023. That matches the 2022-23 Southampton FPL row (code 240143) even though current P54 claims do not include Southampton."
+  },
+  {
+    "player_id": 1701,
+    "display_name": "Kamari Doyle",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "494541",
+    "fpl_club": "Southampton",
+    "date_of_birth": "2005-08-01",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q118557695",
+      "https://en.wikipedia.org/wiki/Kamari_Doyle"
+    ],
+    "review_note": "The exact-date Wikipedia profile identifies Southampton academy midfielder Kamari Doyle, born 1 August 2005; Wikidata P569 agrees. The article's Southampton career information connects him to the club in the period of the historical FPL row (code 494541). No P54 claim is recorded on the item, but that omission does not outweigh the dated club and player identity evidence."
+  },
+  {
+    "player_id": 1702,
+    "display_name": "Dominic Ballard",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "494543",
+    "fpl_club": "Southampton",
+    "date_of_birth": "2005-04-01",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q113586548",
+      "https://en.wikipedia.org/wiki/Dom_Ballard"
+    ],
+    "review_note": "Resolved the FPL display name to Dom/Dominic Ballard, the Southampton academy forward. Wikipedia gives the exact date 1 April 2005 and the career link to Southampton; Wikidata P569 agrees. That corroborates the historical FPL row (code 494543). The item's missing P54 claim is not used as negative evidence."
+  },
+  {
+    "player_id": 1750,
+    "display_name": "Bernardo Fernandes Da Silva Junior",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "209362",
+    "fpl_club": "Brighton",
+    "date_of_birth": "1995-05-14",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q22675674",
+      "https://en.wikipedia.org/wiki/Bernardo_(footballer,_born_1995)"
+    ],
+    "review_note": "Resolved to Brazilian left-back Bernardo Fernandes da Silva Junior. The footballer-specific Wikipedia infobox and Wikidata P569 give the exact date 14 May 1995; the article's career history records Brighton and Hove Albion from 2018 to 2022, covering this 2021-22 FPL row (code 209362). The missing Brighton P54 claim is not treated as disproof of the historical registration."
+  }
+]

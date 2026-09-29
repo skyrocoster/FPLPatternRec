@@ -21,7 +21,8 @@ permission:
   "playwright_*": allow
 ---
 
-You are the resumable bulk-task case-worker. Use only when the user explicitly requests bulk work (for example,
+You are the resumable bulk-task case-worker. At the start of every task, read the repository-root
+`AGENTS.md` and follow it. Use only when the user explicitly requests bulk work (for example,
 bulk copy or other mult file/batch operations). Work only from a coordinator phase packet and normally keep one
 session per user case.
 

@@ -1,0 +1,215 @@
+{
+  "verified": [
+    {
+      "player_id": 2608,
+      "display_name": "James Wilson",
+      "fpl_season": "2016-17",
+      "fpl_code": "112139",
+      "date_of_birth": "1995-12-01",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/James_Wilson_(footballer,_born_1995)",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct profile identifies James Antony Wilson, gives his birth date, and lists Manchester United as his senior club. It also notes his 2016 Derby loan; the public 2016-17 FPL archive row and SQL season-scoped mapping tie code 112139 to this record rather than relying on the name alone."
+    },
+    {
+      "player_id": 2612,
+      "display_name": "George Friend",
+      "fpl_season": "2016-17",
+      "fpl_code": "40202",
+      "date_of_birth": "1987-10-19",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/George_Friend",
+        "https://www.11v11.com/players/george-friend-227794/",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct 11v11 profile confirms 19 October 1987 and his Middlesbrough career through 2016-17; the biographical profile gives his full name, George Andrew Jordan Friend. An alternate Wikidata day claim of 17 October was not used because the direct player profile confirms 19 October."
+    },
+    {
+      "player_id": 2615,
+      "display_name": "Bernardo Espinosa Zúñiga",
+      "fpl_season": "2016-17",
+      "fpl_code": "55317",
+      "date_of_birth": "1989-07-11",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Bernardo_Espinosa",
+        "https://www.eurosport.com/football/bernardo-espinosa_prs261131/person.shtml",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The profile identifies the full name Bernardo José Espinosa Zúñiga, gives 11 July 1989, and records his Middlesbrough career including 2016-17. The public FPL archive row and SQL mapping agree on code 55317 and the Middlesbrough team."
+    },
+    {
+      "player_id": 2632,
+      "display_name": "Dionatan do Nascimento Teixeira",
+      "fpl_season": "2016-17",
+      "fpl_code": "155706",
+      "date_of_birth": "1992-07-24",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Dionatan_Teixeira",
+        "https://www.bbc.co.uk/sport/football/27801520",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct biography gives the full name and 24 July 1992, and records his Stoke City career through January 2017. The BBC signing report independently identifies Dionatan Teixeira as a Stoke signing; the 2016-17 FPL archive row and SQL mapping match the code and club."
+    },
+    {
+      "player_id": 2656,
+      "display_name": "Mamadou Obbi Oularé",
+      "fpl_season": "2016-17",
+      "fpl_code": "179620",
+      "date_of_birth": "1996-01-08",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Obbi_Oular%C3%A9",
+        "https://www.bbc.co.uk/sport/football/34114298",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct profile identifies Mamadou Obbi Oularé, gives 8 January 1996, and lists Watford for 2015-19, including the 2016-17 season. The BBC signing report independently confirms the Watford identity; the FPL archive row and SQL mapping agree on the element code and club."
+    },
+    {
+      "player_id": 2668,
+      "display_name": "Juan Zuñiga",
+      "fpl_season": "2016-17",
+      "fpl_code": "42738",
+      "date_of_birth": "1985-12-14",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Juan_Camilo_Z%C3%BA%C3%B1iga",
+        "https://www.theguardian.com/football/2016/jul/16/watford-sign-juan-camilo-zuniga-loan-napoli-colombia",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The stored FPL display name is abbreviated and spells the surname without an acute accent. The direct profile identifies Juan Camilo Zúñiga Mosquera, gives 14 December 1985, and records his 2016-17 Watford loan; the Guardian's contemporaneous signing report confirms that exact player joined Watford."
+    },
+    {
+      "player_id": 2671,
+      "display_name": "Bradley Guzan",
+      "fpl_season": "2016-17",
+      "fpl_code": "41705",
+      "date_of_birth": "1984-09-09",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Brad_Guzan",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct profile identifies Bradley Edwin Guzan, gives 9 September 1984, and lists Middlesbrough in 2016-17. This matches the SQL historical team associated with this season-scoped FPL element code."
+    },
+    {
+      "player_id": 2686,
+      "display_name": "Fabio Pereira da Silva",
+      "fpl_season": "2016-17",
+      "fpl_code": "54771",
+      "date_of_birth": "1990-07-09",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Fabio_(footballer,_born_1990)",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct profile identifies Fabio Pereira da Silva, gives 9 July 1990, and lists Middlesbrough from 2016-18. This is the Brazilian full-back, not his twin brother Rafael; the FPL archive row and SQL mapping match the Middlesbrough element code."
+    },
+    {
+      "player_id": 2699,
+      "display_name": "Pau López Sabata",
+      "fpl_season": "2016-17",
+      "fpl_code": "182960",
+      "date_of_birth": "1994-12-13",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Pau_L%C3%B3pez",
+        "https://en.as.com/resultados/ficha/deportista/pau/24765/",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "AS's direct player record confirms 13 December 1994 and lists Tottenham for 2016-17; the biography identifies the player's full name as Pau López Sabata. The public FPL archive row and SQL mapping match code 182960 to Tottenham."
+    },
+    {
+      "player_id": 2706,
+      "display_name": "Michael Simões Domingues",
+      "fpl_season": "2016-17",
+      "fpl_code": "81061",
+      "date_of_birth": "1991-03-08",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Mika_(footballer,_born_1991)",
+        "https://maisfutebol.iol.pt/mika/benfica/1575-0-18105",
+        "https://en.wikipedia.org/wiki/Vito_Mannone",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "Correction to the dangerous preliminary assignment: player_id 2706 is Mika, whose full name is Michael Simões Domingues. His direct MaisFutebol profile gives 8 March 1991 and lists Sunderland in 2016-17. Vito Mannone is a different Sunderland goalkeeper: his separate profile gives 2 March 1988 and lists Sunderland from 2013-17. The public FPL archive's element code and name mapping, together with the separate profiles, prevent transferring Vito's date to Mika."
+    },
+    {
+      "player_id": 2710,
+      "display_name": "Oviemuno Ejaria",
+      "fpl_season": "2016-17",
+      "fpl_code": "154051",
+      "date_of_birth": "1997-11-18",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Ovie_Ejaria",
+        "https://www.espn.co.uk/football/player/_/id/238723/ovie-ejaria",
+        "https://www.bbc.co.uk/sport/football/42896591",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct biography identifies Oviemuno Dominic Ejaria, gives 18 November 1997, and records Liverpool in 2016-17. The player profile and contemporary Sunderland loan report provide independent career-identity checks."
+    },
+    {
+      "player_id": 2725,
+      "display_name": "Ethan Robson",
+      "fpl_season": "2016-17",
+      "fpl_code": "149051",
+      "date_of_birth": "1996-10-25",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Ethan_Robson",
+        "https://web.archive.org/web/20171004043252/https://www.safc.com/players/1st-team/ethan-robson",
+        "https://www.worldfootball.net/player_summary/ethan-robson/",
+        "https://www.11v11.com/players/ethan-robson-253617/",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The 2017 Sunderland official profile identifies Ethan Robson and gives 25 October 1996; WorldFootball independently gives the same full date and Sunderland tenure beginning in August 2016. 11v11 currently lists 25 July instead, so that conflicting value was rejected in favor of the contemporaneous club record and independent WorldFootball profile."
+    },
+    {
+      "player_id": 2731,
+      "display_name": "Evandro Goebel",
+      "fpl_season": "2016-17",
+      "fpl_code": "52287",
+      "date_of_birth": "1986-08-23",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Evandro_(footballer,_born_1986)",
+        "https://maisfutebol.iol.pt/jogador/evandro/18575",
+        "https://web.archive.org/web/20170113193503/http://www.hullcitytigers.com/news/article/2016-17/tigers-confirm-double-signing-3516667.aspx",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct profile identifies Evandro Goebel, gives 23 August 1986, and records his Hull City move in January 2017. MaisFutebol supplies an independent player profile and Hull's archived announcement confirms the 2016-17 club association."
+    },
+    {
+      "player_id": 2743,
+      "display_name": "Matthew Willock",
+      "fpl_season": "2016-17",
+      "fpl_code": "176295",
+      "date_of_birth": "1996-08-20",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Matty_Willock",
+        "https://www.11v11.com/players/matthew-willock-255161/",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct profile identifies Matthew Anthony Willock, gives 20 August 1996, and places him in Manchester United's 2016-17 squad. The direct 11v11 profile and 2016-17 FPL archive row cross-check the full-name/short-name match and element code."
+    },
+    {
+      "player_id": 2751,
+      "display_name": "Joshua Harrop",
+      "fpl_season": "2016-17",
+      "fpl_code": "156690",
+      "date_of_birth": "1995-12-15",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Josh_Harrop",
+        "https://www.11v11.com/players/josh-harrop-255222/",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct profile identifies Joshua Andrew Harrop, gives 15 December 1995, and records his Manchester United Premier League debut in 2016-17. The individual 11v11 profile and FPL archive row cross-check his identity and element code."
+    },
+    {
+      "player_id": 2752,
+      "display_name": "Daniel Kemp",
+      "fpl_season": "2016-17",
+      "fpl_code": "221568",
+      "date_of_birth": "1999-01-11",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Dan_Kemp_(footballer)",
+        "https://www.11v11.com/players/dan-kemp-254005/",
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2016-17/players_raw.csv"
+      ],
+      "review_note": "The direct profile identifies Daniel Harry Kemp, gives 11 January 1999, and records his West Ham academy career beginning in 2015, including the 2016-17 season. The 11v11 profile and FPL archive row cross-check the abbreviated display name and element code."
+    }
+  ],
+  "unresolved": []
+}

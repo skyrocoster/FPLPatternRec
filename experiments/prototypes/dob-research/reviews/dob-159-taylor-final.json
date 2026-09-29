@@ -1,0 +1,23 @@
+{
+  "unresolved": [
+    {
+      "player_id": 1118,
+      "display_name": "Tom Taylor",
+      "reason": "The 2024-25 FPL archive maps code 592712 to Tom Taylor, and the Premier League profile identifies Tom Taylor as an Ipswich Town U21 forward. Primary age evidence favours 2005: Cheltenham Town's official 1 September 2025 loan announcement says Taylor had 'turned 20 back in February'; TWTD independently reports him as 20 on that date. This rules against 21 February 2006, but does not establish the exact day. Soccerbase gives 21 February 2005, while Transfermarkt gives 21 February 2006. The EFL PDF cited by Wikipedia is the supplied S3 file, but its cover identifies it as 'Squad List 2024/25 & U21 Registered Contract Players', published September 2024, not a 2025/26 list. Its squad-list pages show player and Home Grown fields, not dates of birth; the PDF text extraction contains no player-name text. The official Cheltenham announcement and official Woking loan announcement/profile confirm the player and club registrations but publish no exact DOB. The Ipswich player-profile route checked and a public FA profile lookup returned 404; no public FA dated registration detail was found. Since the first-party evidence only narrows the year/month and the exact day is available only in conflicting secondary records, leave the DOB unresolved rather than assign either date.",
+      "source_urls": [
+        "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2024-25/players_raw.csv",
+        "https://www.premierleague.com/en/players/592712/tom-taylor/overview",
+        "https://s3.eu-west-1.amazonaws.com/gc-media-assets.gc.eflservices.co.uk/9edd2ed0-6c4a-11ef-9965-335248f7bb41.pdf",
+        "https://www.ctfc.com/news/2025/september/01/tommy-taylor-is-a-robin/",
+        "https://wokingfc.co.uk/03/27/tommy-taylor-steven-turner-sign/",
+        "https://wokingfc.co.uk/player/tommy-taylor/",
+        "https://www.twtd.co.uk/ipswich-town-news/50246/u21s-skipper-taylor-set-for-cheltenham-loan",
+        "https://www.soccerbase.com/players/player.sd?player_id=203745",
+        "https://www.transfermarkt.com/tom-taylor/profil/spieler/1099929",
+        "https://en.wikipedia.org/wiki/Tom_Taylor_(footballer,_born_2005)",
+        "https://www.itfc.co.uk/players/u21s/tom-taylor/",
+        "https://www.thefa.com/players/t/thomas-taylor"
+      ]
+    }
+  ]
+}

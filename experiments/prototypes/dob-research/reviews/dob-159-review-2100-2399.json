@@ -1,0 +1,301 @@
+{
+  "verified": [
+    {
+      "player_id": 2108,
+      "display_name": "Daniel Drinkwater",
+      "fpl_season": "2019-20",
+      "fpl_code": "61603",
+      "date_of_birth": "1990-03-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Danny_Drinkwater"
+      ],
+      "review_note": "The profile identifies Daniel Noel Drinkwater and gives 1990-03-05; its career history documents the 2019-20 Burnley loan and the 2020 Aston Villa loan. The season-scoped FPL code 61603 maps to Burnley and Aston Villa in 2019-20, matching this player."
+    },
+    {
+      "player_id": 2110,
+      "display_name": "José Reina",
+      "fpl_season": "2019-20",
+      "fpl_code": "8432",
+      "date_of_birth": "1982-08-31",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Pepe_Reina"
+      ],
+      "review_note": "The profile identifies José Manuel Reina Páez, gives 1982-08-31, and records his 2020 loan to Aston Villa. The season-scoped FPL code 8432 maps to Aston Villa in 2019-20."
+    },
+    {
+      "player_id": 2127,
+      "display_name": "Abd-Al-Ali Morakinyo Olaposi Koiki",
+      "fpl_season": "2019-20",
+      "fpl_code": "432793",
+      "date_of_birth": "1999-08-22",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Ali_Koiki"
+      ],
+      "review_note": "The profile gives the same full name and 1999-08-22, and identifies Koiki as a Burnley player through 2019-20. The season-scoped FPL code 432793 maps to Burnley in 2019-20."
+    },
+    {
+      "player_id": 2130,
+      "display_name": "Pedro Rodríguez Ledesma",
+      "fpl_season": "2019-20",
+      "fpl_code": "49579",
+      "date_of_birth": "1987-07-28",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Pedro_(footballer,_born_1987)"
+      ],
+      "review_note": "The profile identifies Pedro Eliezer Rodríguez Ledesma and gives 1987-07-28; its career history and 2019-20 statistics identify him with Chelsea in the selected season. The season-scoped FPL code 49579 maps to Chelsea."
+    },
+    {
+      "player_id": 2144,
+      "display_name": "Rhu-endly Martina",
+      "fpl_season": "2019-20",
+      "fpl_code": "56192",
+      "date_of_birth": "1989-09-25",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Cuco_Martina"
+      ],
+      "review_note": "The Cuco Martina profile gives the full name Rhu-endly Aurelio Jean-Carlo Martina, DOB 1989-09-25, and his Everton spell through 2020. The season-scoped FPL code 56192 maps to Everton in 2019-20; the nickname and career history establish the identity."
+    },
+    {
+      "player_id": 2154,
+      "display_name": "José Ángel Esmorís Tasende",
+      "fpl_season": "2019-20",
+      "fpl_code": "145235",
+      "date_of_birth": "1997-01-04",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Angeli%C3%B1o"
+      ],
+      "review_note": "The Angeliño profile identifies José Ángel Esmorís Tasende and gives 1997-01-04; it documents Manchester City's 2019 re-signing and his 2019-20 Premier League season there. The season-scoped FPL code 145235 maps to Manchester City."
+    },
+    {
+      "player_id": 2157,
+      "display_name": "Jose Luis Mato Sanmartín",
+      "fpl_season": "2018-19",
+      "fpl_code": "61316",
+      "date_of_birth": "1990-03-27",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Joselu"
+      ],
+      "review_note": "The profile identifies José Luis Mato Sanmartín (Joselu), gives 1990-03-27, and lists Newcastle United in its 2018-19 career statistics. The season-scoped FPL code 61316 maps to Newcastle United in 2018-19."
+    },
+    {
+      "player_id": 2160,
+      "display_name": "Thomas Allan",
+      "fpl_season": "2019-20",
+      "fpl_code": "232957",
+      "date_of_birth": "1999-09-23",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Thomas_Allan_(footballer,_born_1999)"
+      ],
+      "review_note": "The profile identifies Thomas David Allan, gives 1999-09-23, and identifies his Newcastle United youth/senior pathway; it lists him in Newcastle's 2019-20 Premier League season (with no league appearances). The season-scoped FPL code 232957 maps to Newcastle United."
+    },
+    {
+      "player_id": 2210,
+      "display_name": "Heurelho da Silva Gomes",
+      "fpl_season": "2019-20",
+      "fpl_code": "18656",
+      "date_of_birth": "1981-02-15",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Heurelho_Gomes"
+      ],
+      "review_note": "The profile gives the exact full name and 1981-02-15, and documents Gomes's Watford career through 2019-20. The season-scoped FPL code 18656 maps to Watford in 2019-20."
+    },
+    {
+      "player_id": 2216,
+      "display_name": "Javier Hernández Balcázar",
+      "fpl_season": "2019-20",
+      "fpl_code": "43020",
+      "date_of_birth": "1988-06-01",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Javier_Hern%C3%A1ndez"
+      ],
+      "review_note": "The profile identifies Mexican forward Javier Hernández Balcázar (Chicharito), gives 1988-06-01, and documents his West Ham spell into the start of 2019-20. The season-scoped FPL code 43020 maps to West Ham in that season."
+    },
+    {
+      "player_id": 2217,
+      "display_name": "Carlos Sánchez",
+      "fpl_season": "2019-20",
+      "fpl_code": "42824",
+      "date_of_birth": "1986-02-06",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Carlos_S%C3%A1nchez_(footballer,_born_1986)"
+      ],
+      "review_note": "The disambiguated profile identifies Colombian midfielder Carlos Alberto Sánchez Moreno, gives 1986-02-06, and documents his West Ham career from 2018 to 2020. The season-scoped FPL code 42824 maps to West Ham in 2019-20."
+    },
+    {
+      "player_id": 2220,
+      "display_name": "Gonçalo Bento Soares Cardoso",
+      "fpl_season": "2019-20",
+      "fpl_code": "459373",
+      "date_of_birth": "2000-10-21",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Cardoso_(footballer,_born_2000)"
+      ],
+      "review_note": "The disambiguated profile gives the matching full name and 2000-10-21, and documents his West Ham signing in 2019 and 2019-20 U23 season. The season-scoped FPL code 459373 maps to West Ham; the Portuguese full name and career make this the correct Cardoso."
+    },
+    {
+      "player_id": 2224,
+      "display_name": "Bernard Ashley-Seal",
+      "fpl_season": "2019-20",
+      "fpl_code": "194798",
+      "date_of_birth": "1998-11-21",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Benny_Ashley-Seal"
+      ],
+      "review_note": "The profile identifies Bernard Patrick Ashley-Seal, gives 1998-11-21, and lists him with Wolverhampton Wanderers in 2019-20. The season-scoped FPL code 194798 maps to Wolves."
+    },
+    {
+      "player_id": 2227,
+      "display_name": "Aaron Ramsey",
+      "fpl_season": "2018-19",
+      "fpl_code": "41792",
+      "date_of_birth": "1990-12-26",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Aaron_Ramsey"
+      ],
+      "review_note": "The profile identifies Welsh midfielder Aaron James Ramsey and gives 1990-12-26; it documents his Arsenal career through 2018-19. The season-scoped FPL code 41792 maps to Arsenal in 2018-19, distinguishing him from other players with the same name."
+    },
+    {
+      "player_id": 2235,
+      "display_name": "Bruno Saltor Grau",
+      "fpl_season": "2018-19",
+      "fpl_code": "11352",
+      "date_of_birth": "1980-10-01",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Bruno_Saltor"
+      ],
+      "review_note": "The profile gives Bruno Saltor Grau's exact DOB, 1980-10-01, and identifies Brighton & Hove Albion through his 2018-19 retirement season. The season-scoped FPL code 11352 maps to Brighton in 2018-19."
+    },
+    {
+      "player_id": 2251,
+      "display_name": "Ashley Darel Jazz Richards",
+      "fpl_season": "2018-19",
+      "fpl_code": "73459",
+      "date_of_birth": "1991-04-12",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jazz_Richards"
+      ],
+      "review_note": "The profile identifies Ashley Darel Jazz Richards, gives 1991-04-12, and documents Cardiff City from 2016 to 2020, including the club's 2018-19 Premier League season. The season-scoped FPL code 73459 maps to Cardiff City."
+    },
+    {
+      "player_id": 2254,
+      "display_name": "David Junior Hoilett",
+      "fpl_season": "2018-19",
+      "fpl_code": "49806",
+      "date_of_birth": "1990-06-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Junior_Hoilett"
+      ],
+      "review_note": "The profile identifies David Wayne Hoilett (Junior Hoilett), gives 1990-06-05, and documents Cardiff City in the 2018-19 Premier League season. The season-scoped FPL code 49806 maps to Cardiff City."
+    },
+    {
+      "player_id": 2260,
+      "display_name": "Danny Ward",
+      "fpl_season": "2018-19",
+      "fpl_code": "75826",
+      "date_of_birth": "1990-12-09",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Danny_Ward_(English_footballer)"
+      ],
+      "review_note": "This disambiguated profile identifies the Bradford-born English forward/winger Daniel Carl Ward, born 1990-12-09, and documents his Cardiff City spell through 2019-20, including 2018-19 in the Premier League. It is not the similarly named Welsh goalkeeper; FPL code 75826 maps to Cardiff City."
+    },
+    {
+      "player_id": 2289,
+      "display_name": "Rui Pedro da Rocha Fonte",
+      "fpl_season": "2018-19",
+      "fpl_code": "58476",
+      "date_of_birth": "1990-04-23",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Rui_Fonte"
+      ],
+      "review_note": "The profile gives the matching full name and 1990-04-23, and documents Rui Fonte's Fulham spell from 2017 to 2019, including the 2018-19 season before his Lille loan. The season-scoped FPL code 58476 maps to Fulham."
+    },
+    {
+      "player_id": 2302,
+      "display_name": "Tommy Smith",
+      "fpl_season": "2018-19",
+      "fpl_code": "104545",
+      "date_of_birth": "1992-04-14",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Tommy_Smith_(footballer,_born_1992)"
+      ],
+      "review_note": "The disambiguated profile identifies Thomas George Smith, born 1992-04-14, and his Huddersfield Town career through 2018-19. It is specifically the English right-back, not the New Zealand player born in 1990; the season-scoped FPL code 104545 maps to Huddersfield Town."
+    },
+    {
+      "player_id": 2308,
+      "display_name": "Danny Williams",
+      "fpl_season": "2018-19",
+      "fpl_code": "80755",
+      "date_of_birth": "1989-03-08",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Danny_Williams_(soccer,_born_1989)"
+      ],
+      "review_note": "The disambiguated profile identifies American midfielder Daniel Charles Williams, gives 1989-03-08, and documents Huddersfield Town in 2017-19. The season-scoped FPL code 80755 maps to Huddersfield Town in 2018-19."
+    },
+    {
+      "player_id": 2324,
+      "display_name": "Matthew Daly",
+      "fpl_season": "2018-19",
+      "fpl_code": "450314",
+      "date_of_birth": "2001-03-10",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Matty_Daly"
+      ],
+      "review_note": "The profile identifies Matthew Paul Daly, born 2001-03-10, and records his Huddersfield Town Premier League debut in 2018-19. This is the footballer known as Matty Daly, not the person at the Matthew Daly disambiguation; FPL code 450314 maps to Huddersfield Town."
+    },
+    {
+      "player_id": 2369,
+      "display_name": "Roderick Jefferson Gonçalves Miranda",
+      "fpl_season": "2018-19",
+      "fpl_code": "67184",
+      "date_of_birth": "1991-03-30",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Roderick_Miranda"
+      ],
+      "review_note": "The profile identifies Roderick Jefferson Gonçalves Miranda, gives 1991-03-30, and documents his Wolves signing in 2017. It also records an Olympiacos loan during 2018-19; the season-scoped FPL code 67184 is mapped to Wolves, so the loan is noted rather than mistaken for a namesake or hidden."
+    },
+    {
+      "player_id": 2375,
+      "display_name": "Gabriel Armando de Abreu",
+      "fpl_season": "2016-17",
+      "fpl_code": "158074",
+      "date_of_birth": "1990-11-26",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Gabriel_Paulista"
+      ],
+      "review_note": "The profile identifies Gabriel Armando de Abreu (Gabriel Paulista), gives 1990-11-26, and documents his Arsenal career through 2016-17. The season-scoped FPL code 158074 maps to Arsenal in that season."
+    },
+    {
+      "player_id": 2376,
+      "display_name": "Santiago Cazorla",
+      "fpl_season": "2016-17",
+      "fpl_code": "19524",
+      "date_of_birth": "1984-12-13",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Santi_Cazorla"
+      ],
+      "review_note": "The profile identifies Santiago Cazorla González (Santi Cazorla), gives 1984-12-13, and documents his Arsenal career and 2016-17 appearances. The season-scoped FPL code 19524 maps to Arsenal in 2016-17."
+    },
+    {
+      "player_id": 2381,
+      "display_name": "Bradley Smith",
+      "fpl_season": "2016-17",
+      "fpl_code": "120447",
+      "date_of_birth": "1994-04-09",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Brad_Smith_(soccer,_born_1994)"
+      ],
+      "review_note": "The disambiguated profile identifies Australian defender Bradley Shaun Smith, gives 1994-04-09, and documents his AFC Bournemouth career beginning in 2016. The season-scoped FPL code 120447 maps to Bournemouth in 2016-17."
+    }
+  ],
+  "unresolved": [
+    {
+      "player_id": 2151,
+      "display_name": "Danilo Luiz da Silva",
+      "reason": "Unresolved DOB dispute. The profile identifies Danilo Luiz da Silva and documents his Manchester City career, matching FPL code 100180, but the same page gives 1991-07-16 in its infobox and 1991-07-15 in its lead. The checked official Manchester City URL currently serves a generic current-squad page and does not provide Danilo's DOB or settle the conflict. No exact day is selected without a source that resolves it.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Danilo_(footballer,_born_July_1991)",
+        "https://www.mancity.com/players/danilo"
+      ]
+    }
+  ]
+}

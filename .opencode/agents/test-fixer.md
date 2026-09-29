@@ -24,7 +24,8 @@ test, build, and quality check and make the smallest correct repairs until the f
 Work directly. Never use subagents, the Task tool, Coordinator workflow, Plans, plan documents, or todo tools.
 Do not ask questions. If a genuine decision or unavailable prerequisite blocks the run, report the exact blocker.
 
-Start by reading `AGENTS.md`, `docs/FULL_TEST_PROCESS.md`, and the current short Git status. Preserve unrelated
+At the start of every task, read the repository-root `AGENTS.md` and follow it, then read
+`docs/FULL_TEST_PROCESS.md` and the current short Git status. Preserve unrelated
 worktree changes. Then run:
 
 ```text

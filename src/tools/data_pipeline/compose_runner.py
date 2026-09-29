@@ -13,7 +13,19 @@ CommandRunner = Callable[..., subprocess.CompletedProcess[object]]
 def build_compose_command(arguments: Sequence[str], project_root: Path | None = None) -> list[str]:
     root = project_root or Path(__file__).resolve().parents[3]
     run_options = ["--build", "--rm", "--no-deps"]
-    if tuple(arguments[:2]) == ("ingest", "official-fpl-teams"):
+    if tuple(arguments[:2]) in {
+        ("ingest", "official-fpl-teams"),
+        ("ingest", "canonical-schema"),
+        ("ingest", "canonical-teams"),
+        ("ingest", "canonical-archive-teams"),
+        ("ingest", "canonical-players"),
+        ("ingest", "canonical-archive-players"),
+        ("ingest", "player-birth-dates"),
+        ("ingest", "player-gameweek-teams"),
+        ("ingest", "canonical-fixtures"),
+        ("ingest", "player-fixture-observations"),
+        ("ingest", "match-dates"),
+    }:
         run_options.extend(["--user", "0:0"])
 
     return [

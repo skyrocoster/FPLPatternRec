@@ -39,3 +39,7 @@ select = ["E", "F", "I"]
 [tool.setuptools.packages.find]
 where = [".", "src"]
 include = ["backend*", "tools*"]
+
+[tool.setuptools.package-data]
+"tools.data_pipeline.reference" = ["*.csv", "*.json"]
+"tools.data_pipeline.ingestion" = ["*.sql"]

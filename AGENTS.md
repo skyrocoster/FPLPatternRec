@@ -11,11 +11,40 @@ files, commands, and behavior.
   `{"status":"ok"}` on port `5677`.
 - `frontend/` contains the Vite React TypeScript status page on port `8455`.
 - Storybook runs on port `6017`; Datasette runs on port `8677` and reads the
-  empty SQLite file from the `fplpatternrec-sqlite` Docker volume.
+  SQLite file from the `fplpatternrec-sqlite` Docker volume.
 - `tests/e2e/` contains Playwright browser tests. Backend tests live under
   `backend/tests/`; component tests live beside frontend features.
-- The only database is a zero-table SQLite file in its named Docker volume.
+- The only database is the SQLite file in its named Docker volume. It currently
+  has one staged FPL teams table and eight canonical base tables, with 51
+  reviewed clubs seeded in `teams`. See `docs/DATA_PIPELINE.md` for status.
   Never create or mount a host `data/` or `data/database/` directory.
+
+## Database inspection
+
+Explore the database with direct, read-only SQLite SQL against the named volume,
+not with Playwright or Datasette (including its UI and HTTP API). For example,
+from the repository root in PowerShell, check service status, start the persistent
+read-only `data-inspector` if needed, and run Python's built-in `sqlite3` inside it:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File ./dev.ps1 status
+powershell -ExecutionPolicy Bypass -File ./dev.ps1 start data-inspector
+@'
+import sqlite3
+
+db = sqlite3.connect("file:/data/fplpatternrec.db?mode=ro", uri=True)
+db.execute("PRAGMA query_only = ON")
+print(db.execute("SELECT name FROM sqlite_master WHERE type = 'table' ORDER BY name").fetchall())
+db.close()
+'@ | docker compose -f compose.yaml exec -T data-inspector python -
+```
+
+Replace the example `SELECT` with the read-only SQL needed for the question.
+The inspector mounts the named volume read-only, and `mode=ro` fails if the
+database is missing rather than creating one; do not use this inspection path
+for writes. Keep the command and tool timeouts finite. Datasette remains a
+development service, and Playwright remains for UI tests, but neither is a
+database-exploration tool.
 
 ## Graphify catalogue
 
@@ -37,11 +66,12 @@ If a shell command fails, report the exact command and failure.
 
 ## Application commands
 
-- Manage the four detached Docker services only through `dev.ps1`. Before any
+- Manage the five detached Docker services only through `dev.ps1`. Before any
   lifecycle action or browser/E2E check, run `powershell -ExecutionPolicy
   Bypass -File ./dev.ps1 status` and reuse healthy services as-is. Available
   actions are `setup`, `start`, `stop`, `restart`, `rebuild`, `status`, and
-  `logs`; target `backend`, `frontend`, `storybook`, or `datasette` if needed.
+  `logs`; target `backend`, `frontend`, `storybook`, `datasette`, or
+  `data-inspector` if needed.
   `setup` creates a valid empty database only if absent; `start` never seeds,
   imports, or refreshes it. See `docs/DEVELOPMENT_SERVICES.md`.
 - `.venv/Scripts/python.exe -m pytest backend/tests tests` runs Python tests.
@@ -58,10 +88,10 @@ All checks are local; do not add application CI.
 
 ## Persistent development services
 
-Backend, frontend, Storybook, and Datasette run as shared, long-lived Docker
-Compose services. Manage them only through `dev.ps1`; check status first and
-reuse healthy services. Never start competing host servers or stop services as
-task cleanup.
+Backend, frontend, Storybook, Datasette, and the read-only database inspector run
+as shared, long-lived Docker Compose services. Manage them only through
+`dev.ps1`; check status first and reuse healthy services. Never start competing
+host servers or stop services as task cleanup.
 
 ## Testing and module-size rules
 

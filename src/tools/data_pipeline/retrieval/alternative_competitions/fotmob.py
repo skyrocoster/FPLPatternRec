@@ -5,8 +5,8 @@ from __future__ import annotations
 from urllib.parse import urlencode, urlparse
 
 from ..common import RawCollector, current_season_start, slug
+from ..provider_config import FOTMOB_API
 from .common import (
-    FOTMOB_API,
     FOTMOB_COMPETITIONS,
     FOTMOB_HEADERS,
     PLAYER_LEADERBOARDS,

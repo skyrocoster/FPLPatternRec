@@ -1,0 +1,332 @@
+[
+  {
+    "player_id": 1055,
+    "display_name": "Mathias Jorgensen",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "48760",
+    "fpl_club": "Brentford",
+    "review_note": "Two FPL-relevant footballers share this name and Brentford link: 1990-born Mathias 'Zanka' Jørgensen (Q248938) and a younger Mathias Jørgensen. SQL gives the scope/club but does not disambiguate these records; the current FPL API no longer contains code 48760. Rejected the tempting 1990 DOB pending a historical FPL web_name/profile match.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q248938",
+      "https://en.wikipedia.org/wiki/Mathias_J%C3%B8rgensen"
+    ]
+  },
+  {
+    "player_id": 1069,
+    "display_name": "Ângelo Gabriel Borges Damaceno",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "518620",
+    "fpl_club": "Chelsea",
+    "review_note": "Wikidata identifies Ângelo Gabriel and has an exact P569, but its P54 club list does not include the SQL Chelsea assignment. Kept unresolved pending a Chelsea/PL source tying this FPL record to the person.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q100879633",
+      "https://en.wikipedia.org/wiki/%C3%82ngelo_Gabriel"
+    ]
+  },
+  {
+    "player_id": 1118,
+    "display_name": "Tom Taylor",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "592712",
+    "fpl_club": "Ipswich Town",
+    "review_note": "The English Wikipedia title resolves to a disambiguation page with no uniquely matching Ipswich footballer; reject homonym matches until an identifiable source is found.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tom_Taylor"
+    ]
+  },
+  {
+    "player_id": 1147,
+    "display_name": "Thomas Wilson-Brown",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "532535",
+    "fpl_club": "Leicester City",
+    "review_note": "A Wikidata/Wikipedia name match was not corroborated as the Leicester City footballer; no exact DOB accepted without a football-club identity match.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q135602716",
+      "https://en.wikipedia.org/wiki/Tom_Wilson-Brown"
+    ]
+  },
+  {
+    "player_id": 1228,
+    "display_name": "Maeson King",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "592736",
+    "fpl_club": "Tottenham Hotspur",
+    "review_note": "No unique, identifiable footballer DOB source found for the Tottenham FPL record; left unresolved rather than using an inferred age/year."
+  },
+  {
+    "player_id": 1316,
+    "display_name": "Victor da Silva",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "441455",
+    "fpl_club": "Burnley",
+    "review_note": "A precise Wikidata/Wikipedia match exists for a Victor da Silva born in 1995, but its P54 clubs do not include Burnley and the name is shared by multiple footballers. No safe FPL identity match.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q15920500",
+      "https://en.wikipedia.org/wiki/Victor_(footballer,_born_1995)"
+    ]
+  },
+  {
+    "player_id": 1365,
+    "display_name": "Matthew Dibley-Dias",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "515023",
+    "fpl_club": "Fulham",
+    "review_note": "Wikidata has both a year-precision P569 and an exact 2003-10-29 P569, but the item has no P54 football-club claims. The exact claim lacks enough independent club/identity corroboration for acceptance.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q123015778",
+      "https://en.wikipedia.org/wiki/Matt_Dibley-Dias"
+    ]
+  },
+  {
+    "player_id": 1374,
+    "display_name": "Callum Scanlon",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "519328",
+    "fpl_club": "Liverpool",
+    "review_note": "No unique English Wikipedia/Wikidata DOB record with an independently verified Liverpool identity was found; left unresolved."
+  },
+  {
+    "player_id": 1381,
+    "display_name": "Mads Juel Andersen",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "208904",
+    "fpl_club": "Luton Town",
+    "review_note": "Wikidata P569 is exact (1997-12-27), but its P54 club Q541289 does not match SQL Luton Town (Q18520). Kept unresolved pending corroboration of the FPL-to-Wikidata identity.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q30855497",
+      "https://en.wikipedia.org/wiki/Mads_Juel_Andersen"
+    ]
+  },
+  {
+    "player_id": 1414,
+    "display_name": "Joseph Johnson",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "611011",
+    "fpl_club": "Luton Town",
+    "review_note": "The available English Wikipedia result is a Joseph Johnson disambiguation page, not a uniquely identified Luton footballer; no DOB accepted.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q238522",
+      "https://en.wikipedia.org/wiki/Joseph_Johnson"
+    ]
+  },
+  {
+    "player_id": 1455,
+    "display_name": "Amadou Diallo",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "248859",
+    "fpl_club": "Newcastle United",
+    "review_note": "Search resolves to several people named Amadou Diallo, including footballers, without a uniquely verified Newcastle FPL identity. Reject homonyms.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Amadou_Diallo_(disambiguation)"
+    ]
+  },
+  {
+    "player_id": 1475,
+    "display_name": "Gustavo Henrique Furtado Scarpa",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "185253",
+    "fpl_club": "Nottingham Forest",
+    "review_note": "Wikidata P569 is exact (1994-01-05), but P54 does not include the SQL Nottingham Forest club. No independent Forest/PL source was verified for this FPL assignment.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q19709176",
+      "https://en.wikipedia.org/wiki/Gustavo_Scarpa"
+    ]
+  },
+  {
+    "player_id": 1483,
+    "display_name": "Detlef Esapa Osong",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "536677",
+    "fpl_club": "Nottingham Forest",
+    "review_note": "English Wikipedia gives an exact DOB, but the Wikidata item has no P54 football-club claims to corroborate the SQL Nottingham Forest FPL identity. Kept unresolved.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q116607965",
+      "https://en.wikipedia.org/wiki/Esapa_Osong"
+    ]
+  },
+  {
+    "player_id": 1501,
+    "display_name": "Anis Slimane",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "504198",
+    "fpl_club": "Sheffield United",
+    "review_note": "Wikidata P569 is exact (2001-03-16), but P54 does not include Sheffield United (Q19607). The FPL club-to-entity connection was not independently corroborated.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q85410990",
+      "https://en.wikipedia.org/wiki/Anis_Ben_Slimane"
+    ]
+  },
+  {
+    "player_id": 1503,
+    "display_name": "Bénie Traoré",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "523957",
+    "fpl_club": "Sheffield United",
+    "review_note": "Wikidata contains two conflicting day-precision P569 claims (2002-11-22 and 2002-11-30); the English Wikipedia lead says 2002-11-30. Do not select between conflicting exact claims without a primary/club source.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q106464198",
+      "https://en.wikipedia.org/wiki/B%C3%A9nie_Traor%C3%A9"
+    ]
+  },
+  {
+    "player_id": 1527,
+    "display_name": "Yago de Santiago Alonso",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "492779",
+    "fpl_club": "Tottenham Hotspur",
+    "review_note": "No uniquely matching English Wikipedia/Wikidata footballer record was found for this FPL player; left unresolved rather than use an inferred DOB."
+  },
+  {
+    "player_id": 1544,
+    "display_name": "Ty Barnett",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "490095",
+    "fpl_club": "Wolves",
+    "review_note": "The matching-name Wikidata/Wikipedia page is for an American actor, not the Wolves footballer. Rejected as a homonym.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q7859570",
+      "https://en.wikipedia.org/wiki/Ty_Barnett"
+    ]
+  },
+  {
+    "player_id": 1613,
+    "display_name": "Charlie Robinson",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "547673",
+    "fpl_club": "Fulham",
+    "review_note": "The English Wikipedia name search resolves to a broad Charles/Charlie Robinson disambiguation page; no unique Fulham footballer DOB source was found.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q415013",
+      "https://en.wikipedia.org/wiki/Charles_Robinson"
+    ]
+  },
+  {
+    "player_id": 1626,
+    "display_name": "Mateus Cardoso Lemos Martins",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "225295",
+    "fpl_club": "Leicester City",
+    "review_note": "Wikidata P569 is exact (2000-02-15), but P54 does not include the SQL Leicester City club. No independent Leicester/PL source tying this FPL record to the Tetê item was verified.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q60842153",
+      "https://en.wikipedia.org/wiki/Tet%C3%AA"
+    ]
+  },
+  {
+    "player_id": 1631,
+    "display_name": "Rodrigo Moreno",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "80954",
+    "fpl_club": "Leeds United",
+    "review_note": "The exact-name English Wikipedia search resolves to a filmmaker; the correct Leeds footballer entity was not independently resolved from accessible sources. Reject the homonym result."
+  },
+  {
+    "player_id": 1672,
+    "display_name": "Carlos Ribeiro Dias",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "166325",
+    "fpl_club": "Nottingham Forest",
+    "review_note": "No unique footballer entity or public exact-DOB source was identified for this full name and SQL club; left unresolved."
+  },
+  {
+    "player_id": 1674,
+    "display_name": "Xande Nascimento da Costa Silva",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "209925",
+    "fpl_club": "Nottingham Forest",
+    "review_note": "English Wikipedia and Wikidata identify Xande Silva with exact P569, but P54 does not include the SQL Nottingham Forest club. Kept unresolved until that FPL identity is independently corroborated.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q18128074",
+      "https://en.wikipedia.org/wiki/Xande_Silva"
+    ]
+  },
+  {
+    "player_id": 1679,
+    "display_name": "Dale Taylor",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "524069",
+    "fpl_club": "Nottingham Forest",
+    "review_note": "Wikidata has a year-precision P569 and an exact 2003-12-12 claim, and English Wikipedia gives the exact day; the item has no P54 club claims to corroborate the SQL Nottingham Forest assignment. No DOB accepted.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q109556208",
+      "https://en.wikipedia.org/wiki/Dale_Taylor"
+    ]
+  },
+  {
+    "player_id": 1689,
+    "display_name": "Lyanco Silveira Neves Vojnovic",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "212721",
+    "fpl_club": "Southampton",
+    "review_note": "Wikidata P569 is exact (1997-02-01), but P54 does not include Southampton F.C.; no Southampton/PL source was verified to tie the SQL FPL record to the item.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q21066551",
+      "https://en.wikipedia.org/wiki/Lyanco"
+    ]
+  },
+  {
+    "player_id": 1691,
+    "display_name": "Ibrahima Diallo",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "240143",
+    "fpl_club": "Southampton",
+    "review_note": "The 1999-born French footballer item has an exact P569, but its P54 clubs do not include Southampton; the name also has other footballer homonyms. FPL identity remains uncorroborated.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q56732531",
+      "https://en.wikipedia.org/wiki/Ibrahima_Diallo_(footballer,_born_1999)"
+    ]
+  },
+  {
+    "player_id": 1699,
+    "display_name": "Jimmy Morgan",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "493736",
+    "fpl_club": "Southampton",
+    "review_note": "The available Jimmy Morgan footballer result is a different, older player; no unique Southampton academy identity or exact DOB source was found."
+  },
+  {
+    "player_id": 1701,
+    "display_name": "Kamari Doyle",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "494541",
+    "fpl_club": "Southampton",
+    "review_note": "Wikidata P569 and English Wikipedia identify the footballer with exact DOB 2005-08-01, but the item has no P54 football-club claims to corroborate the SQL Southampton assignment.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q118557695",
+      "https://en.wikipedia.org/wiki/Kamari_Doyle"
+    ]
+  },
+  {
+    "player_id": 1702,
+    "display_name": "Dominic Ballard",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "494543",
+    "fpl_club": "Southampton",
+    "review_note": "Wikidata P569 and English Wikipedia identify the footballer with exact DOB 2005-04-01, but the item has no P54 football-club claims to corroborate the SQL Southampton assignment.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q113586548",
+      "https://en.wikipedia.org/wiki/Dom_Ballard"
+    ]
+  },
+  {
+    "player_id": 1743,
+    "display_name": "Maxwell Haygarth",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "461558",
+    "fpl_club": "Brentford",
+    "review_note": "No unique accessible English Wikipedia/Wikidata footballer DOB record with a verified Brentford identity was found; left unresolved."
+  },
+  {
+    "player_id": 1750,
+    "display_name": "Bernardo Fernandes Da Silva Junior",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "209362",
+    "fpl_club": "Brighton",
+    "review_note": "Wikidata P569 is exact (1995-05-14), but P54 does not include the SQL Brighton club. The Brighton FPL identity was not independently corroborated from a club/PL source.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q22675674",
+      "https://en.wikipedia.org/wiki/Bernardo_(footballer,_born_1995)"
+    ]
+  }
+]

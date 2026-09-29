@@ -1,0 +1,348 @@
+{
+  "verified": [
+    {
+      "player_id": 1803,
+      "display_name": "Fernando Luiz Rosa",
+      "fpl_season": "2021-22",
+      "fpl_code": "27789",
+      "date_of_birth": "1985-05-04",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Fernandinho_(footballer,_born_May_1985)",
+        "https://www.premierleague.com/news/2015249"
+      ],
+      "review_note": "The Fernandinho player profile gives Fernando Luiz Roza's DOB as 4 May 1985 and documents his Manchester City career through 2022. The official PL squad list identifies Fernando Luiz Roza at Manchester City; FPL code 27789 maps to this canonical record and Manchester City across the listed seasons. The Rosa/Roza spelling variation is noted rather than treated as a different player."
+    },
+    {
+      "player_id": 1804,
+      "display_name": "Kayky da Silva Chagas",
+      "fpl_season": "2021-22",
+      "fpl_code": "478028",
+      "date_of_birth": "2003-06-11",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Kayky"
+      ],
+      "review_note": "The Kayky player profile identifies the full name Kayky da Silva Chagas, gives 11 June 2003, and documents his Manchester City contract and Premier League debut. This matches FPL code 478028 and the 2021-22 Manchester City mapping."
+    },
+    {
+      "player_id": 1811,
+      "display_name": "Matthew Longstaff",
+      "fpl_season": "2021-22",
+      "fpl_code": "223175",
+      "date_of_birth": "2000-03-21",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Matty_Longstaff"
+      ],
+      "review_note": "The Matty Longstaff player profile identifies him as Matthew Ben Longstaff, born 21 March 2000, and documents his Newcastle United career. The FPL code 223175 maps to Newcastle United in 2021-22; the Matty/Matthew name variation is supported by the profile's full name."
+    },
+    {
+      "player_id": 1832,
+      "display_name": "Joshua Sargent",
+      "fpl_season": "2021-22",
+      "fpl_code": "215476",
+      "date_of_birth": "2000-02-20",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Josh_Sargent"
+      ],
+      "review_note": "The Josh Sargent player profile identifies Joshua Thomas Sargent, gives 20 February 2000, and documents his 2021-22 Norwich City season. This matches FPL code 215476 and the Norwich City mapping."
+    },
+    {
+      "player_id": 1841,
+      "display_name": "Daniel N'Lundulu",
+      "fpl_season": "2021-22",
+      "fpl_code": "200088",
+      "date_of_birth": "1999-02-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Dan_Nlundulu"
+      ],
+      "review_note": "The Dan Nlundulu player profile gives 5 February 1999 and documents his Southampton career from 2020 to 2023. FPL code 200088 maps to Southampton in 2021-22; the profile's Dan Nlundulu name corresponds to the FPL display-name variant Daniel N'Lundulu."
+    },
+    {
+      "player_id": 1862,
+      "display_name": "Francisco Femenía Far",
+      "fpl_season": "2021-22",
+      "fpl_code": "54484",
+      "date_of_birth": "1991-02-02",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Kiko_Femen%C3%ADa"
+      ],
+      "review_note": "The Kiko Femenía player profile gives the full name Francisco Femenía Far, DOB 2 February 1991, and a Watford spell from 2017 to 2022. FPL code 54484 maps to Watford in 2021-22."
+    },
+    {
+      "player_id": 1872,
+      "display_name": "Ayotomiwa Dele-Bashiru",
+      "fpl_season": "2021-22",
+      "fpl_code": "175353",
+      "date_of_birth": "1999-09-17",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Tom_Dele-Bashiru"
+      ],
+      "review_note": "The Tom Dele-Bashiru player profile identifies Ayotomiwa Sherif Dele-Bashiru, gives 17 September 1999, and documents his Watford career. FPL code 175353 maps to Watford in 2021-22; the profile's Tom nickname and full name resolve the display-name variation."
+    },
+    {
+      "player_id": 1882,
+      "display_name": "Matthew Pollock",
+      "fpl_season": "2021-22",
+      "fpl_code": "467311",
+      "date_of_birth": "2001-09-28",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Mattie_Pollock"
+      ],
+      "review_note": "The Mattie Pollock player profile identifies Mattie William Pollock, gives 28 September 2001, and documents his move to Watford in 2021. FPL code 467311 maps to Watford in 2021-22; the profile establishes the Matthew/Mattie identity match."
+    },
+    {
+      "player_id": 1883,
+      "display_name": "Oghenekaro Peter Etebo",
+      "fpl_season": "2021-22",
+      "fpl_code": "227560",
+      "date_of_birth": "1995-11-09",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Peter_Etebo"
+      ],
+      "review_note": "The Peter Etebo player profile identifies Oghenekaro Peter Etebo, gives 9 November 1995, and documents his 2021-22 season-long Watford loan. This matches FPL code 227560 and the Watford mapping."
+    },
+    {
+      "player_id": 1885,
+      "display_name": "Adedapo Awokoya-Mebude",
+      "fpl_season": "2021-22",
+      "fpl_code": "243569",
+      "date_of_birth": "2001-07-29",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Dapo_Mebude"
+      ],
+      "review_note": "The Dapo Mebude player profile identifies Adedapo Paul Oluwaseun Awokoya-Mebude, gives 29 July 2001, and documents his Watford contract and 2021-22 season. FPL code 243569 maps to Watford in 2021-22, distinguishing him from other players with the same nickname."
+    },
+    {
+      "player_id": 1886,
+      "display_name": "Juan Camilo Hernández Suárez",
+      "fpl_season": "2021-22",
+      "fpl_code": "244716",
+      "date_of_birth": "1999-04-20",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Cucho_Hern%C3%A1ndez",
+        "https://www.fifadata.com/document/FWYC/2019/pdf/FWYC_2019_SquadLists.pdf",
+        "https://www.premierleague.com/news/612828"
+      ],
+      "review_note": "The Cucho Hernández player profile identifies Juan Camilo Hernández Suárez, gives 20 April 1999 with the FIFA U-20 squad-list PDF cited for the DOB, and documents his Watford career through 2022. The official PL squad list supports the full-name identity; FPL code 244716 maps to Watford in 2021-22. A preliminary Wikidata value of 22 April conflicts with the profile's FIFA-cited 20 April date, so the day is selected from the direct profile and cited official roster rather than Wikidata."
+    },
+    {
+      "player_id": 1894,
+      "display_name": "Samir Caetano de Souza Santos",
+      "fpl_season": "2021-22",
+      "fpl_code": "162651",
+      "date_of_birth": "1994-12-05",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Samir_(footballer,_born_1994)"
+      ],
+      "review_note": "The Samir player profile gives the exact full name Samir Caetano de Souza Santos, DOB 5 December 1994, and documents his Watford signing and 2021-22 season. This matches FPL code 162651 and the Watford mapping, avoiding unrelated players named Samir."
+    },
+    {
+      "player_id": 1907,
+      "display_name": "Daniel Chesters",
+      "fpl_season": "2021-22",
+      "fpl_code": "440120",
+      "date_of_birth": "2002-04-04",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Daniel_Chesters"
+      ],
+      "review_note": "The Daniel Chesters player profile identifies Daniel Peter James Chesters, gives 4 April 2002, and documents his West Ham academy and first-team career. FPL code 440120 maps to West Ham in 2021-22."
+    },
+    {
+      "player_id": 1908,
+      "display_name": "Rui Pedro dos Santos Patrício",
+      "fpl_season": "2021-22",
+      "fpl_code": "38533",
+      "date_of_birth": "1988-02-15",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Rui_Patr%C3%ADcio"
+      ],
+      "review_note": "The Rui Patrício player profile identifies Rui Pedro dos Santos Patrício, gives 15 February 1988, and documents his move to Wolverhampton Wanderers in 2018. FPL code 38533 maps to Wolves in 2021-22."
+    },
+    {
+      "player_id": 1910,
+      "display_name": "Fernando Marçal",
+      "fpl_season": "2021-22",
+      "fpl_code": "111291",
+      "date_of_birth": "1989-02-19",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Fernando_Mar%C3%A7al"
+      ],
+      "review_note": "The Fernando Marçal player profile identifies the Brazilian footballer and gives 19 February 1989; its career history documents his Wolverhampton Wanderers spell. FPL code 111291 maps to Wolves in 2021-22."
+    },
+    {
+      "player_id": 1913,
+      "display_name": "Francisco Machado Mota de Castro Trincão",
+      "fpl_season": "2021-22",
+      "fpl_code": "222564",
+      "date_of_birth": "1999-12-29",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Francisco_Trinc%C3%A3o"
+      ],
+      "review_note": "The Francisco Trincão player profile identifies Francisco António Machado Mota de Castro Trincão, gives 29 December 1999, and documents his loan to Wolverhampton Wanderers. FPL code 222564 maps to Wolves in 2021-22; the profile's expanded full name supports the canonical display-name match."
+    },
+    {
+      "player_id": 1921,
+      "display_name": "David Luiz Moreira Marinho",
+      "fpl_season": "2020-21",
+      "fpl_code": "41270",
+      "date_of_birth": "1987-04-22",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/David_Luiz"
+      ],
+      "review_note": "The David Luiz player profile gives the full name David Luiz Moreira Marinho, DOB 22 April 1987, and documents his Chelsea and Arsenal careers. FPL code 41270 maps to Arsenal in 2020-21 and to Chelsea in earlier linked seasons."
+    },
+    {
+      "player_id": 1923,
+      "display_name": "Daniel Ceballos Fernández",
+      "fpl_season": "2020-21",
+      "fpl_code": "182539",
+      "date_of_birth": "1996-08-07",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Dani_Ceballos"
+      ],
+      "review_note": "The Dani Ceballos player profile identifies Daniel Ceballos Fernández, gives 7 August 1996, and documents his two-season Arsenal loan. FPL code 182539 maps to Arsenal in 2020-21."
+    },
+    {
+      "player_id": 1927,
+      "display_name": "José Ignacio Peleteiro Romallo",
+      "fpl_season": "2020-21",
+      "fpl_code": "89274",
+      "date_of_birth": "1991-06-16",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Jota_(footballer,_born_1991)"
+      ],
+      "review_note": "The Jota Peleteiro player profile gives 16 June 1991 and documents his Aston Villa spell in 2020-21. FPL code 89274 maps to Aston Villa in 2020-21. The profile spells the surname Ramallo while the canonical FPL display name says Romallo; the distinctive Jota identity and Aston Villa mapping support the match, and the spelling difference is preserved as a note."
+    },
+    {
+      "player_id": 1949,
+      "display_name": "Faustino Anjorin",
+      "fpl_season": "2020-21",
+      "fpl_code": "223332",
+      "date_of_birth": "2001-11-23",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Tino_Anjorin"
+      ],
+      "review_note": "The Tino Anjorin player profile identifies Faustino Adebola Rasheed Anjorin, gives 23 November 2001, and documents his Chelsea career. FPL code 223332 maps to Chelsea in 2020-21; the Tino/Faustino names correspond."
+    },
+    {
+      "player_id": 1962,
+      "display_name": "Fabricio Agosto Ramírez",
+      "fpl_season": "2020-21",
+      "fpl_code": "40559",
+      "date_of_birth": "1987-12-31",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Fabricio_Agosto"
+      ],
+      "review_note": "The Fabricio Agosto player profile identifies Fabricio Martín Agosto Ramírez, gives 31 December 1987, and documents his Fulham spell. FPL code 40559 maps to Fulham in 2020-21 and 2018-19."
+    },
+    {
+      "player_id": 1971,
+      "display_name": "André-Frank Zambo Anguissa",
+      "fpl_season": "2020-21",
+      "fpl_code": "203325",
+      "date_of_birth": "1995-11-16",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Frank_Anguissa"
+      ],
+      "review_note": "The Frank Anguissa player profile identifies André-Frank Zambo Anguissa, gives 16 November 1995, and documents his Fulham career. FPL code 203325 maps to Fulham in 2020-21 and 2018-19."
+    },
+    {
+      "player_id": 1972,
+      "display_name": "Zeze Steven Sessegnon",
+      "fpl_season": "2020-21",
+      "fpl_code": "208998",
+      "date_of_birth": "2000-05-18",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Steven_Sessegnon"
+      ],
+      "review_note": "The Steven Sessegnon player profile identifies Zeze Steven Sessegnon, gives 18 May 2000, and documents his Fulham career. FPL code 208998 maps to Fulham in 2020-21 and 2018-19."
+    },
+    {
+      "player_id": 2015,
+      "display_name": "William Fish",
+      "fpl_season": "2020-21",
+      "fpl_code": "461566",
+      "date_of_birth": "2003-02-17",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Will_Fish",
+        "https://www.premierleague.com/news/1866356"
+      ],
+      "review_note": "The Will Fish player profile identifies William Thomas Fish, gives 17 February 2003, and records his Manchester United Premier League debut in May 2021. The official PL report supports that first-team identity; FPL code 461566 maps to Manchester United in 2020-21."
+    },
+    {
+      "player_id": 2058,
+      "display_name": "Ahmed El-Sayed Hegazy",
+      "fpl_season": "2020-21",
+      "fpl_code": "77777",
+      "date_of_birth": "1991-01-25",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Ahmed_Hegazi"
+      ],
+      "review_note": "The Ahmed Hegazi player profile identifies Ahmed Elsayed Ali Elsayed Hegazy, gives 25 January 1991, and documents his West Bromwich Albion career. FPL code 77777 maps to West Brom in 2020-21 and 2017-18; the name variants identify the same Egyptian defender."
+    },
+    {
+      "player_id": 2079,
+      "display_name": "Roberto Jimenez Gago",
+      "fpl_season": "2020-21",
+      "fpl_code": "40694",
+      "date_of_birth": "1986-02-10",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Roberto_Jim%C3%A9nez_(footballer,_born_1986)"
+      ],
+      "review_note": "The 1986-born Roberto Jiménez player profile identifies Roberto Jiménez Gago, gives 10 February 1986, and documents his West Ham United spell. FPL code 40694 maps to West Ham in 2020-21 and 2019-20, distinguishing this goalkeeper from other Robertos."
+    },
+    {
+      "player_id": 2081,
+      "display_name": "Felipe Anderson Pereira Gomes",
+      "fpl_season": "2020-21",
+      "fpl_code": "101537",
+      "date_of_birth": "1993-04-15",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Felipe_Anderson"
+      ],
+      "review_note": "The Felipe Anderson player profile identifies Felipe Anderson Pereira Gomes, gives 15 April 1993, and documents his West Ham United career. FPL code 101537 maps to West Ham across 2018-19 through 2020-21."
+    },
+    {
+      "player_id": 2085,
+      "display_name": "Ademipo Odubeko",
+      "fpl_season": "2020-21",
+      "fpl_code": "461533",
+      "date_of_birth": "2002-10-21",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Mipo_Odubeko"
+      ],
+      "review_note": "The Mipo Odubeko player profile identifies Ademipo Ibrahim Odubeko, gives 21 October 2002, and documents his West Ham debut and subsequent loan history. FPL code 461533 maps to West Ham in 2020-21; the profile's full name matches the canonical player."
+    },
+    {
+      "player_id": 2091,
+      "display_name": "Vitor Ferreira",
+      "fpl_season": "2020-21",
+      "fpl_code": "437858",
+      "date_of_birth": "2000-02-13",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Vitinha_(footballer,_born_2000)"
+      ],
+      "review_note": "The Vitinha player profile identifies Vítor Machado Ferreira, gives 13 February 2000, and documents his 2020-21 loan to Wolverhampton Wanderers. FPL code 437858 maps to Wolves in 2020-21; the full name and loan club disambiguate him from other players called Vitinha."
+    },
+    {
+      "player_id": 2097,
+      "display_name": "Willian José Da Silva",
+      "fpl_season": "2020-21",
+      "fpl_code": "73314",
+      "date_of_birth": "1991-11-23",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Willian_Jos%C3%A9"
+      ],
+      "review_note": "The Willian José player profile identifies Willian José da Silva, gives 23 November 1991, and documents his 2021 Wolverhampton Wanderers loan. FPL code 73314 maps to Wolves in 2020-21; the full name and loan club disambiguate this player."
+    }
+  ],
+  "unresolved": [
+    {
+      "player_id": 2035,
+      "display_name": "Frankie Maguire",
+      "reason": "FPL code 531076 and the canonical team mapping identify a Sheffield United entry in 2020-21. The official Premier League 2020-21 registered-under-21 list has Sheffield United's Francis William Maguire, which supports the squad identity, but it contains no date of birth. No direct public player profile with a day-precise DOB was found, so the DOB remains unresolved.",
+      "source_urls": [
+        "https://www.premierleague.com/news/2015249"
+      ]
+    }
+  ]
+}

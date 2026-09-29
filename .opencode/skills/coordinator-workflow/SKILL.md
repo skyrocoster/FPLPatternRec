@@ -32,6 +32,11 @@ frontier; delegate repository reads and edits.
   `research` for a less-bounded repository investigation when its expanded result is likely to be useful throughout
   the later assessment; do not decompose that work into a chain of narrow Scout questions. Do not repeat clean
   case-worker or delegated reads.
+- For live database facts, direct the worker to the persistent read-only `data-inspector` procedure in `AGENTS.md`:
+  check service status, reuse a healthy inspector or start it through `dev.ps1`, then run direct SQLite SQL via
+  `docker compose -f compose.yaml exec -T data-inspector python -` with `mode=ro` and `PRAGMA query_only`.
+  Keep timeouts finite. Do not use the one-shot writable `data-tools` pipeline, Datasette (UI or API), or Playwright
+  for database exploration.
 
 When assessment needs `research`, name it under `SUPPORT SKILLS` in the `PHASE: ASSESS` packet. Include a research
 objective, relevant paths and known facts, expected output, and a stop condition. Do not send `research` as a

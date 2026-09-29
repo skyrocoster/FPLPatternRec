@@ -1,0 +1,37 @@
+[
+  {
+    "player_id": 1886,
+    "display_name": "Juan Camilo Hernández Suárez",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "244716",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q27037962",
+      "https://en.wikipedia.org/wiki/Cucho_Hern%C3%A1ndez",
+      "https://www.fcf.com.co/player/juan-camilo-hernandez/",
+      "https://www.realbetisbalompie.es/primer-equipo/jugador/cucho-hernandez"
+    ],
+    "review_note": "Wikidata P569 gives 1999-04-22 while the English Wikipedia profile gives 1999-04-20. The accessible Colombian federation player page identifies Hernández but does not supply a day-level DOB; the checked official Betis roster likewise did not settle the date. No value is selected without a stronger primary source."
+  },
+  {
+    "player_id": 2035,
+    "display_name": "Frankie Maguire",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "531076",
+    "date_of_birth": null,
+    "source_urls": [],
+    "review_note": "The archived name/code establishes a Sheffield United FPL entry, but this review did not find a unique football biography or official player profile with a credible day-precise DOB. Identity and birth date remain unresolved."
+  },
+  {
+    "player_id": 2151,
+    "display_name": "Danilo Luiz da Silva",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "100180",
+    "date_of_birth": null,
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Danilo_(footballer,_born_July_1991)",
+      "https://www.mancity.com/players/danilo"
+    ],
+    "review_note": "The identity is consistent with Manchester City defender Danilo Luiz da Silva, and the profile documents his City career. However, the English Wikipedia infobox says 1991-07-16 while its lead says 1991-07-15; no stronger primary source was established here to settle the exact day, so the DOB remains null."
+  }
+]

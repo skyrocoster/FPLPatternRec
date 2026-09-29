@@ -1,7 +1,10 @@
 # FPLPatternRec
 
 Windows-focused starter with a FastAPI health endpoint, React status page,
-reusable Base UI Storybook, and Datasette over an empty SQLite database.
+reusable Base UI Storybook, and Datasette over a volume-only SQLite database.
+The database has staged FPL teams, reviewed Premier League clubs, and canonical
+players across saved FPL seasons 2016-17 through 2026-27 (not transfer history);
+see [data-pipeline status](docs/DATA_PIPELINE.md) for what has been loaded.
 
 ## Repository map
 
@@ -11,6 +14,7 @@ reusable Base UI Storybook, and Datasette over an empty SQLite database.
 - [Tests](tests/README.md)
 - [Documentation](docs/README.md)
 - [Experiments](experiments/README.md)
+- [Data storage conventions](docs/DATA_STORAGE.md)
 
 Install Python dependencies into the root `.venv` with `uv` and JavaScript
 dependencies with `npm ci`. Use [`dev.ps1`](dev.ps1) through the commands in

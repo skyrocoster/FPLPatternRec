@@ -1,0 +1,686 @@
+[
+  {
+    "player_id": 1811,
+    "display_name": "Matthew Longstaff",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "223175",
+    "date_of_birth": "2000-03-21",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q66311593",
+      "https://en.wikipedia.org/wiki/Matty_Longstaff"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Newcastle United. SQL links this FPL code to Newcastle United in 2021-22; the Matty Longstaff profile confirms 21 March 2000 and the Matthew/Matty name match."
+  },
+  {
+    "player_id": 1832,
+    "display_name": "Joshua Sargent",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "215476",
+    "date_of_birth": "2000-02-20",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q30032829",
+      "https://en.wikipedia.org/wiki/Josh_Sargent"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Norwich City. SQL links this FPL code to Norwich City in 2021-22; the Josh Sargent profile confirms 20 February 2000 and identifies him as Joshua Thomas Sargent."
+  },
+  {
+    "player_id": 1872,
+    "display_name": "Ayotomiwa Dele-Bashiru",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "175353",
+    "date_of_birth": "1999-09-17",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q46148547",
+      "https://en.wikipedia.org/wiki/Tom_Dele-Bashiru"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Watford. SQL links this FPL code to Watford in 2021-22; the Tom Dele-Bashiru profile gives the full name Ayotomiwa Sherif Dele-Bashiru and confirms 17 September 1999."
+  },
+  {
+    "player_id": 1894,
+    "display_name": "Samir Caetano de Souza Santos",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "162651",
+    "date_of_birth": "1994-12-05",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q16599852",
+      "https://en.wikipedia.org/wiki/Samir_(footballer,_born_1994)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Watford. SQL links this FPL code to Watford in 2021-22; the Samir profile gives the same full name and confirms 5 December 1994."
+  },
+  {
+    "player_id": 1908,
+    "display_name": "Rui Pedro dos Santos Patrício",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "38533",
+    "date_of_birth": "1988-02-15",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q294980",
+      "https://en.wikipedia.org/wiki/Rui_Patr%C3%ADcio"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Wolverhampton Wanderers. SQL links this FPL code to Wolves in 2021-22; the Rui Patrício profile confirms 15 February 1988 and the full name."
+  },
+  {
+    "player_id": 1910,
+    "display_name": "Fernando Marçal",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "111291",
+    "date_of_birth": "1989-02-19",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q15991578",
+      "https://en.wikipedia.org/wiki/Fernando_Mar%C3%A7al"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Wolverhampton Wanderers. SQL links this FPL code to Wolves in 2021-22; the profile confirms 19 February 1989."
+  },
+  {
+    "player_id": 1927,
+    "display_name": "José Ignacio Peleteiro Romallo",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "89274",
+    "date_of_birth": "1991-06-16",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q3391399",
+      "https://en.wikipedia.org/wiki/Jota_(footballer,_born_1991)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Aston Villa. SQL links this FPL code to Aston Villa in 2019-20 and 2020-21; the Jota Peleteiro profile confirms 16 June 1991. The FPL short name and Aston Villa club association disambiguate this player; the display surname spelling differs from the article's Ramallo."
+  },
+  {
+    "player_id": 1949,
+    "display_name": "Faustino Anjorin",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "223332",
+    "date_of_birth": "2001-11-23",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q68603852",
+      "https://en.wikipedia.org/wiki/Tino_Anjorin"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Chelsea. SQL links this FPL code to Chelsea in 2019-20 and 2020-21; the Tino Anjorin profile confirms the full name and 23 November 2001."
+  },
+  {
+    "player_id": 1962,
+    "display_name": "Fabricio Agosto Ramírez",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "40559",
+    "date_of_birth": "1987-12-31",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q1339521",
+      "https://en.wikipedia.org/wiki/Fabricio_Agosto"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Fulham. SQL links this FPL code to Fulham in 2018-19 and 2020-21; the Fabri profile gives the same full name and confirms 31 December 1987."
+  },
+  {
+    "player_id": 1971,
+    "display_name": "André-Frank Zambo Anguissa",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "203325",
+    "date_of_birth": "1995-11-16",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q21039587",
+      "https://en.wikipedia.org/wiki/Frank_Anguissa"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Fulham. SQL links this FPL code to Fulham in 2018-19 and 2020-21; the Frank Anguissa profile identifies André-Frank Zambo Anguissa and confirms 16 November 1995."
+  },
+  {
+    "player_id": 1972,
+    "display_name": "Zeze Steven Sessegnon",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "208998",
+    "date_of_birth": "2000-05-18",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q35578109",
+      "https://en.wikipedia.org/wiki/Steven_Sessegnon"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Fulham. SQL links this FPL code to Fulham in 2018-19 and 2020-21; the profile confirms the full name and 18 May 2000."
+  },
+  {
+    "player_id": 2081,
+    "display_name": "Felipe Anderson Pereira Gomes",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "101537",
+    "date_of_birth": "1993-04-15",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q794628",
+      "https://en.wikipedia.org/wiki/Felipe_Anderson"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes West Ham United. SQL links this FPL code to West Ham in 2018-19 through 2020-21; the profile gives the same full name and confirms 15 April 1993."
+  },
+  {
+    "player_id": 2097,
+    "display_name": "Willian José Da Silva",
+    "scope": "premier-league:2020-21",
+    "fpl_code": "73314",
+    "date_of_birth": "1991-11-23",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q2469796",
+      "https://en.wikipedia.org/wiki/Willian_Jos%C3%A9"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Wolverhampton Wanderers. SQL links this FPL code to Wolves in 2020-21; the profile confirms 23 November 1991."
+  },
+  {
+    "player_id": 2108,
+    "display_name": "Daniel Drinkwater",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "61603",
+    "date_of_birth": "1990-03-05",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q1862778",
+      "https://en.wikipedia.org/wiki/Danny_Drinkwater"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes the FPL clubs Chelsea, Leicester City, Aston Villa, and Burnley. SQL links this FPL code to those clubs across 2016-17 through 2019-20; the Danny Drinkwater profile confirms 5 March 1990."
+  },
+  {
+    "player_id": 2110,
+    "display_name": "José Reina",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "8432",
+    "date_of_birth": "1982-08-31",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q163666",
+      "https://en.wikipedia.org/wiki/Pepe_Reina"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Aston Villa. SQL links this FPL code to Aston Villa in 2019-20; the Pepe Reina profile identifies José Manuel Reina and confirms 31 August 1982."
+  },
+  {
+    "player_id": 2127,
+    "display_name": "Abd-Al-Ali Morakinyo Olaposi Koiki",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "432793",
+    "date_of_birth": "1999-08-22",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q60736857",
+      "https://en.wikipedia.org/wiki/Ali_Koiki"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Burnley U23s and Academy. SQL links this FPL code to Burnley in 2018-19 and 2019-20; the Ali Koiki profile gives the same full name and confirms 22 August 1999."
+  },
+  {
+    "player_id": 2130,
+    "display_name": "Pedro Rodríguez Ledesma",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "49579",
+    "date_of_birth": "1987-07-28",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q179773",
+      "https://en.wikipedia.org/wiki/Pedro_(footballer,_born_1987)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Chelsea. SQL links this FPL code to Chelsea from 2016-17 through 2019-20; the Pedro profile gives the full name and confirms 28 July 1987."
+  },
+  {
+    "player_id": 2144,
+    "display_name": "Rhu-endly Martina",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "56192",
+    "date_of_birth": "1989-09-25",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q279073",
+      "https://en.wikipedia.org/wiki/Cuco_Martina"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Everton and Southampton. SQL links this FPL code to both clubs from 2016-17 through 2019-20; the Cuco Martina profile gives the full name and confirms 25 September 1989."
+  },
+  {
+    "player_id": 2157,
+    "display_name": "Jose Luis Mato Sanmartín",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "61316",
+    "date_of_birth": "1990-03-27",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q134729",
+      "https://en.wikipedia.org/wiki/Joselu"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Newcastle United and Stoke City. SQL links this FPL code to Stoke in 2016-17 and Newcastle United in 2017-18; the Joselu profile gives the full name and confirms 27 March 1990."
+  },
+  {
+    "player_id": 2210,
+    "display_name": "Heurelho da Silva Gomes",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "18656",
+    "date_of_birth": "1981-02-15",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q177885",
+      "https://en.wikipedia.org/wiki/Heurelho_Gomes"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Tottenham Hotspur and Watford. SQL links this FPL code to Watford in 2016-17 through 2019-20; the profile gives the full name and confirms 15 February 1981."
+  },
+  {
+    "player_id": 2216,
+    "display_name": "Javier Hernández Balcázar",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "43020",
+    "date_of_birth": "1988-06-01",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q165125",
+      "https://en.wikipedia.org/wiki/Javier_Hern%C3%A1ndez"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes West Ham United and Manchester United. SQL links this FPL code to West Ham in 2017-18 through 2019-20; the Javier Hernández profile identifies Chicharito and confirms 1 June 1988."
+  },
+  {
+    "player_id": 2217,
+    "display_name": "Carlos Sánchez",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "42824",
+    "date_of_birth": "1986-02-06",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q116602",
+      "https://en.wikipedia.org/wiki/Carlos_S%C3%A1nchez_(footballer,_born_1986)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes West Ham United and Watford. SQL links this FPL code to West Ham in 2018-19 and 2019-20; the profile identifies Colombian midfielder Carlos Alberto Sánchez Moreno and confirms 6 February 1986."
+  },
+  {
+    "player_id": 2224,
+    "display_name": "Bernard Ashley-Seal",
+    "scope": "premier-league:2019-20",
+    "fpl_code": "194798",
+    "date_of_birth": "1998-11-21",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q56289678",
+      "https://en.wikipedia.org/wiki/Benny_Ashley-Seal"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Wolverhampton Wanderers. SQL links this FPL code to Wolves in 2019-20; the Benny Ashley-Seal profile identifies Bernard Patrick Ashley-Seal and confirms 21 November 1998."
+  },
+  {
+    "player_id": 2227,
+    "display_name": "Aaron Ramsey",
+    "scope": "premier-league:2018-19",
+    "fpl_code": "41792",
+    "date_of_birth": "1990-12-26",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q213427",
+      "https://en.wikipedia.org/wiki/Aaron_Ramsey"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Arsenal and Cardiff City. SQL links this FPL code to Arsenal from 2016-17 through 2018-19; the profile confirms 26 December 1990."
+  },
+  {
+    "player_id": 2235,
+    "display_name": "Bruno Saltor Grau",
+    "scope": "premier-league:2018-19",
+    "fpl_code": "11352",
+    "date_of_birth": "1980-10-01",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q440431",
+      "https://en.wikipedia.org/wiki/Bruno_Saltor"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Brighton & Hove Albion. SQL links this FPL code to Brighton in 2017-18 and 2018-19; the profile gives the full name and confirms 1 October 1980."
+  },
+  {
+    "player_id": 2251,
+    "display_name": "Ashley Darel Jazz Richards",
+    "scope": "premier-league:2018-19",
+    "fpl_code": "73459",
+    "date_of_birth": "1991-04-12",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q2463858",
+      "https://en.wikipedia.org/wiki/Jazz_Richards"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Cardiff City. SQL links this FPL code to Cardiff City in 2018-19; the Jazz Richards profile gives the full name and confirms 12 April 1991."
+  },
+  {
+    "player_id": 2254,
+    "display_name": "David Junior Hoilett",
+    "scope": "premier-league:2018-19",
+    "fpl_code": "49806",
+    "date_of_birth": "1990-06-05",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q376313",
+      "https://en.wikipedia.org/wiki/Junior_Hoilett"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Cardiff City. SQL links this FPL code to Cardiff City in 2018-19; the Junior Hoilett profile gives the full name and confirms 5 June 1990."
+  },
+  {
+    "player_id": 2289,
+    "display_name": "Rui Pedro da Rocha Fonte",
+    "scope": "premier-league:2018-19",
+    "fpl_code": "58476",
+    "date_of_birth": "1990-04-23",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q955451",
+      "https://en.wikipedia.org/wiki/Rui_Fonte"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Fulham. SQL links this FPL code to Fulham in 2018-19; the Rui Fonte profile gives the full name and confirms 23 April 1990."
+  },
+  {
+    "player_id": 2302,
+    "display_name": "Tommy Smith",
+    "scope": "premier-league:2018-19",
+    "fpl_code": "104545",
+    "date_of_birth": "1992-04-14",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q16235031",
+      "https://en.wikipedia.org/wiki/Tommy_Smith_(footballer,_born_1992)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Huddersfield Town and Stoke City. SQL links this FPL code to Huddersfield Town in 2017-18 and 2018-19; the 1992 Tommy Smith profile confirms 14 April 1992."
+  },
+  {
+    "player_id": 2308,
+    "display_name": "Danny Williams",
+    "scope": "premier-league:2018-19",
+    "fpl_code": "80755",
+    "date_of_birth": "1989-03-08",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q138235",
+      "https://en.wikipedia.org/wiki/Danny_Williams_(soccer,_born_1989)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Huddersfield Town. SQL links this FPL code to Huddersfield Town in 2017-18 and 2018-19; the US midfielder profile confirms 8 March 1989."
+  },
+  {
+    "player_id": 2376,
+    "display_name": "Santiago Cazorla",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "19524",
+    "date_of_birth": "1984-12-13",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q185225",
+      "https://en.wikipedia.org/wiki/Santi_Cazorla"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Arsenal. SQL links this FPL code to Arsenal in 2016-17 and 2017-18; the Santi Cazorla profile gives the full name and confirms 13 December 1984."
+  },
+  {
+    "player_id": 2381,
+    "display_name": "Bradley Smith",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "120447",
+    "date_of_birth": "1994-04-09",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q15477554",
+      "https://en.wikipedia.org/wiki/Brad_Smith_(soccer,_born_1994)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes AFC Bournemouth. SQL links this FPL code to Bournemouth in 2016-17 and 2017-18; the Brad Smith profile confirms 9 April 1994 and the FPL club association."
+  },
+  {
+    "player_id": 2400,
+    "display_name": "Eduardo dos Reis Carvalho",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "41251",
+    "date_of_birth": "1982-09-19",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q299768",
+      "https://en.wikipedia.org/wiki/Eduardo_Carvalho"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Chelsea. SQL links this FPL code to Chelsea in 2016-17 and 2017-18; the Eduardo Carvalho profile gives the full name and confirms 19 September 1982."
+  },
+  {
+    "player_id": 2435,
+    "display_name": "Leiva Lucas",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "43191",
+    "date_of_birth": "1987-01-09",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q220593",
+      "https://en.wikipedia.org/wiki/Lucas_Leiva"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Liverpool. SQL links this FPL code to Liverpool in 2016-17 and 2017-18; the Lucas Leiva profile confirms 9 January 1987 and the reversed-name match."
+  },
+  {
+    "player_id": 2437,
+    "display_name": "Oluwaseyi Ojo",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "141921",
+    "date_of_birth": "1997-06-19",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q19008392",
+      "https://en.wikipedia.org/wiki/Sheyi_Ojo"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Liverpool. SQL links this FPL code to Liverpool in 2016-17 and 2017-18; the Sheyi Ojo profile confirms 19 June 1997 and the short/full-name match."
+  },
+  {
+    "player_id": 2442,
+    "display_name": "Gnegneri Yaya Touré",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "14664",
+    "date_of_birth": "1983-05-13",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q184277",
+      "https://en.wikipedia.org/wiki/Yaya_Tour%C3%A9"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Manchester City. SQL links this FPL code to Manchester City in 2016-17 and 2017-18; the Yaya Touré profile confirms 13 May 1983."
+  },
+  {
+    "player_id": 2443,
+    "display_name": "Fernando Francisco Reges",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "52538",
+    "date_of_birth": "1985-05-04",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q459356",
+      "https://en.wikipedia.org/wiki/Fernandinho_(footballer,_born_May_1985)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Manchester City. SQL links this FPL code to Manchester City in 2016-17 and 2017-18; the Fernandinho profile identifies Fernando Luiz Roza and confirms 4 May 1985."
+  },
+  {
+    "player_id": 2444,
+    "display_name": "Manuel Agudo Durán",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "86173",
+    "date_of_birth": "1986-10-15",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q456617",
+      "https://en.wikipedia.org/wiki/Nolito"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Manchester City. SQL links this FPL code to Manchester City in 2016-17 and 2017-18; the Nolito profile gives the full name and confirms 15 October 1986."
+  },
+  {
+    "player_id": 2445,
+    "display_name": "Joel Dinis Castro Pereira",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "168196",
+    "date_of_birth": "1996-06-28",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q19996370",
+      "https://en.wikipedia.org/wiki/Joel_Castro_Pereira"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Manchester United. SQL links this FPL code to Manchester United in 2016-17 and 2017-18; the Joel Castro Pereira profile gives the full name and confirms 28 June 1996."
+  },
+  {
+    "player_id": 2468,
+    "display_name": "Bojan Krkic Perez",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "40276",
+    "date_of_birth": "1990-08-28",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q179172",
+      "https://en.wikipedia.org/wiki/Bojan_Krki%C4%87"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Stoke City. SQL links this FPL code to Stoke City in 2016-17 and 2017-18; the Bojan profile gives the full name and confirms 28 August 1990."
+  },
+  {
+    "player_id": 2470,
+    "display_name": "Mame Biram Diouf",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "61858",
+    "date_of_birth": "1987-12-16",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q19051",
+      "https://en.wikipedia.org/wiki/Mame_Biram_Diouf"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Stoke City and Manchester United. SQL links this FPL code to Stoke City in 2016-17 and 2017-18; the profile confirms 16 December 1987."
+  },
+  {
+    "player_id": 2484,
+    "display_name": "Lasse Sorenson",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "226029",
+    "date_of_birth": "1999-10-21",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q21622938",
+      "https://en.wikipedia.org/wiki/Lasse_S%C3%B8rensen_(footballer,_born_1999)"
+    ],
+    "review_note": "Wikidata contains day-precise P569 claims for 21 and 22 October 1999; the article confirms 21 October. P54 includes Stoke City, which matches the 2017-18 FPL SQL team. The cross-check resolves which claim is supported."
+  },
+  {
+    "player_id": 2493,
+    "display_name": "Jay Fulton",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "96305",
+    "date_of_birth": "1994-04-01",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q6166625",
+      "https://en.wikipedia.org/wiki/Jay_Fulton"
+    ],
+    "review_note": "Wikidata contains day-precise P569 claims for 1 and 4 April 1994; the article confirms 1 April. P54 includes Swansea City, matching the 2016-17 and 2017-18 FPL SQL teams. The cross-check resolves which claim is supported."
+  },
+  {
+    "player_id": 2523,
+    "display_name": "Allan-Roméo Nyom",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "67527",
+    "date_of_birth": "1988-05-10",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q2705713",
+      "https://en.wikipedia.org/wiki/Allan_Nyom"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes West Bromwich Albion and Watford. SQL links this FPL code to both clubs in 2016-17 and 2017-18; the profile confirms 10 May 1988."
+  },
+  {
+    "player_id": 2542,
+    "display_name": "Antonio Martinez Lopez",
+    "scope": "premier-league:2017-18",
+    "fpl_code": "178867",
+    "date_of_birth": "1997-06-30",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q7822897",
+      "https://en.wikipedia.org/wiki/Toni_Mart%C3%ADnez"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes West Ham United. SQL links this FPL code to West Ham in 2017-18; the Toni Martínez profile identifies Antonio Martínez López and confirms 30 June 1997."
+  },
+  {
+    "player_id": 2565,
+    "display_name": "Oscar dos Santos Emboaba Junior",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "61262",
+    "date_of_birth": "1991-09-09",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q19497",
+      "https://en.wikipedia.org/wiki/Oscar_(footballer,_born_1991)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Chelsea. SQL links this FPL code to Chelsea in 2016-17; the Oscar profile gives the full name and confirms 9 September 1991."
+  },
+  {
+    "player_id": 2608,
+    "display_name": "James Wilson",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "112139",
+    "date_of_birth": "1995-12-01",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q16766365",
+      "https://en.wikipedia.org/wiki/James_Wilson_(footballer,_born_1995)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Manchester United. SQL links this FPL code to Manchester United in 2016-17; the 1995 James Wilson profile confirms 1 December 1995."
+  },
+  {
+    "player_id": 2612,
+    "display_name": "George Friend",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "40202",
+    "date_of_birth": "1987-10-19",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q770113",
+      "https://en.wikipedia.org/wiki/George_Friend"
+    ],
+    "review_note": "Wikidata contains day-precise P569 claims for 19 and 17 October 1987; the article confirms 19 October. P54 includes Middlesbrough, matching the 2016-17 SQL team. The cross-check resolves which claim is supported."
+  },
+  {
+    "player_id": 2632,
+    "display_name": "Dionatan do Nascimento Teixeira",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "155706",
+    "date_of_birth": "1992-07-24",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q4502193",
+      "https://en.wikipedia.org/wiki/Dionatan_Teixeira"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Stoke City. SQL links this FPL code to Stoke City in 2016-17; the profile gives the full name and confirms 24 July 1992."
+  },
+  {
+    "player_id": 2656,
+    "display_name": "Mamadou Obbi Oularé",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "179620",
+    "date_of_birth": "1996-01-08",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q18041331",
+      "https://en.wikipedia.org/wiki/Obbi_Oular%C3%A9"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Watford. SQL links this FPL code to Watford in 2016-17; the Obbi Oularé profile gives the full name and confirms 8 January 1996."
+  },
+  {
+    "player_id": 2668,
+    "display_name": "Juan Zúñiga",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "42738",
+    "date_of_birth": "1985-12-14",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q456797",
+      "https://en.wikipedia.org/wiki/Juan_Camilo_Z%C3%BA%C3%B1iga"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Watford. SQL links this FPL code to Watford in 2016-17; the Juan Camilo Zúñiga profile confirms 14 December 1985."
+  },
+  {
+    "player_id": 2671,
+    "display_name": "Bradley Guzan",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "41705",
+    "date_of_birth": "1984-09-09",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q219167",
+      "https://en.wikipedia.org/wiki/Brad_Guzan"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Middlesbrough. SQL links this FPL code to Middlesbrough in 2016-17; the Brad Guzan profile gives the full name and confirms 9 September 1984."
+  },
+  {
+    "player_id": 2686,
+    "display_name": "Fabio Pereira da Silva",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "54771",
+    "date_of_birth": "1990-07-09",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q213401",
+      "https://en.wikipedia.org/wiki/Fabio_(footballer,_born_1990)"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Middlesbrough and Manchester United. SQL links this FPL code to Middlesbrough in 2016-17; the Fabio profile gives the full name and confirms 9 July 1990."
+  },
+  {
+    "player_id": 2706,
+    "display_name": "Michael Simões Domingues",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "81061",
+    "date_of_birth": "1988-03-02",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q275977",
+      "https://en.wikipedia.org/wiki/Vito_Mannone"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Sunderland. SQL links this FPL code to Sunderland in 2016-17; the Vito Mannone profile confirms 2 March 1988 and identifies him as Michael Simões Domingues."
+  },
+  {
+    "player_id": 2710,
+    "display_name": "Oviemuno Ejaria",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "154051",
+    "date_of_birth": "1997-11-18",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q26953157",
+      "https://en.wikipedia.org/wiki/Ovie_Ejaria"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Liverpool. SQL links this FPL code to Liverpool in 2016-17; the Ovie Ejaria profile gives the full name and confirms 18 November 1997."
+  },
+  {
+    "player_id": 2725,
+    "display_name": "Ethan Robson",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "149051",
+    "date_of_birth": "1996-10-25",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q41565578",
+      "https://en.wikipedia.org/wiki/Ethan_Robson"
+    ],
+    "review_note": "Wikidata has day-precise P569 claims for 25 July and 25 October 1996; the article confirms 25 October. P54 includes Sunderland, matching the 2016-17 FPL SQL team. The cross-check resolves which claim is supported."
+  },
+  {
+    "player_id": 2743,
+    "display_name": "Matthew Willock",
+    "scope": "premier-league:2016-17",
+    "fpl_code": "176295",
+    "date_of_birth": "1996-08-20",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q30075256",
+      "https://en.wikipedia.org/wiki/Matty_Willock"
+    ],
+    "review_note": "Wikidata P569 is day-precise and P54 includes Manchester United. SQL links this FPL code to Manchester United in 2016-17; the Matty Willock profile gives the full name and confirms 20 August 1996."
+  }
+]

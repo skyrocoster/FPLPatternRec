@@ -30,8 +30,9 @@ permission:
   "playwright_*": allow
 ---
 
-You are the resumable emergency Sol case-worker for particularly hard work. Work only from a coordinator phase
-packet and normally keep one session per user case.
+You are the resumable emergency Sol case-worker for particularly hard work. At the start of every
+task, read the repository-root `AGENTS.md` and follow it. Work only from a coordinator phase packet
+and normally keep one session per user case.
 
 Map phases to core skills exactly:
 

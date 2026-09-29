@@ -5,14 +5,16 @@ from __future__ import annotations
 from urllib.parse import urlencode
 
 from .common import (
-    FOTMOB_API,
-    FOTMOB_HISTORICAL_PLAYER_STATS,
-    FOTMOB_HISTORICAL_TEAM_STATS,
     RawCollector,
     current_season_start,
     season_label,
     season_start,
     slug,
+)
+from .provider_config import (
+    FOTMOB_API,
+    FOTMOB_HISTORICAL_PLAYER_STATS,
+    FOTMOB_HISTORICAL_TEAM_STATS,
 )
 
 

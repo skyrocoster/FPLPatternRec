@@ -1,0 +1,509 @@
+[
+  {
+    "player_id": 1160,
+    "display_name": "João Cavaco Cancelo",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "121145",
+    "fpl_club": "Manchester City",
+    "date_of_birth": "1994-05-27",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q6298063",
+      "https://en.wikipedia.org/wiki/Jo%C3%A3o_Cancelo"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Manchester City F.C. (Q50602), matching SQL. The English Wikipedia lead identifies João Pedro Cavaco Cancelo and gives the exact DOB."
+  },
+  {
+    "player_id": 1219,
+    "display_name": "Emerson Leite de Souza Junior",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "241157",
+    "fpl_club": "Tottenham Hotspur",
+    "date_of_birth": "1999-01-14",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q30123152",
+      "https://en.wikipedia.org/wiki/Emerson_Royal"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Tottenham Hotspur F.C. (Q18741), matching SQL. The English Wikipedia lead identifies Emerson Aparecido Leite de Souza Junior as Emerson Royal and gives the exact DOB."
+  },
+  {
+    "player_id": 1249,
+    "display_name": "Cédric Alves Soares",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "58822",
+    "fpl_club": "Arsenal",
+    "date_of_birth": "1991-08-31",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q481330",
+      "https://en.wikipedia.org/wiki/C%C3%A9dric_Soares"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Arsenal F.C. (Q9617), matching SQL. The English Wikipedia profile identifies Cédric Ricardo Alves Soares and gives the exact DOB."
+  },
+  {
+    "player_id": 1251,
+    "display_name": "Marcus Oliveira Alencar",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "479683",
+    "fpl_club": "Arsenal",
+    "date_of_birth": "2003-04-07",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q107584170",
+      "https://en.wikipedia.org/wiki/Marquinhos_(footballer,_born_2003)"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Arsenal F.C. (Q9617), matching SQL. The English Wikipedia article is the 2003-born Arsenal footballer Marquinhos, matching the FPL full name/alias."
+  },
+  {
+    "player_id": 1263,
+    "display_name": "Wesley Moraes Ferreira da Silva",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "213345",
+    "fpl_club": "Aston Villa",
+    "date_of_birth": "1996-11-26",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q20716703",
+      "https://en.wikipedia.org/wiki/Wesley_(footballer,_born_November_1996)"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Aston Villa F.C. (Q18711), matching SQL. The English Wikipedia profile is Wesley Moraes, the Brazilian footballer whose full name matches the FPL record."
+  },
+  {
+    "player_id": 1294,
+    "display_name": "Michał Karbownik",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "442229",
+    "fpl_club": "Brighton",
+    "date_of_birth": "2001-03-13",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q73247293",
+      "https://en.wikipedia.org/wiki/Micha%C5%82_Karbownik"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Brighton & Hove Albion F.C. (Q19453), matching SQL. The English Wikipedia lead identifies the Polish footballer and gives the exact DOB."
+  },
+  {
+    "player_id": 1296,
+    "display_name": "Anssumane Fati Vieira",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "465607",
+    "fpl_club": "Brighton",
+    "date_of_birth": "2002-10-31",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q66743376",
+      "https://en.wikipedia.org/wiki/Ansu_Fati"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Brighton & Hove Albion F.C. (Q19453), matching SQL. The English Wikipedia lead gives the full name Anssumane Fati Vieira and exact DOB."
+  },
+  {
+    "player_id": 1326,
+    "display_name": "Thiago Emiliano da Silva",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "51090",
+    "fpl_club": "Chelsea",
+    "date_of_birth": "1984-09-22",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q210453",
+      "https://en.wikipedia.org/wiki/Thiago_Silva"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Chelsea F.C. (Q9616), matching SQL. The English Wikipedia profile identifies Thiago Emiliano da Silva as the Brazilian footballer."
+  },
+  {
+    "player_id": 1329,
+    "display_name": "Diego Manuel Jadon da Silva Moreira",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "491011",
+    "fpl_club": "Chelsea",
+    "date_of_birth": "2004-08-06",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q110616805",
+      "https://en.wikipedia.org/wiki/Diego_Moreira"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Chelsea F.C. (Q9616), matching SQL. The English Wikipedia lead identifies Diego Manuel Jadon da Silva Moreira and gives the exact DOB."
+  },
+  {
+    "player_id": 1350,
+    "display_name": "André Tavares Gomes",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "120250",
+    "fpl_club": "Everton",
+    "date_of_birth": "1993-07-30",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q519008",
+      "https://en.wikipedia.org/wiki/Andr%C3%A9_Gomes"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Everton F.C. (Q5794), matching SQL. The English Wikipedia lead identifies André Filipe Tavares Gomes and gives the exact DOB."
+  },
+  {
+    "player_id": 1369,
+    "display_name": "Adrián San Miguel del Castillo",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "60706",
+    "fpl_club": "Liverpool",
+    "date_of_birth": "1987-01-03",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q3557182",
+      "https://en.wikipedia.org/wiki/Adri%C3%A1n_(footballer)"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Liverpool F.C. (Q1130849), matching SQL. The English Wikipedia lead gives the same full name and exact DOB."
+  },
+  {
+    "player_id": 1370,
+    "display_name": "Fabio Henrique Tavares",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "116643",
+    "fpl_club": "Liverpool",
+    "date_of_birth": "1993-10-23",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q641425",
+      "https://en.wikipedia.org/wiki/Fabinho_(footballer,_born_1993)"
+    ],
+    "review_note": "Resolved the FPL full name to Fabinho (not Roberto Firmino): Wikidata P569 is exact to day (precision 11), P54 includes Liverpool F.C. (Q1130849), and the English Wikipedia article identifies the same full name/club career."
+  },
+  {
+    "player_id": 1372,
+    "display_name": "Thiago Alcántara do Nascimento",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "61558",
+    "fpl_club": "Liverpool",
+    "date_of_birth": "1991-04-11",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q17493",
+      "https://en.wikipedia.org/wiki/Thiago_Alc%C3%A2ntara"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Liverpool F.C. (Q1130849), matching SQL. The English Wikipedia profile identifies Thiago Alcántara do Nascimento."
+  },
+  {
+    "player_id": 1391,
+    "display_name": "Carlos Mendes Gomes",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "453537",
+    "fpl_club": "Luton Town",
+    "date_of_birth": "1998-11-14",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q56224054",
+      "https://en.wikipedia.org/wiki/Carlos_Mendes_Gomes"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Luton Town F.C. (Q18520), matching SQL. The English Wikipedia lead identifies the same professional footballer and gives the exact DOB."
+  },
+  {
+    "player_id": 1433,
+    "display_name": "Álvaro Fernández Carreras",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "515501",
+    "fpl_club": "Manchester United",
+    "date_of_birth": "2003-03-23",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q110001765",
+      "https://en.wikipedia.org/wiki/%C3%81lvaro_Carreras"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Manchester United F.C. (Q18656), matching SQL. The English Wikipedia profile identifies Álvaro Fernández Carreras."
+  },
+  {
+    "player_id": 1434,
+    "display_name": "Frederico Rodrigues de Paula Santos",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "101582",
+    "fpl_club": "Manchester United",
+    "date_of_birth": "1993-03-05",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q965448",
+      "https://en.wikipedia.org/wiki/Fred_(footballer,_born_1993)"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Manchester United F.C. (Q18656), matching SQL. The English Wikipedia lead identifies Frederico Rodrigues de Paula Santos as Fred and gives the exact DOB."
+  },
+  {
+    "player_id": 1460,
+    "display_name": "Brandon Aguilera Zamora",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "461682",
+    "fpl_club": "Nottingham Forest",
+    "date_of_birth": "2003-06-28",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q96116141",
+      "https://en.wikipedia.org/wiki/Brandon_Aguilera"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Nottingham Forest F.C. (Q19490), matching SQL. The English Wikipedia lead identifies Brandon Aguilera Zamora and gives the exact DOB."
+  },
+  {
+    "player_id": 1466,
+    "display_name": "Felipe Augusto de Almeida Monteiro",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "116404",
+    "fpl_club": "Nottingham Forest",
+    "date_of_birth": "1989-05-16",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q1839524",
+      "https://en.wikipedia.org/wiki/Felipe_(footballer,_born_1989)"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Nottingham Forest F.C. (Q19490), matching SQL. The English Wikipedia profile identifies Felipe Augusto de Almeida Monteiro and gives the exact DOB."
+  },
+  {
+    "player_id": 1504,
+    "display_name": "Vini de Souza Costa",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "424001",
+    "fpl_club": "Sheffield United",
+    "date_of_birth": "1999-06-17",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q69968896",
+      "https://en.wikipedia.org/wiki/Vin%C3%ADcius_Souza"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Sheffield United F.C. (Q19607), matching SQL. The English Wikipedia profile identifies Vinicius Souza as the same footballer."
+  },
+  {
+    "player_id": 1538,
+    "display_name": "Jonathan Castro Otto",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "114128",
+    "fpl_club": "Wolves",
+    "date_of_birth": "1994-03-03",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q3180002",
+      "https://en.wikipedia.org/wiki/Jonny_Otto"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Wolverhampton Wanderers F.C. (Q19500), matching SQL. The English Wikipedia lead identifies Jonathan Castro Otto, known as Jonny."
+  },
+  {
+    "player_id": 1548,
+    "display_name": "Pablo Marí Villar",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "92371",
+    "fpl_club": "Arsenal",
+    "date_of_birth": "1993-08-31",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q7121685",
+      "https://en.wikipedia.org/wiki/Pablo_Mar%C3%AD"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Arsenal F.C. (Q9617), matching SQL. The English Wikipedia profile identifies Pablo Marí Villar as the Spanish footballer."
+  },
+  {
+    "player_id": 1554,
+    "display_name": "Kaine Kesler Hayden",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "537043",
+    "fpl_club": "Aston Villa",
+    "date_of_birth": "2002-10-23",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q104733764",
+      "https://en.wikipedia.org/wiki/Kaine_Kesler-Hayden"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Aston Villa F.C. (Q18711), matching SQL. The English Wikipedia lead identifies the Aston Villa academy footballer and gives the exact DOB."
+  },
+  {
+    "player_id": 1578,
+    "display_name": "Robert Kenedy Nunes do Nascimento",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "167767",
+    "fpl_club": "Chelsea",
+    "date_of_birth": "1996-02-08",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q14755604",
+      "https://en.wikipedia.org/wiki/Kenedy_(footballer)"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Chelsea F.C. (Q9616), matching SQL. The English Wikipedia profile identifies Robert Kenedy Nunes do Nascimento as Kenedy."
+  },
+  {
+    "player_id": 1594,
+    "display_name": "Allan Marques Loureiro",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "119765",
+    "fpl_club": "Everton",
+    "date_of_birth": "1991-01-08",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q2470512",
+      "https://en.wikipedia.org/wiki/Allan_(footballer,_born_1991)"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Everton F.C. (Q5794), matching SQL. The English Wikipedia lead gives Allan Marques Loureiro and the exact DOB."
+  },
+  {
+    "player_id": 1636,
+    "display_name": "Raphael Dias Belloli",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "219961",
+    "fpl_club": "Leeds United",
+    "date_of_birth": "1996-12-14",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q28861547",
+      "https://en.wikipedia.org/wiki/Raphinha"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Leeds United F.C. (Q1128631), matching SQL. The English Wikipedia profile identifies Raphael Dias Belloli as Raphinha."
+  },
+  {
+    "player_id": 1652,
+    "display_name": "Ben Davies",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "152898",
+    "fpl_club": "Liverpool",
+    "date_of_birth": "1995-08-11",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q4885508",
+      "https://en.wikipedia.org/wiki/Ben_Davies_(footballer,_born_1995)"
+    ],
+    "review_note": "Disambiguated using the SQL Liverpool club: Wikidata P569 is exact to day (precision 11), P54 includes Liverpool F.C. (Q1130849), and the English Wikipedia article is the Liverpool centre-back born in 1995, not Tottenham's Ben Davies."
+  },
+  {
+    "player_id": 1653,
+    "display_name": "Arthur Henrique Ramos de Oliveira Melo",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "204043",
+    "fpl_club": "Liverpool",
+    "date_of_birth": "1996-08-12",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q39667548",
+      "https://en.wikipedia.org/wiki/Arthur_Melo"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Liverpool F.C. (Q1130849), matching SQL. The English Wikipedia lead identifies the full-name Brazilian footballer Arthur Melo."
+  },
+  {
+    "player_id": 1658,
+    "display_name": "Cristiano Ronaldo dos Santos Aveiro",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "14937",
+    "fpl_club": "Manchester United",
+    "date_of_birth": "1985-02-05",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q11571",
+      "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Manchester United F.C. (Q18656), matching SQL. The English Wikipedia profile gives the exact full name and DOB."
+  },
+  {
+    "player_id": 1677,
+    "display_name": "Renan Augusto Lodi dos Santos",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "233420",
+    "fpl_club": "Nottingham Forest",
+    "date_of_birth": "1998-04-08",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q55055451",
+      "https://en.wikipedia.org/wiki/Renan_Lodi"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Nottingham Forest F.C. (Q19490), matching SQL. The English Wikipedia lead identifies Renan Augusto Lodi dos Santos."
+  },
+  {
+    "player_id": 1703,
+    "display_name": "Lucas Rodrigues Moura da Silva",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "95715",
+    "fpl_club": "Tottenham Hotspur",
+    "date_of_birth": "1992-08-13",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q312886",
+      "https://en.wikipedia.org/wiki/Lucas_Moura"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Tottenham Hotspur F.C. (Q18741), matching SQL. The English Wikipedia profile identifies Lucas Rodrigues Moura da Silva."
+  },
+  {
+    "player_id": 1712,
+    "display_name": "João Filipe Iria Santos Moutinho",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "19624",
+    "fpl_club": "Wolves",
+    "date_of_birth": "1986-09-08",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q222151",
+      "https://en.wikipedia.org/wiki/Jo%C3%A3o_Moutinho"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Wolverhampton Wanderers F.C. (Q19500), matching SQL. The English Wikipedia lead gives the exact full name and DOB."
+  },
+  {
+    "player_id": 1735,
+    "display_name": "Mahmoud Ahmed Ibrahim Hassan",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "148508",
+    "fpl_club": "Aston Villa",
+    "date_of_birth": "1994-10-01",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q6734350",
+      "https://en.wikipedia.org/wiki/Tr%C3%A9z%C3%A9guet_(Egyptian_footballer)"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Aston Villa F.C. (Q18711), matching SQL. The English Wikipedia profile identifies Mahmoud Ahmed Ibrahim Hassan as Trézéguet."
+  },
+  {
+    "player_id": 1736,
+    "display_name": "Mbwana Ally Samatta",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "217487",
+    "fpl_club": "Aston Villa",
+    "date_of_birth": "1992-12-23",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q3303586",
+      "https://en.wikipedia.org/wiki/Mbwana_Samatta"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Aston Villa F.C. (Q18711), matching SQL. The English Wikipedia lead identifies Mbwana Ally Samatta and gives the exact DOB."
+  },
+  {
+    "player_id": 1738,
+    "display_name": "Benjamin Chrisene",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "487835",
+    "fpl_club": "Aston Villa",
+    "date_of_birth": "2004-01-12",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q66547875",
+      "https://en.wikipedia.org/wiki/Ben_Chrisene"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Aston Villa F.C. (Q18711), matching SQL. The English Wikipedia article identifies Benjamin Joshua Chrisene and gives the exact DOB."
+  },
+  {
+    "player_id": 1781,
+    "display_name": "Bernard Anício Caldeira Duarte",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "100649",
+    "fpl_club": "Everton",
+    "date_of_birth": "1992-09-08",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q137242",
+      "https://en.wikipedia.org/wiki/Bernard_(footballer)"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Everton F.C. (Q5794), matching SQL. The English Wikipedia lead identifies Bernard Anício Caldeira Duarte."
+  },
+  {
+    "player_id": 1789,
+    "display_name": "Francisco Casilla Cortés",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "39790",
+    "fpl_club": "Leeds United",
+    "date_of_birth": "1986-10-02",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q721600",
+      "https://en.wikipedia.org/wiki/Kiko_Casilla"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Leeds United F.C. (Q1128631), matching SQL. The English Wikipedia profile identifies Francisco Kiko Casilla Cortés."
+  },
+  {
+    "player_id": 1790,
+    "display_name": "Hélder Wander Sousa de Azevedo e Costa",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "165808",
+    "fpl_club": "Leeds United",
+    "date_of_birth": "1994-01-12",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q5964146",
+      "https://en.wikipedia.org/wiki/H%C3%A9lder_Costa"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Leeds United F.C. (Q1128631), matching SQL. The English Wikipedia profile identifies Hélder Wander Sousa de Azevedo e Costa."
+  },
+  {
+    "player_id": 1803,
+    "display_name": "Fernando Luiz Rosa",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "27789",
+    "fpl_club": "Manchester City",
+    "date_of_birth": "1985-05-04",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q459356",
+      "https://en.wikipedia.org/wiki/Fernandinho_(footballer,_born_May_1985)"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Manchester City F.C. (Q50602), matching SQL. The English Wikipedia lead identifies Fernando Luiz Roza as Fernandinho and gives the exact DOB."
+  },
+  {
+    "player_id": 1804,
+    "display_name": "Kayky da Silva Chagas",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "478028",
+    "fpl_club": "Manchester City",
+    "date_of_birth": "2003-06-11",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q105969622",
+      "https://en.wikipedia.org/wiki/Kayky"
+    ],
+    "review_note": "Wikidata P569 is exact to day (precision 11); P54 includes Manchester City F.C. (Q50602), matching SQL. The English Wikipedia profile identifies Kayky da Silva Chagas and gives the exact DOB."
+  }
+]

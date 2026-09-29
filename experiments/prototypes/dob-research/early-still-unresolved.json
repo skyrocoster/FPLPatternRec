@@ -1,0 +1,91 @@
+[
+  {
+    "player_id": 1118,
+    "display_name": "Tom Taylor",
+    "scope": "premier-league:2024-25",
+    "fpl_code": "592712",
+    "fpl_club": "Ipswich Town",
+    "review_note": "The Ipswich identity is plausible for historical FPL code 592712, but the exact birth year is not safe to choose: the footballer-specific Wikipedia page's title and lead state 21 February 2005 while its infobox states 21 February 2006. Other football profiles also surface both years. The 2024-25 Ipswich FPL club/code and youth-career match do not settle that conflicting exact date. Keep unresolved pending a dated official PL/club record that ties this code to one year; do not select 2005 or 2006 by majority or inference.",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Tom_Taylor_(footballer,_born_2005)",
+      "https://www.twtd.co.uk/ipswich-town-news/50246/u21s-skipper-taylor-set-for-cheltenham-loan",
+      "https://www.soccerbase.com/players/player.sd?player_id=203745"
+    ]
+  },
+  {
+    "player_id": 1316,
+    "display_name": "Victor da Silva",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "441455",
+    "fpl_club": "Burnley",
+    "review_note": "The tempting Victor da Silva Wikidata/Wikipedia hit is a different, 1995-born footballer and supplies no Burnley link. Search results for Burnley's FPL-era player point instead toward Vitinho, whose name/date do not safely match this SQL display name. Without a verified historical FPL web_name/code match or dated Burnley/PL profile that independently connects code 441455 to one person, the candidate identities cannot be distinguished. Leave unresolved rather than reuse the 1995 DOB or guess a Vitinho identity.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q15920500",
+      "https://en.wikipedia.org/wiki/Victor_(footballer,_born_1995)",
+      "https://www.besoccer.com/player/victor-da-silva-434674"
+    ]
+  },
+  {
+    "player_id": 1374,
+    "display_name": "Callum Scanlon",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "519328",
+    "fpl_club": "Liverpool",
+    "review_note": "The supplied row establishes a Liverpool FPL registration (code 519328), but the reviewed sources did not yield a unique player item/profile with an exact day-of-birth and an independently linked Liverpool academy career. No year-only age or inferred date is accepted. Leave unresolved until a Liverpool/PL player profile or matching football database record corroborates both identity and exact DOB."
+  },
+  {
+    "player_id": 1414,
+    "display_name": "Joseph Johnson",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "611011",
+    "fpl_club": "Luton Town",
+    "review_note": "The unqualified Wikipedia title is a disambiguation page, and football search results for Luton's Joseph/Joe Johnson conflict on the exact date (including 2006-01-09 and February 2006 dates). The FPL club/code identify a Luton registration but do not independently choose between same-name profiles or resolve the date. Keep unresolved pending the matching season PL/club profile and exact DOB; do not select one result by guess.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q238522",
+      "https://en.wikipedia.org/wiki/Joseph_Johnson",
+      "https://fbref.com/en/players/d9e7c4da/Joseph-Johnson",
+      "https://www.playmakerstats.com/player/joe-johnson/1062724"
+    ]
+  },
+  {
+    "player_id": 1503,
+    "display_name": "Bénie Traoré",
+    "scope": "premier-league:2023-24",
+    "fpl_code": "523957",
+    "fpl_club": "Sheffield United",
+    "review_note": "The Sheffield United footballer is identifiable, but exact DOB evidence conflicts: the current English Wikipedia lead gives 2002-11-30, while Wikidata carries exact P569 claims for both 2002-11-22 and 2002-11-30. Other football profiles repeat 30 November, but that does not resolve the conflicting exact claim without an independent primary/club source. Leave the date blank until a dated official source settles it; do not choose by frequency.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q106464198",
+      "https://en.wikipedia.org/wiki/B%C3%A9nie_Traor%C3%A9",
+      "https://www.transfermarkt.com/benie-traore/profil/spieler/852024"
+    ]
+  },
+  {
+    "player_id": 1613,
+    "display_name": "Charlie Robinson",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "547673",
+    "fpl_club": "Fulham",
+    "review_note": "The matching Wikipedia title resolves to a broad Charles/Charlie Robinson disambiguation, not a uniquely identified Fulham footballer. The supplied FPL code and Fulham club are not enough to connect a same-name Wikidata person to an exact DOB; no independently corroborated Fulham player profile with a precise day was found. Leave unresolved rather than borrowing a homonym's date.",
+    "source_urls": [
+      "https://www.wikidata.org/wiki/Q415013",
+      "https://en.wikipedia.org/wiki/Charles_Robinson"
+    ]
+  },
+  {
+    "player_id": 1699,
+    "display_name": "Jimmy Morgan",
+    "scope": "premier-league:2022-23",
+    "fpl_code": "493736",
+    "fpl_club": "Southampton",
+    "review_note": "Search results surfaced a different, older footballer named Jimmy Morgan, not a uniquely identified Southampton academy player. No source tied to this Southampton FPL code confirms both the academy identity and an exact birth day. Leave unresolved; do not transfer the namesake's date or infer a date from age."
+  },
+  {
+    "player_id": 1743,
+    "display_name": "Maxwell Haygarth",
+    "scope": "premier-league:2021-22",
+    "fpl_code": "461558",
+    "fpl_club": "Brentford",
+    "review_note": "The reviewed English Wikipedia/Wikidata results did not provide a unique Maxwell Haygarth footballer record independently linked to Brentford and an exact DOB. The FPL club/code alone cannot support a day-level date, so this remains unresolved rather than using an uncorroborated age or guessed date."
+  }
+]

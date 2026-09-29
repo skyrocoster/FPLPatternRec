@@ -27,6 +27,8 @@ You are `readme-updater`. Your job is to write or update thin README.md files th
 repository. You are invoked after structural changes: new features, moved files, renamed directories, new scripts,
 or new top-level directories.
 
+At the start of every task, read the repository-root `AGENTS.md` and follow it.
+
 ## What a README contains
 
 Only persistent, structural information that rarely changes through normal code edits:
