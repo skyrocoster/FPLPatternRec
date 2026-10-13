@@ -108,7 +108,7 @@ service; inspection does not run ingestion or refresh data.
   480 players share existing canonical IDs, 361 are new identities. Neither command treats a
   player's latest team as a transfer history. The archive command also supports the saved
   seasons 2024-25 back through 2016-17 in reverse order, and those seasons have been loaded.
-  The volume now has 2,757 canonical football players; 20 assistant-manager entries were excluded.
+  The volume now has 2,756 canonical football players; 20 assistant-manager entries were excluded.
   The separately authorized `data.ps1 ingest player-gameweek-teams --season YYYY-YY` command
   has added 11 seasons (2016-17 through 2026-27), 380 FPL gameweeks, and 245,035 canonical
   player/team/week associations. It does not infer employment stints or fill gaps in the saved

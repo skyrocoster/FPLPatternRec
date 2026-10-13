@@ -189,6 +189,48 @@ def test_reviewed_hayden_code_change_requires_specific_source_evidence(tmp_path:
     assert len(_state(database)[0]) == 1
 
 
+def test_reviewed_2022_23_kesler_hayden_code_change_links_hyphen_variant(tmp_path: Path) -> None:
+    database = _database(tmp_path)
+    _current(tmp_path, database, [
+        _element(code=465390, first_name="Kaine", second_name="Kesler-Hayden", birth_date="2002-10-23"),
+    ])
+    with sqlite3.connect(database) as connection:
+        connection.execute(
+            "INSERT INTO player_source_ids VALUES ('fpl.element.code', 'premier-league:2023-24', '465390', 1)"
+        )
+    wrong, idlist = _archive(tmp_path, [
+        _archive_row("537", "537043", first_name="Kaine", second_name="Kesler Hayden", team_code="999"),
+    ], EARLY_ARCHIVE_FIELDS)
+    before = _state(database)
+    with pytest.raises(ArchivePlayersValidationError, match="Reviewed code change"):
+        load_archive_players("2022-23", wrong, idlist, database)
+    assert _state(database) == before
+    correct, idlist = _archive(tmp_path, [
+        _archive_row("537", "537043", first_name="Kaine", second_name="Kesler Hayden", team_code="7"),
+    ], EARLY_ARCHIVE_FIELDS)
+    result = load_archive_players("2022-23", correct, idlist, database)
+    assert (result.linked_player_count, result.archive_only_player_count) == (1, 0)
+    assert len(_state(database)[0]) == 1
+
+
+def test_hyphen_variant_without_review_forces_manual_review(tmp_path: Path) -> None:
+    database = _database(tmp_path)
+    _current(tmp_path, database, [
+        _element(code=465390, first_name="Kaine", second_name="Kesler-Hayden", birth_date="2002-10-23"),
+    ])
+    with sqlite3.connect(database) as connection:
+        connection.execute(
+            "INSERT INTO player_source_ids VALUES ('fpl.element.code', 'premier-league:2023-24', '465390', 1)"
+        )
+    players, idlist = _archive(tmp_path, [
+        _archive_row("537", "999999", first_name="Kaine", second_name="Kesler Hayden", team_code="7"),
+    ], EARLY_ARCHIVE_FIELDS)
+    before = _state(database)
+    with pytest.raises(ArchivePlayersValidationError, match="resembles an unmapped player"):
+        load_archive_players("2022-23", players, idlist, database)
+    assert _state(database) == before
+
+
 @pytest.mark.parametrize("changes", [
     {"birth_date": "1995-09-03"},
     {"birth_date": "None", "first_name": "Unrelated"},
@@ -270,8 +312,8 @@ def test_all_saved_archive_seasons_load_backwards_without_merging_managers(tmp_p
     ]
     assert sum(summary.excluded_manager_count for summary in summaries) == 20
     assert _state(database)[0][:667] == current_players
-    # 2,758 distinct codes in the imported sources, minus one reviewed code change.
-    assert len(_state(database)[0]) == 2757
+    # 2,758 distinct codes in the imported sources, minus two reviewed Kaine code changes.
+    assert len(_state(database)[0]) == 2756
     assert len(_state(database)[1]) == 16010
     with sqlite3.connect(database) as connection:
         assert connection.execute("PRAGMA foreign_key_check").fetchall() == []
@@ -280,7 +322,8 @@ def test_all_saved_archive_seasons_load_backwards_without_merging_managers(tmp_p
             "AND source_namespace = 'fpl.element.code'"
         ).fetchone() == (784,)
         assert connection.execute(
-            "SELECT count(DISTINCT player_id) FROM player_source_ids WHERE source_id IN ('490098', '465390') "
+            "SELECT count(DISTINCT player_id) FROM player_source_ids "
+            "WHERE source_id IN ('490098', '465390', '537043') "
             "AND source_namespace = 'fpl.element.code'"
         ).fetchone() == (1,)
 

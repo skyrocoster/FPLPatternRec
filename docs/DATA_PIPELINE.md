@@ -5,8 +5,9 @@ official FPL teams into staging, reviewed Premier League clubs (with optional se
 team mappings), saved official FPL football players, and reviewed historical archive FPL players
 into canonical tables, plus archived player/gameweek/team assignments, reviewed FPL fixtures,
 historical FPL team-ID mappings, and Premier League local match dates.
-The 2026-27 staging teams, 51 reviewed clubs, and 2,757 canonical players identified
-across saved FPL seasons 2016-17 through 2026-27 are present in the named volume. It also has
+The 2026-27 staging teams, 51 reviewed clubs, and 2,756 canonical players identified
+across saved FPL seasons 2016-17 through 2026-27 are present in the named volume (2,757 before
+the reviewed 2022-23 Kaine Kesler-Hayden merge described below). It also has
 220 season-scoped FPL team mappings across 11 seasons, 384 gameweeks, 247,641 player/team/week
 assignments, and 3,850 canonical fixtures (50 in 2026-27 through GW 5).
 The proposed
@@ -369,7 +370,14 @@ reviewed **same player across an FPL code change**: 2019-20 Aston Villa element 
 Kaine Hayden, code 490098, and later code 465390 for Kaine Kesler-Hayden. The older row
 has no birth date; its same club, name and later [youth-career evidence](https://en.wikipedia.org/wiki/Kaine_Kesler-Hayden)
 justify this one explicit exception. It is guarded by season, element ID, name, and source
-team code. No general name-plus-team auto-merge is permitted.
+team code. An eighth reviewed **same player across a second FPL code change** covers the
+2022-23 Aston Villa element 537, Kaine Kesler Hayden without hyphen, code 537043, on
+season-long Huddersfield loan: same birth date 2002-10-23, same team_code 7, and FPL
+reverted to 465390 afterwards. Its hyphen/space name difference previously bypassed the
+exact normalized-name review guard and silently split the identity; the loader now also
+checks a punctuation-folded name form to force review of such near-identical unmapped
+names instead of inserting. Both exceptions are guarded by season, element ID, name, and
+source team code. No general name-plus-team auto-merge is permitted.
 
 **Transfers:** `players_raw.csv.team` is a season-end snapshot, not an employment history.
 For example, the saved `gws/merged_gw.csv` shows Wissa at Brentford and Newcastle under
@@ -388,8 +396,9 @@ newest-first from the saved files. They supplied 6,497 football-player observati
 additional 2024-25 manager observations were excluded. All 11 seasons' players have both
 season-scoped FPL ID and code mappings. The 2026-27 official bootstrap contains all 616
 players in the saved 2026-27 archive plus 51 others; importing its archive snapshot would
-not add distinct identities. The resulting 2,757 canonical identities are one fewer than
-the 2,758 distinct imported FPL codes because of the one reviewed Kaine Hayden code change.
+not add distinct identities. The resulting 2,756 canonical identities are two fewer than
+the 2,758 distinct imported FPL codes because of the two reviewed Kaine code changes
+(490098 to 465390, and one-season 537043 back to 465390).
 This is not an authoritative season squad, transfer, or complete footballer directory;
 the player-identity loader alone does not populate `seasons`, player-team stints, or gameweeks.
 
@@ -557,6 +566,78 @@ At the time of that fixture load, 1,627 players lacked a birth date (all have si
 backfilled), and 57 of the 667 2026-27 mapped players have no saved GW 1 team assignment.
 No missing assignments or dates were
 inferred during fixture ingestion.
+
+### Player/fixture observations from saved FPL seasons
+
+After a season's canonical fixtures exist, one row per canonical fixture/player
+listing is loaded from the same saved evidence (no retrieval or raw-file update):
+
+```powershell
+./data.ps1 ingest player-fixture-observations --season 2016-17
+# Repeat one saved season at a time through 2026-27.
+```
+
+For 2016-17 through 2025-26 it reads the saved Vaastav gameweek files;
+for 2026-27 it reads the saved official FPL fixtures and element-summary
+histories, not the stale archive snapshot. Each wide row stores the canonical
+fixture, player, club, gameweek, season-scoped FPL element ID, minutes, plus
+per-match FPL stats: goals, assists, clean sheets, goals conceded, own goals,
+penalties saved/missed, cards, saves, bonus, bps (which can be negative),
+total points, starts, tackles, recoveries, clearances-blocks-interceptions,
+defensive contribution, ICT (influence/creativity/threat/index), expected
+goals/assists/involvements/conceded, archive-only expected points (`xP`, NULL
+for official 2026-27), and the saved value/selected/transfers snapshot.
+Positive minutes mean an appearance; zero means FPL listed the player without
+playing. Early-only detail (attempted passes, big chances, dribbles,
+`ea_index`, errors, fouls, key passes and similar) and manager-only `mng_*`
+columns are not canonical stats. A second table,
+`player_fixture_observation_fixtures`, marks each processed fixture so a repeat
+can tell a complete season from a partial write. Archive seasons must agree
+exactly on repeat; the current official season only appends newly finished
+fixtures and rejects changed old rows. A pre-stats narrow table is widened
+in place with nullable stat columns and backfilled in the same transaction.
+All 11 seasons were loaded newest-evidence-first after authorization and a
+`dev.ps1 status` check, then 2025-26 was repeated to prove stability
+(identical summary, total unchanged).
+
+Direct read-only SQLite checks found **256,725 player/fixture observations
+(110,219 with minutes, 146,506 zero-minute listings)** and **3,850 processed
+fixtures** (380 per archived season, 50 for 2026-27):
+
+| Season | Observations | With minutes | Zero-minute |
+|---|---|---|---|
+| 2016-17 | 23,679 | 10,474 | 13,205 |
+| 2017-18 | 22,467 | 10,448 | 12,019 |
+| 2018-19 | 21,790 | 10,480 | 11,310 |
+| 2019-20 | 22,501 | 10,614 | 11,887 |
+| 2020-21 | 24,365 | 10,393 | 13,972 |
+| 2021-22 | 25,447 | 10,485 | 14,962 |
+| 2022-23 | 26,505 | 11,345 | 15,160 |
+| 2023-24 | 29,725 | 11,384 | 18,341 |
+| 2024-25 | 27,283 | 11,566 | 15,717 |
+| 2025-26 | 29,747 | 11,492 | 18,255 |
+| 2026-27 | 3,216 | 1,538 | 1,678 |
+
+Spot checks passed: Saliba (element 6) in 2025-26 GW 26 has fixture 252 = 0
+minutes and fixture 310 = 90 minutes for Arsenal; 2019-20 fixture 275 has zero
+match-level rows under GW 29 and 60 rows under the completed GW 39 fixture.
+`PRAGMA quick_check = ok` with zero foreign-key violations. The precise source
+exception: the 59 scoreless original GW 29 listings for postponed 2019-20
+fixture 275 (`2020-03-11T19:30:00Z`) stay only in the gameweek aggregates and
+are excluded from the observations by exact season, fixture ID, week, and
+kickoff; the loader aborts if that postponed set is not exactly 59 rows.
+Listings identify candidate fixtures, not confirmed appearances, especially
+where a club has two matches in one FPL week. Isolated-database checks prove
+2025-26 (29,747 wide rows, 1,005 goals, 34,382 points), 2019-20 narrow NULLs
+(starts/expected NULL), 2016-17 tackles, and official 2026-27 (3,216 wide rows,
+`expected_points` NULL). After authorization and a `dev.ps1 status` check, all
+11 seasons were widened and backfilled in the named volume from saved files
+without retrieval. Direct read-only SQLite checks found **256,725 wide rows,
+10,533 goals, 9,561 assists, 24,613 bonus, 320,765 points, zero NULL
+`goals_scored`**, 140,249 NULL starts/expected (pre-2022 seasons) and 163,072
+non-NULL archive `xP`, `PRAGMA quick_check = ok`, and zero foreign-key
+violations. Further volume writes still need authorization and a preceding
+`dev.ps1 status` check.
 
 ### Local match-date backfill
 

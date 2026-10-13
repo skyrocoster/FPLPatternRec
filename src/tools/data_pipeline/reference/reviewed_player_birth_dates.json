@@ -381,13 +381,13 @@
     "review_note": "The public profiles identify Pablo Marí Villar and give the exact date 1993-08-31; his career record includes Arsenal from 2020. Live SQLite maps canonical player 1548 to code 92371 in 2019-20 with Arsenal."
   },
   {
-    "player_id": 1554,
-    "display_name": "Kaine Kesler Hayden",
+    "player_id": 204,
+    "display_name": "Kaine Kesler-Hayden",
     "fpl_season": "2022-23",
     "fpl_code": "537043",
     "date_of_birth": "2002-10-23",
     "source_urls": ["https://en.wikipedia.org/wiki/Kaine_Kesler-Hayden", "https://www.wikidata.org/wiki/Q104733764"],
-    "review_note": "The public profiles give Kaine Kesler-Hayden's exact date as 2002-10-23 and identify him as an Aston Villa academy player. Live SQLite maps the hyphenless canonical name to code 537043 in 2022-23 with Aston Villa."
+    "review_note": "The public profiles give Kaine Kesler-Hayden's exact date as 2002-10-23 and identify him as an Aston Villa academy player. The hyphenless 2022-23 FPL code 537043 (element 537, Aston Villa) is the same person as later code 465390; live SQLite maps both codes to canonical player 204."
   },
   {
     "player_id": 1578,

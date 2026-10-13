@@ -22,7 +22,13 @@ REQUIRED_FIELDS = {
 # A specifically reviewed code change, not a general name/team matching rule.
 # 2019-20 element 659 (Aston Villa, Kaine Hayden, code 490098) is the same
 # Kaine Kesler-Hayden as later code 465390. See docs/DATA_PIPELINE.md.
-REVIEWED_CODE_CHANGE = {("2019-20", "659", "490098"): ("465390", "Kaine Hayden", "7")}
+# 2022-23 element 537 (Aston Villa, Kaine Kesler Hayden without hyphen,
+# code 537043) is the same person on Huddersfield loan; FPL reverted to
+# 465390 afterwards. Same birth date 2002-10-23, same team_code 7.
+REVIEWED_CODE_CHANGE = {
+    ("2019-20", "659", "490098"): ("465390", "Kaine Hayden", "7"),
+    ("2022-23", "537", "537043"): ("465390", "Kaine Kesler Hayden", "7"),
+}
 
 # These equal names identify DIFFERENT footballers (three pairs co-occur within
 # a season; the other three have distinct generations and later dated evidence).
@@ -90,6 +96,18 @@ def _birth_date(value: str | None) -> str | None:
 def _normalize(value: str) -> str:
     text = unicodedata.normalize("NFKD", value.casefold())
     return " ".join("".join(character for character in text if not unicodedata.combining(character)).split())
+
+
+def _fold_punctuation(value: str) -> str:
+    """Fold punctuation to spaces so hyphen variants force review, never auto-merge.
+
+    `Kaine Kesler-Hayden` and `Kaine Kesler Hayden` normalize differently,
+    which previously bypassed the unmapped-player guard and silently split
+    one person (2022-23 code 537043 vs later 465390). The folded form is
+    only used to raise for review; identity still requires the same FPL
+    code plus token/DOB corroboration or an explicit reviewed exception.
+    """
+    return " ".join(re.sub(r"[^a-z0-9]+", " ", _normalize(value)).split())
 
 
 def _shared_name_tokens(previous_name: str, current_name: str) -> bool:
@@ -202,8 +220,10 @@ def load_archive_players(
             targets.setdefault(mapped_code, set()).add(mapped_id)
             codes_by_player.setdefault(mapped_id, set()).add(mapped_code)
         preexisting_names: dict[str, set[int]] = {}
+        preexisting_folded: dict[str, set[int]] = {}
         for player_id, player_name in connection.execute("SELECT player_id, display_name FROM players"):
             preexisting_names.setdefault(_normalize(player_name), set()).add(player_id)
+            preexisting_folded.setdefault(_fold_punctuation(player_name), set()).add(player_id)
         resolved_players: set[int] = set()
         for source_id, code, name, dob, team_code in players:
             mapped = []
@@ -242,7 +262,10 @@ def load_archive_players(
                         f"Element {source_id} code {code} has conflicting name or birth date; review it."
                     )
             else:
-                for candidate_id in preexisting_names.get(_normalize(name), set()):
+                candidates = preexisting_names.get(_normalize(name), set()) | preexisting_folded.get(
+                    _fold_punctuation(name), set()
+                )
+                for candidate_id in candidates:
                     candidate_codes = codes_by_player.get(candidate_id, set())
                     if not candidate_codes or any(
                         frozenset((code, candidate_code)) not in REVIEWED_HOMONYMS
